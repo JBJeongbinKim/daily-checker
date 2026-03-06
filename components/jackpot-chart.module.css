@@ -1,0 +1,178 @@
+.shell {
+  width: min(1080px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 40px 0 64px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  line-height: 0.95;
+  max-width: 9ch;
+}
+
+.subhead {
+  max-width: 56ch;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 16px 0 0;
+}
+
+.snapshot {
+  min-width: 170px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: rgba(255, 250, 242, 0.78);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.snapshot span,
+.summaryCard span,
+.rangeDescription {
+  color: var(--muted);
+}
+
+.snapshot strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.15rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rangeGroup {
+  display: inline-flex;
+  gap: 8px;
+  padding: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+}
+
+.rangeButton,
+.rangeActive {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: transform 120ms ease, background-color 120ms ease;
+}
+
+.rangeButton {
+  background: transparent;
+  color: var(--muted);
+}
+
+.rangeActive {
+  background: #1f1a17;
+  color: #fffaf2;
+}
+
+.rangeButton:hover,
+.rangeActive:hover {
+  transform: translateY(-1px);
+}
+
+.summaryRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.summaryCard {
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+}
+
+.summaryCard strong {
+  display: block;
+  margin-top: 8px;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.chartWrap {
+  height: 360px;
+}
+
+.tooltip {
+  border-radius: 18px;
+  background: rgba(33, 27, 24, 0.94);
+  color: #fff7ea;
+  padding: 14px;
+  min-width: 188px;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
+}
+
+.tooltipDate {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+  color: rgba(255, 247, 234, 0.78);
+}
+
+.tooltipRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.tooltipDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 800px) {
+  .shell {
+    width: min(100vw - 20px, 1080px);
+    padding-top: 24px;
+  }
+
+  .heading,
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .summaryRow {
+    grid-template-columns: 1fr;
+  }
+}
