@@ -48,7 +48,8 @@
 .summaryCard span,
 .rangeDescription,
 .modeDescription,
-.axisNote {
+.axisNote,
+.dataNote {
   color: var(--muted);
 }
 
@@ -77,6 +78,7 @@
   backdrop-filter: blur(18px);
 }
 
+.dataStatus,
 .controls,
 .modePanel,
 .taxControls,
@@ -85,6 +87,10 @@
   justify-content: space-between;
   gap: 16px;
   align-items: center;
+}
+
+.dataStatus {
+  margin-bottom: 18px;
 }
 
 .controls {
@@ -97,6 +103,20 @@
 
 .axisPanel {
   margin-top: 16px;
+}
+
+.dataBadge {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #1f1a17;
+  color: #fffaf2;
+  font-size: 0.86rem;
+}
+
+.dataNote {
+  margin: 10px 0 0;
+  line-height: 1.5;
 }
 
 .rangeGroup,
@@ -244,6 +264,7 @@
 
 @media (max-width: 900px) {
   .heading,
+  .dataStatus,
   .controls,
   .modePanel,
   .taxControls,
