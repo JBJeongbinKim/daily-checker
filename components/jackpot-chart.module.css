@@ -46,14 +46,25 @@
 
 .snapshot span,
 .summaryCard span,
-.rangeDescription {
+.rangeDescription,
+.modeDescription {
   color: var(--muted);
 }
 
-.snapshot strong {
+.snapshot strong,
+.snapshot em {
   display: block;
+}
+
+.snapshot strong {
   margin-top: 8px;
   font-size: 1.15rem;
+}
+
+.snapshot em {
+  margin-top: 4px;
+  font-style: normal;
+  color: var(--muted);
 }
 
 .panel {
@@ -65,15 +76,25 @@
   backdrop-filter: blur(18px);
 }
 
-.controls {
+.controls,
+.modePanel,
+.taxControls {
   display: flex;
   justify-content: space-between;
   gap: 16px;
   align-items: center;
+}
+
+.controls {
   margin-bottom: 20px;
 }
 
-.rangeGroup {
+.modePanel {
+  align-items: flex-end;
+}
+
+.rangeGroup,
+.modeGroup {
   display: inline-flex;
   gap: 8px;
   padding: 6px;
@@ -83,7 +104,9 @@
 }
 
 .rangeButton,
-.rangeActive {
+.rangeActive,
+.modeButton,
+.modeActive {
   border: 0;
   border-radius: 999px;
   padding: 10px 14px;
@@ -91,19 +114,62 @@
   transition: transform 120ms ease, background-color 120ms ease;
 }
 
-.rangeButton {
+.rangeButton,
+.modeButton {
   background: transparent;
   color: var(--muted);
 }
 
-.rangeActive {
+.rangeActive,
+.modeActive {
   background: #1f1a17;
   color: #fffaf2;
 }
 
 .rangeButton:hover,
-.rangeActive:hover {
+.rangeActive:hover,
+.modeButton:hover,
+.modeActive:hover {
   transform: translateY(-1px);
+}
+
+.modeDescription {
+  margin: 14px 0 18px;
+}
+
+.statePicker {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.statePicker select {
+  min-width: 220px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
+.taxBadge {
+  min-width: 144px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+}
+
+.taxBadge span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.taxBadge strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.3rem;
 }
 
 .summaryRow {
@@ -145,10 +211,14 @@
   color: rgba(255, 247, 234, 0.78);
 }
 
-.tooltipRow {
+.tooltipRow,
+.tooltipLabel {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.tooltipRow {
   justify-content: space-between;
   margin-top: 8px;
 }
@@ -160,19 +230,26 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .heading,
+  .controls,
+  .modePanel,
+  .taxControls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .shell {
     width: min(100vw - 20px, 1080px);
     padding-top: 24px;
   }
 
-  .heading,
-  .controls {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
   .summaryRow {
     grid-template-columns: 1fr;
+  }
+
+  .statePicker select,
+  .taxBadge {
+    min-width: 0;
   }
 }
