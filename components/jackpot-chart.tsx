@@ -11,7 +11,7 @@ import {
   XAxis,
   YAxis
 } from "recharts";
-import { jackpotHistory, type JackpotPoint } from "@/data/jackpots";
+import { jackpotHistory, jackpotHistoryData, type JackpotPoint } from "@/data/jackpots";
 import { federalTaxRate, stateTaxRates } from "@/data/state-tax-rates";
 import styles from "./jackpot-chart.module.css";
 
@@ -64,6 +64,13 @@ const millionsFormatter = new Intl.NumberFormat("en-US", {
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric"
+});
+
+const updateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  hour: "numeric",
+  minute: "2-digit"
 });
 
 function formatMillions(value: number) {
@@ -218,26 +225,37 @@ export function JackpotChart() {
 
   const latest = chartData[chartData.length - 1];
   const activeMode = displayModes.find((mode) => mode.id === displayMode);
+  const latestSourceLabel = latest.source === "official" ? "Official snapshot" : "Seed history";
 
   return (
     <section className={styles.shell}>
       <div className={styles.heading}>
         <div>
-          <p className={styles.eyebrow}>Phase 3 - Compressed axis</p>
+          <p className={styles.eyebrow}>Phase 4 - Live ingestion foundation</p>
           <h1>Lottery jackpots at a glance</h1>
           <p className={styles.subhead}>
-            Compare headline jackpot, cash value, or after-tax payout, then switch the Y-axis when
-            large vertical gaps make the chart harder to read.
+            The chart now reads from a committed history file that can be refreshed from the official
+            Mega Millions and Powerball sources by automation.
           </p>
         </div>
         <div className={styles.snapshot}>
-          <span>Latest sample</span>
+          <span>Latest point</span>
           <strong>{dateFormatter.format(new Date(latest.date))}</strong>
           <em>{activeMode?.label}</em>
         </div>
       </div>
 
       <div className={styles.panel}>
+        <div className={styles.dataStatus}>
+          <div>
+            <span className={styles.dataBadge}>{latestSourceLabel}</span>
+            <p className={styles.dataNote}>
+              History updated {updateFormatter.format(new Date(jackpotHistoryData.updatedAt))}. Older
+              points remain seeded until daily collection accumulates.
+            </p>
+          </div>
+        </div>
+
         <div className={styles.controls}>
           <div className={styles.rangeGroup}>
             {ranges.map((range) => (

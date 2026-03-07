@@ -1,0 +1,149 @@
+{
+  "updatedAt": "2026-03-07T00:25:55.361Z",
+  "entries": [
+    {
+      "date": "2025-12-12",
+      "megamillions": 165,
+      "megamillionsCash": 74,
+      "powerball": 110,
+      "powerballCash": 49,
+      "source": "seed"
+    },
+    {
+      "date": "2025-12-19",
+      "megamillions": 197,
+      "megamillionsCash": 88,
+      "powerball": 139,
+      "powerballCash": 61,
+      "source": "seed"
+    },
+    {
+      "date": "2025-12-26",
+      "megamillions": 228,
+      "megamillionsCash": 101,
+      "powerball": 174,
+      "powerballCash": 76,
+      "source": "seed"
+    },
+    {
+      "date": "2026-01-02",
+      "megamillions": 262,
+      "megamillionsCash": 116,
+      "powerball": 201,
+      "powerballCash": 88,
+      "source": "seed"
+    },
+    {
+      "date": "2026-01-09",
+      "megamillions": 301,
+      "megamillionsCash": 134,
+      "powerball": 236,
+      "powerballCash": 103,
+      "source": "seed"
+    },
+    {
+      "date": "2026-01-16",
+      "megamillions": 338,
+      "megamillionsCash": 151,
+      "powerball": 267,
+      "powerballCash": 116,
+      "source": "seed"
+    },
+    {
+      "date": "2026-01-23",
+      "megamillions": 382,
+      "megamillionsCash": 171,
+      "powerball": 306,
+      "powerballCash": 133,
+      "source": "seed"
+    },
+    {
+      "date": "2026-01-30",
+      "megamillions": 421,
+      "megamillionsCash": 188,
+      "powerball": 348,
+      "powerballCash": 152,
+      "source": "seed"
+    },
+    {
+      "date": "2026-02-06",
+      "megamillions": 460,
+      "megamillionsCash": 205,
+      "powerball": 392,
+      "powerballCash": 171,
+      "source": "seed"
+    },
+    {
+      "date": "2026-02-13",
+      "megamillions": 515,
+      "megamillionsCash": 230,
+      "powerball": 430,
+      "powerballCash": 188,
+      "source": "seed"
+    },
+    {
+      "date": "2026-02-20",
+      "megamillions": 578,
+      "megamillionsCash": 258,
+      "powerball": 472,
+      "powerballCash": 207,
+      "source": "seed"
+    },
+    {
+      "date": "2026-02-27",
+      "megamillions": 644,
+      "megamillionsCash": 288,
+      "powerball": 516,
+      "powerballCash": 226,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-01",
+      "megamillions": 668,
+      "megamillionsCash": 299,
+      "powerball": 531,
+      "powerballCash": 232,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-02",
+      "megamillions": 684,
+      "megamillionsCash": 306,
+      "powerball": 544,
+      "powerballCash": 238,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-03",
+      "megamillions": 703,
+      "megamillionsCash": 315,
+      "powerball": 559,
+      "powerballCash": 245,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-04",
+      "megamillions": 728,
+      "megamillionsCash": 326,
+      "powerball": 571,
+      "powerballCash": 251,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-05",
+      "megamillions": 751,
+      "megamillionsCash": 336,
+      "powerball": 588,
+      "powerballCash": 258,
+      "source": "seed"
+    },
+    {
+      "date": "2026-03-06",
+      "megamillions": 496,
+      "megamillionsCash": 232.6,
+      "powerball": 35,
+      "powerballCash": 16.2,
+      "source": "official"
+    }
+  ]
+}
