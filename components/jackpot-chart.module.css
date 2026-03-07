@@ -28,7 +28,6 @@
 }
 
 .summaryLabel,
-.fieldLabel,
 .sparseNote,
 .tooltipDate {
   color: var(--muted);
@@ -97,18 +96,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
-  align-items: end;
-}
-
-.statePicker {
-  display: grid;
-  gap: 5px;
-}
-
-.fieldLabel {
-  font-size: 0.72rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  align-items: center;
 }
 
 .statePicker select {
@@ -121,16 +109,16 @@
 }
 
 .inlineTax {
-  min-width: 106px;
+  min-width: 84px;
   padding: 11px 12px;
   border-radius: 12px;
   background: var(--surface-strong);
   border: 1px solid var(--border);
+  text-align: center;
 }
 
 .inlineTax strong {
   display: block;
-  margin-top: 4px;
   font-size: 1rem;
 }
 

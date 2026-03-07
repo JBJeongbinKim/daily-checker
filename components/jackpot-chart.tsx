@@ -210,7 +210,6 @@ export function JackpotChart() {
 
           <div className={styles.taxRow}>
             <label className={styles.statePicker}>
-              <span className={styles.fieldLabel}>State</span>
               <select value={selectedState} onChange={(event) => setSelectedState(event.target.value)}>
                 {stateTaxRates.map((state) => (
                   <option key={state.name} value={state.name}>
@@ -220,7 +219,6 @@ export function JackpotChart() {
               </select>
             </label>
             <div className={styles.inlineTax}>
-              <span className={styles.fieldLabel}>Tax Applied</span>
               <strong>{((federalTaxRate + activeState.rate) * 100).toFixed(2)}%</strong>
             </div>
           </div>
@@ -241,7 +239,7 @@ export function JackpotChart() {
 
         <div className={styles.chartWrap}>
           <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={chartData} margin={{ top: 12, right: 6, left: -14, bottom: 0 }}>
+            <LineChart data={chartData} margin={{ top: 12, right: 8, left: 2, bottom: 0 }}>
               <CartesianGrid stroke="rgba(51, 35, 20, 0.10)" strokeDasharray="3 3" />
               <XAxis
                 dataKey="shortDate"
@@ -258,7 +256,7 @@ export function JackpotChart() {
                 tickLine={false}
                 ticks={axisConfig.ticks}
                 tickMargin={8}
-                width={58}
+                width={60}
               />
               <Tooltip content={<TooltipContent />} />
               <Line
