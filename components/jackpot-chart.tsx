@@ -27,12 +27,27 @@ const displayModes = [
   { id: "afterTax", label: "After Tax", description: "Cash option after federal and state tax" }
 ] as const;
 
+const axisModes = [
+  { id: "compressed", label: "Compressed Axis" },
+  { id: "linear", label: "Linear Axis" }
+] as const;
+
 type DisplayMode = (typeof displayModes)[number]["id"];
+type AxisMode = (typeof axisModes)[number]["id"];
 
 type ChartPoint = JackpotPoint & {
   shortDate: string;
   megamillionsDisplay: number;
   powerballDisplay: number;
+  megamillionsPlot: number;
+  powerballPlot: number;
+};
+
+type AxisConfig = {
+  domain: [number, number];
+  ticks: number[];
+  formatTick: (value: number) => string;
+  note: string;
 };
 
 const currency = new Intl.NumberFormat("en-US", {
@@ -86,12 +101,52 @@ function getDisplayValue(point: JackpotPoint, mode: DisplayMode, stateRate: numb
   };
 }
 
+function roundTick(value: number) {
+  return Math.round(value / 25) * 25;
+}
+
+function buildLinearTicks(minValue: number, maxValue: number) {
+  const stepCount = 4;
+  return Array.from({ length: stepCount + 1 }, (_, index) => {
+    const raw = minValue + ((maxValue - minValue) * index) / stepCount;
+    return roundTick(raw);
+  }).filter((tick, index, ticks) => ticks.indexOf(tick) === index);
+}
+
+function buildAxisConfig(values: number[], axisMode: AxisMode): AxisConfig {
+  const minValue = Math.min(...values);
+  const maxValue = Math.max(...values);
+
+  if (axisMode === "linear") {
+    const ticks = buildLinearTicks(minValue, maxValue);
+
+    return {
+      domain: [Math.min(...ticks), Math.max(...ticks)],
+      ticks,
+      formatTick: formatMillions,
+      note: "Linear Y-axis uses evenly spaced dollar increments."
+    };
+  }
+
+  const actualTicks = buildLinearTicks(minValue, maxValue);
+  const transformedTicks = actualTicks.map((tick) => Math.sqrt(tick));
+  const tickLabels = new Map(transformedTicks.map((tick, index) => [tick, actualTicks[index]]));
+
+  return {
+    domain: [Math.sqrt(minValue), Math.sqrt(maxValue)],
+    ticks: transformedTicks,
+    formatTick: (value) => formatMillions(tickLabels.get(value) ?? value * value),
+    note: "Compressed Y-axis uses a non-linear scale so larger jackpots sit closer together while preserving order."
+  };
+}
+
 type TooltipContentProps = {
   active?: boolean;
   payload?: Array<{
-    value: number;
-    name: string;
     color: string;
+    dataKey: string;
+    name: string;
+    payload: ChartPoint;
   }>;
   label?: string;
 };
@@ -110,15 +165,22 @@ function TooltipContent({ active, payload, label }: TooltipContentProps) {
           year: "numeric"
         }).format(new Date(label))}
       </p>
-      {payload.map((entry) => (
-        <div className={styles.tooltipRow} key={entry.name}>
-          <span className={styles.tooltipLabel}>
-            <span className={styles.tooltipDot} style={{ backgroundColor: entry.color }} />
-            <span>{entry.name}</span>
-          </span>
-          <strong>{currency.format(entry.value * 1000000)}</strong>
-        </div>
-      ))}
+      {payload.map((entry) => {
+        const rawValue =
+          entry.dataKey === "megamillionsPlot"
+            ? entry.payload.megamillionsDisplay
+            : entry.payload.powerballDisplay;
+
+        return (
+          <div className={styles.tooltipRow} key={entry.name}>
+            <span className={styles.tooltipLabel}>
+              <span className={styles.tooltipDot} style={{ backgroundColor: entry.color }} />
+              <span>{entry.name}</span>
+            </span>
+            <strong>{currency.format(rawValue * 1000000)}</strong>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -126,17 +188,33 @@ function TooltipContent({ active, payload, label }: TooltipContentProps) {
 export function JackpotChart() {
   const [selectedRange, setSelectedRange] = useState<(typeof ranges)[number]["days"]>(7);
   const [displayMode, setDisplayMode] = useState<DisplayMode>("jackpot");
+  const [axisMode, setAxisMode] = useState<AxisMode>("compressed");
   const [selectedState, setSelectedState] = useState("New Jersey");
 
   const activeState = stateTaxRates.find((state) => state.name === selectedState) ?? stateTaxRates[0];
 
-  const chartData = useMemo<ChartPoint[]>(() => {
+  const baseData = useMemo(() => {
     return filterRange(jackpotHistory, selectedRange).map((point) => ({
       ...point,
       ...getDisplayValue(point, displayMode, activeState.rate),
       shortDate: dateFormatter.format(new Date(point.date))
     }));
   }, [activeState.rate, displayMode, selectedRange]);
+
+  const axisConfig = useMemo(() => {
+    const values = baseData.flatMap((point) => [point.megamillionsDisplay, point.powerballDisplay]);
+    return buildAxisConfig(values, axisMode);
+  }, [axisMode, baseData]);
+
+  const chartData = useMemo<ChartPoint[]>(() => {
+    return baseData.map((point) => ({
+      ...point,
+      megamillionsPlot:
+        axisMode === "compressed" ? Math.sqrt(point.megamillionsDisplay) : point.megamillionsDisplay,
+      powerballPlot:
+        axisMode === "compressed" ? Math.sqrt(point.powerballDisplay) : point.powerballDisplay
+    }));
+  }, [axisMode, baseData]);
 
   const latest = chartData[chartData.length - 1];
   const activeMode = displayModes.find((mode) => mode.id === displayMode);
@@ -145,11 +223,11 @@ export function JackpotChart() {
     <section className={styles.shell}>
       <div className={styles.heading}>
         <div>
-          <p className={styles.eyebrow}>Phase 2 ? Payout views</p>
+          <p className={styles.eyebrow}>Phase 3 - Compressed axis</p>
           <h1>Lottery jackpots at a glance</h1>
           <p className={styles.subhead}>
-            Switch between headline jackpot, estimated cash value, and after-tax payout using the
-            selected state. Live official scraping comes in a later branch.
+            Compare headline jackpot, cash value, or after-tax payout, then switch the Y-axis when
+            large vertical gaps make the chart harder to read.
           </p>
         </div>
         <div className={styles.snapshot}>
@@ -209,6 +287,22 @@ export function JackpotChart() {
           </div>
         </div>
 
+        <div className={styles.axisPanel}>
+          <div className={styles.modeGroup}>
+            {axisModes.map((mode) => (
+              <button
+                key={mode.id}
+                className={axisMode === mode.id ? styles.modeActive : styles.modeButton}
+                onClick={() => setAxisMode(mode.id)}
+                type="button"
+              >
+                {mode.label}
+              </button>
+            ))}
+          </div>
+          <p className={styles.axisNote}>{axisConfig.note}</p>
+        </div>
+
         <p className={styles.modeDescription}>{activeMode?.description}</p>
 
         <div className={styles.summaryRow}>
@@ -235,17 +329,20 @@ export function JackpotChart() {
               />
               <YAxis
                 axisLine={false}
+                domain={axisConfig.domain}
+                tickCount={axisConfig.ticks.length}
+                tickFormatter={axisConfig.formatTick}
                 tickLine={false}
-                tickFormatter={formatMillions}
+                ticks={axisConfig.ticks}
                 tickMargin={10}
                 stroke="#5f544e"
-                width={78}
+                width={84}
               />
               <Tooltip content={<TooltipContent />} />
               <Legend />
               <Line
                 type="monotone"
-                dataKey="megamillionsDisplay"
+                dataKey="megamillionsPlot"
                 name="Mega Millions"
                 stroke="var(--megamillions)"
                 strokeWidth={3}
@@ -254,7 +351,7 @@ export function JackpotChart() {
               />
               <Line
                 type="monotone"
-                dataKey="powerballDisplay"
+                dataKey="powerballPlot"
                 name="Powerball"
                 stroke="var(--powerball)"
                 strokeWidth={3}

@@ -47,7 +47,8 @@
 .snapshot span,
 .summaryCard span,
 .rangeDescription,
-.modeDescription {
+.modeDescription,
+.axisNote {
   color: var(--muted);
 }
 
@@ -78,7 +79,8 @@
 
 .controls,
 .modePanel,
-.taxControls {
+.taxControls,
+.axisPanel {
   display: flex;
   justify-content: space-between;
   gap: 16px;
@@ -91,6 +93,10 @@
 
 .modePanel {
   align-items: flex-end;
+}
+
+.axisPanel {
+  margin-top: 16px;
 }
 
 .rangeGroup,
@@ -135,6 +141,12 @@
 
 .modeDescription {
   margin: 14px 0 18px;
+}
+
+.axisNote {
+  margin: 0;
+  max-width: 54ch;
+  line-height: 1.5;
 }
 
 .statePicker {
@@ -234,7 +246,8 @@
   .heading,
   .controls,
   .modePanel,
-  .taxControls {
+  .taxControls,
+  .axisPanel {
     flex-direction: column;
     align-items: stretch;
   }
