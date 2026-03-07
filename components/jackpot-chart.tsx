@@ -280,10 +280,6 @@ export function JackpotChart() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-
-        {chartData.length < 2 ? (
-          <p className={styles.sparseNote}>More points will appear automatically as the daily refresh runs.</p>
-        ) : null}
       </div>
     </section>
   );

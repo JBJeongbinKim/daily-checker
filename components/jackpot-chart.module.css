@@ -28,7 +28,6 @@
 }
 
 .summaryLabel,
-.sparseNote,
 .tooltipDate {
   color: var(--muted);
 }
@@ -124,12 +123,6 @@
 
 .chartWrap {
   height: 320px;
-}
-
-.sparseNote {
-  margin: 8px 0 0;
-  font-size: 0.82rem;
-  line-height: 1.4;
 }
 
 .tooltip {
