@@ -50,7 +50,8 @@
 .modeDescription,
 .axisNote,
 .dataNote,
-.healthNote {
+.healthNote,
+.emptyState p {
   color: var(--muted);
 }
 
@@ -260,6 +261,24 @@
 
 .chartWrap {
   height: 360px;
+}
+
+.emptyState {
+  padding: 36px 24px;
+  border-radius: 20px;
+  background: rgba(255, 250, 242, 0.78);
+  border: 1px dashed var(--border);
+}
+
+.emptyState strong {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.emptyState p {
+  margin: 10px 0 0;
+  max-width: 48ch;
+  line-height: 1.6;
 }
 
 .tooltip {

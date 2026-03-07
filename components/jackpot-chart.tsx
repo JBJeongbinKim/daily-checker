@@ -178,7 +178,7 @@ function getRefreshHealth(): { state: HealthState; label: string; note: string }
   return {
     state: "success",
     label: "Refresh healthy",
-    note: "Daily refresh is healthy and the latest stored snapshot is current." 
+    note: "Daily refresh is healthy and the latest stored snapshot is current."
   };
 }
 
@@ -235,6 +235,7 @@ export function JackpotChart() {
 
   const activeState = stateTaxRates.find((state) => state.name === selectedState) ?? stateTaxRates[0];
   const refreshHealth = getRefreshHealth();
+  const hasEnoughHistory = jackpotHistory.length >= 2;
 
   const baseData = useMemo(() => {
     return filterRange(jackpotHistory, selectedRange).map((point) => ({
@@ -267,11 +268,11 @@ export function JackpotChart() {
     <section className={styles.shell}>
       <div className={styles.heading}>
         <div>
-          <p className={styles.eyebrow}>Phase 5 - Ingestion status</p>
+          <p className={styles.eyebrow}>Phase 6 - Start from today</p>
           <h1>Lottery jackpots at a glance</h1>
           <p className={styles.subhead}>
-            The chart keeps the latest stored history, and now also exposes whether the daily refresh
-            is healthy, failed, or has gone stale.
+            The stored timeline now starts from the first official snapshot only. As daily refreshes run,
+            this chart will naturally grow into the 7-day, 4-week, and 3-month views.
           </p>
         </div>
         <div className={styles.snapshot}>
@@ -376,51 +377,61 @@ export function JackpotChart() {
           </article>
         </div>
 
-        <div className={styles.chartWrap}>
-          <ResponsiveContainer width="100%" height={360}>
-            <LineChart data={chartData} margin={{ top: 10, right: 8, left: -24, bottom: 0 }}>
-              <CartesianGrid stroke="rgba(51, 35, 20, 0.12)" strokeDasharray="3 3" />
-              <XAxis
-                dataKey="shortDate"
-                axisLine={false}
-                tickLine={false}
-                tickMargin={10}
-                stroke="#5f544e"
-              />
-              <YAxis
-                axisLine={false}
-                domain={axisConfig.domain}
-                tickCount={axisConfig.ticks.length}
-                tickFormatter={axisConfig.formatTick}
-                tickLine={false}
-                ticks={axisConfig.ticks}
-                tickMargin={10}
-                stroke="#5f544e"
-                width={84}
-              />
-              <Tooltip content={<TooltipContent />} />
-              <Legend />
-              <Line
-                type="monotone"
-                dataKey="megamillionsPlot"
-                name="Mega Millions"
-                stroke="var(--megamillions)"
-                strokeWidth={3}
-                dot={{ r: 4, strokeWidth: 0 }}
-                activeDot={{ r: 6 }}
-              />
-              <Line
-                type="monotone"
-                dataKey="powerballPlot"
-                name="Powerball"
-                stroke="var(--powerball)"
-                strokeWidth={3}
-                dot={{ r: 4, strokeWidth: 0 }}
-                activeDot={{ r: 6 }}
-              />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
+        {hasEnoughHistory ? (
+          <div className={styles.chartWrap}>
+            <ResponsiveContainer width="100%" height={360}>
+              <LineChart data={chartData} margin={{ top: 10, right: 8, left: -24, bottom: 0 }}>
+                <CartesianGrid stroke="rgba(51, 35, 20, 0.12)" strokeDasharray="3 3" />
+                <XAxis
+                  dataKey="shortDate"
+                  axisLine={false}
+                  tickLine={false}
+                  tickMargin={10}
+                  stroke="#5f544e"
+                />
+                <YAxis
+                  axisLine={false}
+                  domain={axisConfig.domain}
+                  tickCount={axisConfig.ticks.length}
+                  tickFormatter={axisConfig.formatTick}
+                  tickLine={false}
+                  ticks={axisConfig.ticks}
+                  tickMargin={10}
+                  stroke="#5f544e"
+                  width={84}
+                />
+                <Tooltip content={<TooltipContent />} />
+                <Legend />
+                <Line
+                  type="monotone"
+                  dataKey="megamillionsPlot"
+                  name="Mega Millions"
+                  stroke="var(--megamillions)"
+                  strokeWidth={3}
+                  dot={{ r: 4, strokeWidth: 0 }}
+                  activeDot={{ r: 6 }}
+                />
+                <Line
+                  type="monotone"
+                  dataKey="powerballPlot"
+                  name="Powerball"
+                  stroke="var(--powerball)"
+                  strokeWidth={3}
+                  dot={{ r: 4, strokeWidth: 0 }}
+                  activeDot={{ r: 6 }}
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        ) : (
+          <div className={styles.emptyState}>
+            <strong>Not enough history yet</strong>
+            <p>
+              The app is now collecting from today forward only. Once the next daily refresh lands,
+              the line chart will begin showing movement over time.
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
