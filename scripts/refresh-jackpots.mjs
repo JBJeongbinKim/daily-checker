@@ -21,6 +21,22 @@ function getEasternDateString(date = new Date()) {
   return `${lookup.year}-${lookup.month}-${lookup.day}`;
 }
 
+function summarizeError(error) {
+  if (error instanceof Error) {
+    return error.message;
+  }
+
+  return String(error);
+}
+
+async function readJsonFile(fileUrl) {
+  return JSON.parse(await readFile(fileUrl, "utf8"));
+}
+
+async function writeJsonFile(fileUrl, value) {
+  await writeFile(fileUrl, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
 async function fetchPowerball() {
   const response = await fetch("https://www.powerball.com/", {
     headers: {
@@ -89,37 +105,62 @@ function sortEntries(entries) {
 
 async function main() {
   const historyPath = new URL("../data/jackpot-history.json", import.meta.url);
-  const history = JSON.parse(await readFile(historyPath, "utf8"));
-  const [megamillions, powerball] = await Promise.all([fetchMegaMillions(), fetchPowerball()]);
+  const statusPath = new URL("../data/jackpot-status.json", import.meta.url);
+  const nowIso = new Date().toISOString();
   const today = getEasternDateString();
+  const history = await readJsonFile(historyPath);
+  const priorStatus = await readJsonFile(statusPath);
 
-  const nextEntry = {
-    date: today,
-    megamillions: Number(megamillions.jackpotMillions.toFixed(1)),
-    megamillionsCash: Number(megamillions.cashMillions.toFixed(1)),
-    powerball: Number(powerball.jackpotMillions.toFixed(1)),
-    powerballCash: Number(powerball.cashMillions.toFixed(1)),
-    source: "official"
-  };
+  try {
+    const [megamillions, powerball] = await Promise.all([fetchMegaMillions(), fetchPowerball()]);
 
-  const filteredEntries = history.entries.filter((entry) => entry.date !== today);
-  const entries = sortEntries([...filteredEntries, nextEntry]);
-  const nextHistory = {
-    updatedAt: new Date().toISOString(),
-    entries
-  };
+    const nextEntry = {
+      date: today,
+      megamillions: Number(megamillions.jackpotMillions.toFixed(1)),
+      megamillionsCash: Number(megamillions.cashMillions.toFixed(1)),
+      powerball: Number(powerball.jackpotMillions.toFixed(1)),
+      powerballCash: Number(powerball.cashMillions.toFixed(1)),
+      source: "official"
+    };
 
-  await writeFile(historyPath, `${JSON.stringify(nextHistory, null, 2)}\n`, "utf8");
+    const filteredEntries = history.entries.filter((entry) => entry.date !== today);
+    const entries = sortEntries([...filteredEntries, nextEntry]);
+    const nextHistory = {
+      updatedAt: nowIso,
+      entries
+    };
+    const nextStatus = {
+      state: "success",
+      lastAttemptedAt: nowIso,
+      lastSuccessfulAt: nowIso,
+      latestEntryDate: today,
+      errorMessage: null
+    };
 
-  console.log(JSON.stringify({
-    status: "ok",
-    storedDate: today,
-    megamillions,
-    powerball
-  }, null, 2));
+    await Promise.all([
+      writeJsonFile(historyPath, nextHistory),
+      writeJsonFile(statusPath, nextStatus)
+    ]);
+
+    console.log(JSON.stringify({
+      status: "ok",
+      storedDate: today,
+      megamillions,
+      powerball
+    }, null, 2));
+  } catch (error) {
+    const failedStatus = {
+      state: "failed",
+      lastAttemptedAt: nowIso,
+      lastSuccessfulAt: priorStatus.lastSuccessfulAt ?? history.updatedAt,
+      latestEntryDate: priorStatus.latestEntryDate ?? history.entries[history.entries.length - 1]?.date ?? null,
+      errorMessage: summarizeError(error)
+    };
+
+    await writeJsonFile(statusPath, failedStatus);
+    console.error(error);
+    process.exitCode = 1;
+  }
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main();

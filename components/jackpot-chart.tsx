@@ -11,7 +11,13 @@ import {
   XAxis,
   YAxis
 } from "recharts";
-import { jackpotHistory, jackpotHistoryData, type JackpotPoint } from "@/data/jackpots";
+import {
+  jackpotHistory,
+  jackpotHistoryData,
+  jackpotStatusData,
+  type JackpotPoint,
+  type JackpotRefreshState
+} from "@/data/jackpots";
 import { federalTaxRate, stateTaxRates } from "@/data/state-tax-rates";
 import styles from "./jackpot-chart.module.css";
 
@@ -49,6 +55,8 @@ type AxisConfig = {
   formatTick: (value: number) => string;
   note: string;
 };
+
+type HealthState = JackpotRefreshState | "stale";
 
 const currency = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -147,6 +155,33 @@ function buildAxisConfig(values: number[], axisMode: AxisMode): AxisConfig {
   };
 }
 
+function getRefreshHealth(): { state: HealthState; label: string; note: string } {
+  const lastSuccess = new Date(jackpotStatusData.lastSuccessfulAt).getTime();
+  const ageHours = (Date.now() - lastSuccess) / (1000 * 60 * 60);
+
+  if (jackpotStatusData.state === "failed") {
+    return {
+      state: "failed",
+      label: "Refresh failed",
+      note: jackpotStatusData.errorMessage ?? "Latest fetch attempt failed. Showing last successful data."
+    };
+  }
+
+  if (ageHours > 36) {
+    return {
+      state: "stale",
+      label: "Data stale",
+      note: "The last successful refresh is older than 36 hours. Showing the latest stored snapshot."
+    };
+  }
+
+  return {
+    state: "success",
+    label: "Refresh healthy",
+    note: "Daily refresh is healthy and the latest stored snapshot is current." 
+  };
+}
+
 type TooltipContentProps = {
   active?: boolean;
   payload?: Array<{
@@ -199,6 +234,7 @@ export function JackpotChart() {
   const [selectedState, setSelectedState] = useState("New Jersey");
 
   const activeState = stateTaxRates.find((state) => state.name === selectedState) ?? stateTaxRates[0];
+  const refreshHealth = getRefreshHealth();
 
   const baseData = useMemo(() => {
     return filterRange(jackpotHistory, selectedRange).map((point) => ({
@@ -231,11 +267,11 @@ export function JackpotChart() {
     <section className={styles.shell}>
       <div className={styles.heading}>
         <div>
-          <p className={styles.eyebrow}>Phase 4 - Live ingestion foundation</p>
+          <p className={styles.eyebrow}>Phase 5 - Ingestion status</p>
           <h1>Lottery jackpots at a glance</h1>
           <p className={styles.subhead}>
-            The chart now reads from a committed history file that can be refreshed from the official
-            Mega Millions and Powerball sources by automation.
+            The chart keeps the latest stored history, and now also exposes whether the daily refresh
+            is healthy, failed, or has gone stale.
           </p>
         </div>
         <div className={styles.snapshot}>
@@ -248,11 +284,17 @@ export function JackpotChart() {
       <div className={styles.panel}>
         <div className={styles.dataStatus}>
           <div>
-            <span className={styles.dataBadge}>{latestSourceLabel}</span>
+            <div className={styles.badgeRow}>
+              <span className={styles.dataBadge}>{latestSourceLabel}</span>
+              <span className={`${styles.healthBadge} ${styles[`health${refreshHealth.state[0].toUpperCase()}${refreshHealth.state.slice(1)}`]}`}>
+                {refreshHealth.label}
+              </span>
+            </div>
             <p className={styles.dataNote}>
-              History updated {updateFormatter.format(new Date(jackpotHistoryData.updatedAt))}. Older
-              points remain seeded until daily collection accumulates.
+              History updated {updateFormatter.format(new Date(jackpotHistoryData.updatedAt))}. Last
+              successful refresh {updateFormatter.format(new Date(jackpotStatusData.lastSuccessfulAt))}.
             </p>
+            <p className={styles.healthNote}>{refreshHealth.note}</p>
           </div>
         </div>
 

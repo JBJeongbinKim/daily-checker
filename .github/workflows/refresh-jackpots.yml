@@ -22,16 +22,22 @@ jobs:
           node-version: 22
 
       - name: Refresh official jackpot snapshot
+        id: refresh
+        continue-on-error: true
         run: node scripts/refresh-jackpots.mjs
 
-      - name: Commit updated history
+      - name: Commit updated history and status
         run: |
-          if git diff --quiet -- data/jackpot-history.json; then
-            echo "No history changes to commit"
+          if git diff --quiet -- data/jackpot-history.json data/jackpot-status.json; then
+            echo "No jackpot data changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jackpot-history.json
-          git commit -m "Refresh jackpot history"
+          git add data/jackpot-history.json data/jackpot-status.json
+          git commit -m "Refresh jackpot data"
           git push
+
+      - name: Fail workflow when refresh failed
+        if: steps.refresh.outcome == 'failure'
+        run: exit 1
