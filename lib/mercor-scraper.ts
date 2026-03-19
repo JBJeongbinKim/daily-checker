@@ -1,10 +1,30 @@
-import { chromium } from "playwright";
+import chromiumBundle from "@sparticuz/chromium";
 import { buildMercorJobUrl } from "@/lib/mercor-links";
 import { normalizeMercorJob, normalizeMercorRate, normalizeMercorTitle } from "@/lib/mercor-normalize";
 import type { MercorJob } from "@/lib/mercor-types";
+import { chromium as playwrightChromium } from "playwright";
+import { chromium as playwrightCoreChromium } from "playwright-core";
 
 const BASE_URL = "https://work.mercor.com";
 const EXPLORE_URL = `${BASE_URL}/explore`;
+
+function isHostedRuntime() {
+  return Boolean(process.env.VERCEL || process.env.AWS_REGION || process.env.AWS_EXECUTION_ENV);
+}
+
+async function launchMercorBrowser() {
+  if (isHostedRuntime()) {
+    const executablePath = await chromiumBundle.executablePath();
+
+    return playwrightCoreChromium.launch({
+      args: chromiumBundle.args,
+      executablePath,
+      headless: true
+    });
+  }
+
+  return playwrightChromium.launch({ headless: true });
+}
 
 function cleanTitle(text: string) {
   if (!text) {
@@ -30,7 +50,7 @@ function extractRate(text: string) {
 }
 
 export async function scrapeMercorJobs(): Promise<MercorJob[]> {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await launchMercorBrowser();
   const context = await browser.newContext({
     userAgent: [
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",

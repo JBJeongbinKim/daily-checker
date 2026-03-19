@@ -13,8 +13,10 @@
     "seed:running": "python scripts/export-running-program.py"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
     "next": "^16.1.6",
     "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "recharts": "^3.8.0"
