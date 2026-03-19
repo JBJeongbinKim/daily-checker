@@ -1,0 +1,3050 @@
+{
+  "generatedAt": "2026-03-19T16:45:37",
+  "sourceFile": "data/Running.xlsx",
+  "sheetName": "Nike training program_21k",
+  "weekCount": 14,
+  "weeks": [
+    {
+      "id": "W-14",
+      "label": "Week 14",
+      "order": 0,
+      "days": [
+        {
+          "id": "W-14-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-14-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.4,
+          "totalDurationMinutes": 7.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.4,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 8,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-14-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 4.5,
+          "totalDurationMinutes": 25.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 4.5,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 4.5,
+              "duration": "25:00",
+              "durationMinutes": 25.0
+            }
+          ]
+        },
+        {
+          "id": "W-14-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.6,
+          "totalDurationMinutes": 8.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 7,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.25,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            }
+          ]
+        },
+        {
+          "id": "W-14-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 5.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 5.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-13",
+      "label": "Week 13",
+      "order": 1,
+      "days": [
+        {
+          "id": "W-13-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-13-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 2.9,
+          "totalDurationMinutes": 14.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.9,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.45,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.85,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.7,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-13-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 6.0,
+          "totalDurationMinutes": 35.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 6.0,
+              "duration": "35:00",
+              "durationMinutes": 35.0
+            }
+          ]
+        },
+        {
+          "id": "W-13-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.9,
+          "totalDurationMinutes": 9.75,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.9,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 8,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.35,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "00:45",
+              "durationMinutes": 0.75
+            },
+            {
+              "laps": 2,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-13-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 6.4,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.4,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 6.4,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-12",
+      "label": "Week 12",
+      "order": 2,
+      "days": [
+        {
+          "id": "W-12-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-12-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.6,
+          "totalDurationMinutes": 8.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 5,
+              "category": "Hill",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.2,
+              "duration": "00:45",
+              "durationMinutes": 0.75
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:15",
+              "durationMinutes": 1.25
+            },
+            {
+              "laps": null,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.05,
+              "duration": "00:15",
+              "durationMinutes": 0.25
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "00:45",
+              "durationMinutes": 0.75
+            }
+          ]
+        },
+        {
+          "id": "W-12-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 5.1,
+          "totalDurationMinutes": 30.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 5.1,
+              "duration": "30:00",
+              "durationMinutes": 30.0
+            }
+          ]
+        },
+        {
+          "id": "W-12-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.9,
+          "totalDurationMinutes": 14.5,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.9,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 1.5,
+              "duration": "07:00",
+              "durationMinutes": 7.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.4,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            }
+          ]
+        },
+        {
+          "id": "W-12-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 8.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 8.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 8.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-11",
+      "label": "Week 11",
+      "order": 3,
+      "days": [
+        {
+          "id": "W-11-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-11-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.1,
+          "totalDurationMinutes": 10.5,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 6,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.25,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 6,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            }
+          ]
+        },
+        {
+          "id": "W-11-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 6.8,
+          "totalDurationMinutes": 40.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.8,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 6.8,
+              "duration": "40:00",
+              "durationMinutes": 40.0
+            }
+          ]
+        },
+        {
+          "id": "W-11-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 5.0,
+          "totalDurationMinutes": 32.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "07:00",
+              "durationMinutes": 7.0
+            },
+            {
+              "laps": 1,
+              "category": "Tempo",
+              "pace": "05:20",
+              "distanceKm": 1.0,
+              "duration": "25:00",
+              "durationMinutes": 25.0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:10",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:00",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        },
+        {
+          "id": "W-11-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 10.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 10.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 10.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-10",
+      "label": "Week 10",
+      "order": 4,
+      "days": [
+        {
+          "id": "W-10-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-10-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.9,
+          "totalDurationMinutes": 9.25,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.9,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.35,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.25,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 9,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "00:45",
+              "durationMinutes": 0.75
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-10-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 5.1,
+          "totalDurationMinutes": 30.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 5.1,
+              "duration": "30:00",
+              "durationMinutes": 30.0
+            }
+          ]
+        },
+        {
+          "id": "W-10-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 4.6,
+          "totalDurationMinutes": 28.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 4.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "Tempo",
+              "pace": "05:20",
+              "distanceKm": 1.0,
+              "duration": "23:00",
+              "durationMinutes": 23.0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:10",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:00",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "04:50",
+              "distanceKm": 0.6,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        },
+        {
+          "id": "W-10-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 10.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 10.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 10.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-9",
+      "label": "Week 9",
+      "order": 5,
+      "days": [
+        {
+          "id": "W-9-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-9-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.0,
+          "totalDurationMinutes": 11.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.05,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 9,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.05,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 9,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-9-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 7.7,
+          "totalDurationMinutes": 45.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 7.7,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 7.7,
+              "duration": "45:00",
+              "durationMinutes": 45.0
+            }
+          ]
+        },
+        {
+          "id": "W-9-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.4,
+          "totalDurationMinutes": 12.25,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.4,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 3,
+              "category": "Hill",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.25,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.15,
+              "duration": "00:45",
+              "durationMinutes": 0.75
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.25,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.15,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.25,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            }
+          ]
+        },
+        {
+          "id": "W-9-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 12.5,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 12.5,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 12.5,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-8",
+      "label": "Week 8",
+      "order": 6,
+      "days": [
+        {
+          "id": "W-8-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-8-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.6,
+          "totalDurationMinutes": 23.5,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.7,
+              "duration": "04:00",
+              "durationMinutes": 4.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.3,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.5,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.3,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-8-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 5.3,
+          "totalDurationMinutes": 31.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.3,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 5.3,
+              "duration": "31:00",
+              "durationMinutes": 31.0
+            }
+          ]
+        },
+        {
+          "id": "W-8-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 6.2,
+          "totalDurationMinutes": 36.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.2,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.5,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 2.1,
+              "duration": "10:00",
+              "durationMinutes": 10.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.5,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.5,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            }
+          ]
+        },
+        {
+          "id": "W-8-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 15.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 15.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 15.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-7",
+      "label": "Week 7",
+      "order": 7,
+      "days": [
+        {
+          "id": "W-7-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-7-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 2.8,
+          "totalDurationMinutes": 19.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.8,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.5,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            }
+          ]
+        },
+        {
+          "id": "W-7-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 6.0,
+          "totalDurationMinutes": 35.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 6.0,
+              "duration": "35:00",
+              "durationMinutes": 35.0
+            }
+          ]
+        },
+        {
+          "id": "W-7-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.4,
+          "totalDurationMinutes": 7.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.4,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 8,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.25,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-7-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 16.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 16.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 16.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-6",
+      "label": "Week 6",
+      "order": 8,
+      "days": [
+        {
+          "id": "W-6-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-6-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 5.6,
+          "totalDurationMinutes": 34.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "06:00",
+              "durationMinutes": 6.0
+            },
+            {
+              "laps": 1,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.5,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.5,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            }
+          ]
+        },
+        {
+          "id": "W-6-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 6.0,
+          "totalDurationMinutes": 35.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 6.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 6.0,
+              "duration": "35:00",
+              "durationMinutes": 35.0
+            }
+          ]
+        },
+        {
+          "id": "W-6-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 9.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 9.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": 1,
+              "category": "Tempo",
+              "pace": "05:20",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:10",
+              "distanceKm": 1.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": null,
+              "pace": "05:00",
+              "distanceKm": 5.0,
+              "duration": null,
+              "durationMinutes": 0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        },
+        {
+          "id": "W-6-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 16.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 16.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 16.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-5",
+      "label": "Week 5",
+      "order": 9,
+      "days": [
+        {
+          "id": "W-5-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-5-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.7,
+          "totalDurationMinutes": 14.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.7,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.35,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.25,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            }
+          ]
+        },
+        {
+          "id": "W-5-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 7.2,
+          "totalDurationMinutes": 45.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 7.2,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 7.2,
+              "duration": "45:00",
+              "durationMinutes": 45.0
+            }
+          ]
+        },
+        {
+          "id": "W-5-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.5,
+          "totalDurationMinutes": 25.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.5,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "07:00",
+              "durationMinutes": 7.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "Tempo",
+              "pace": "05:03",
+              "distanceKm": 2.0,
+              "duration": "10:00",
+              "durationMinutes": 10.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": 3,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-5-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 13.1,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 13.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 13.1,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-4",
+      "label": "Week 4",
+      "order": 10,
+      "days": [
+        {
+          "id": "W-4-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-4-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 1.4,
+          "totalDurationMinutes": 12.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 1.4,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 5,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.4,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            }
+          ]
+        },
+        {
+          "id": "W-4-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 7.2,
+          "totalDurationMinutes": 45.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 7.2,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 7.2,
+              "duration": "45:00",
+              "durationMinutes": 45.0
+            }
+          ]
+        },
+        {
+          "id": "W-4-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 0.6,
+          "totalDurationMinutes": 8.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 0.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 7,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-4-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 20.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 20.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 20.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-3",
+      "label": "Week 3",
+      "order": 11,
+      "days": [
+        {
+          "id": "W-3-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-3-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 4.2,
+          "totalDurationMinutes": 26.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 4.2,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 3,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 1.7,
+              "duration": "08:00",
+              "durationMinutes": 8.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.5,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.85,
+              "duration": "04:00",
+              "durationMinutes": 4.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.35,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            }
+          ]
+        },
+        {
+          "id": "W-3-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 9.6,
+          "totalDurationMinutes": 60.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 9.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 9.6,
+              "duration": "60:00",
+              "durationMinutes": 60.0
+            }
+          ]
+        },
+        {
+          "id": "W-3-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.0,
+          "totalDurationMinutes": 20.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.85,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.85,
+              "duration": "04:00",
+              "durationMinutes": 4.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.65,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Best",
+              "pace": "04:17",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-3-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 0.0,
+          "totalDurationMinutes": 60.0,
+          "primaryMetric": {
+            "kind": "duration",
+            "distanceKm": null,
+            "durationMinutes": 60.0
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "60:00",
+              "durationMinutes": 60.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-2",
+      "label": "Week 2",
+      "order": 12,
+      "days": [
+        {
+          "id": "W-2-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-2-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.6,
+          "totalDurationMinutes": 24.5,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.6,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": 4,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.6,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": 4,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.6,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": 4,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-2-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 5.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 5.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 5.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        },
+        {
+          "id": "W-2-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.9,
+          "totalDurationMinutes": 19.5,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.9,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "06:00",
+              "durationMinutes": 6.0
+            },
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "00:30",
+              "durationMinutes": 0.5
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.7,
+              "duration": "03:00",
+              "durationMinutes": 3.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.3,
+              "duration": "01:30",
+              "durationMinutes": 1.5
+            },
+            {
+              "laps": 1,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 1.6,
+              "duration": "02:30",
+              "durationMinutes": 2.5
+            }
+          ]
+        },
+        {
+          "id": "W-2-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 11.0,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 11.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 11.0,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W-1",
+      "label": "Week 1",
+      "order": 13,
+      "days": [
+        {
+          "id": "W-1-day-1",
+          "order": 1,
+          "label": "Day 1",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 2.6,
+          "totalDurationMinutes": 15.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 2.6,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 2.6,
+              "duration": "15:00",
+              "durationMinutes": 15.0
+            }
+          ]
+        },
+        {
+          "id": "W-1-day-2",
+          "order": 2,
+          "label": "Day 2",
+          "focus": "Speed",
+          "paceSummary": "Mixed",
+          "totalDistanceKm": 3.1,
+          "totalDurationMinutes": 21.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Warm-up",
+              "pace": null,
+              "distanceKm": null,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": 1,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Tempo",
+              "pace": "05:03",
+              "distanceKm": 1.0,
+              "duration": "05:00",
+              "durationMinutes": 5.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "10k",
+              "pace": "04:50",
+              "distanceKm": 0.45,
+              "duration": "02:00",
+              "durationMinutes": 2.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.15,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "5k",
+              "pace": "04:41",
+              "distanceKm": 0.2,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            },
+            {
+              "laps": null,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 0.1,
+              "duration": "01:00",
+              "durationMinutes": 1.0
+            }
+          ]
+        },
+        {
+          "id": "W-1-day-3",
+          "order": 3,
+          "label": "Day 3",
+          "focus": "Recovery",
+          "paceSummary": "05:43/km",
+          "totalDistanceKm": 4.0,
+          "totalDurationMinutes": 25.0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 4.0,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Recovery",
+              "pace": "05:43",
+              "distanceKm": 4.0,
+              "duration": "25:00",
+              "durationMinutes": 25.0
+            }
+          ]
+        },
+        {
+          "id": "W-1-day-4",
+          "order": 4,
+          "label": "Day 4",
+          "focus": "Speed",
+          "paceSummary": "04:29/km",
+          "totalDistanceKm": 3.2,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 3.2,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": "04:29",
+              "distanceKm": 3.2,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        },
+        {
+          "id": "W-1-day-5",
+          "order": 5,
+          "label": "Day 5",
+          "focus": "Long",
+          "paceSummary": "Not listed",
+          "totalDistanceKm": 21.1,
+          "totalDurationMinutes": 0,
+          "primaryMetric": {
+            "kind": "distance",
+            "distanceKm": 21.1,
+            "durationMinutes": null
+          },
+          "segments": [
+            {
+              "laps": 1,
+              "category": "Mile",
+              "pace": null,
+              "distanceKm": 21.1,
+              "duration": null,
+              "durationMinutes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
