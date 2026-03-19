@@ -62,12 +62,23 @@ const fullDateFormatter = new Intl.DateTimeFormat("en-US", {
   timeZone: "UTC"
 });
 
+const weekdayFormatter = new Intl.DateTimeFormat("en-US", {
+  weekday: "short",
+  timeZone: "UTC"
+});
+
 function parseDate(date: string) {
   return new Date(`${date}T00:00:00Z`);
 }
 
 function formatMillions(value: number) {
   return `$${millionsFormatter.format(value)}M`;
+}
+
+function formatTooltipDate(date: string) {
+  const parsedDate = parseDate(date);
+
+  return `${fullDateFormatter.format(parsedDate)} (${weekdayFormatter.format(parsedDate)})`;
 }
 
 function filterRange(points: JackpotPoint[], days: number) {
@@ -139,7 +150,7 @@ function TooltipContent({ active, payload }: TooltipContentProps) {
 
   return (
     <div className={styles.tooltip}>
-      <p className={styles.tooltipDate}>{fullDateFormatter.format(parseDate(chartPoint.date))}</p>
+      <p className={styles.tooltipDate}>{formatTooltipDate(chartPoint.date)}</p>
       {payload.map((entry) => (
         <div className={styles.tooltipRow} key={entry.name}>
           <span className={styles.tooltipLabel}>
@@ -178,20 +189,30 @@ export function JackpotChart() {
     <section className={styles.shell}>
       <div className={styles.panel}>
         <div className={styles.summaryRow}>
-          <article className={styles.summaryCard}>
+          <a
+            className={styles.summaryCard}
+            href="https://www.megamillions.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <span className={styles.summaryLabel}>
               <span className={`${styles.summaryDot} ${styles.summaryMega}`} />
               Mega Millions
             </span>
             <strong>{formatMillions(latest.megamillionsDisplay)}</strong>
-          </article>
-          <article className={styles.summaryCard}>
+          </a>
+          <a
+            className={styles.summaryCard}
+            href="https://www.powerball.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <span className={styles.summaryLabel}>
               <span className={`${styles.summaryDot} ${styles.summaryPowerball}`} />
               Powerball
             </span>
             <strong>{formatMillions(latest.powerballDisplay)}</strong>
-          </article>
+          </a>
         </div>
 
         <div className={styles.controlStack}>
