@@ -17,6 +17,7 @@ type RefreshResult =
       newTodayCount: number;
       lastScrapedAt: string | null;
       snapshot: MercorSnapshot;
+      message: string | null;
     }
   | {
       ok: false;
@@ -120,7 +121,7 @@ export function MercorDashboard({ snapshot }: MercorDashboardProps) {
 
       setCurrentSnapshot(result.snapshot);
       setPage(1);
-      setStatusMessage(`Refresh complete. ${result.newTodayCount} new Mercor jobs found today.`);
+      setStatusMessage(result.message ?? `Refresh complete. ${result.newTodayCount} new Mercor jobs found today.`);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : "Mercor refresh failed");
       setStatusMessage(null);

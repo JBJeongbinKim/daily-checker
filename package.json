@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "refresh:jackpots": "node scripts/refresh-jackpots.mjs",
+    "refresh:mercor": "node scripts/refresh-mercor.mjs",
     "refresh:rent": "python scripts/refresh-rent.py",
     "seed:rent": "python scripts/export-rent-history.py",
     "seed:running": "python scripts/export-running-program.py"
