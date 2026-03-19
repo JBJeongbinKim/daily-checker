@@ -147,11 +147,12 @@ function TooltipContent({ active, payload }: TooltipContentProps) {
   }
 
   const chartPoint = payload[0].payload;
+  const sortedPayload = [...payload].sort((left, right) => right.value - left.value);
 
   return (
     <div className={styles.tooltip}>
       <p className={styles.tooltipDate}>{formatTooltipDate(chartPoint.date)}</p>
-      {payload.map((entry) => (
+      {sortedPayload.map((entry) => (
         <div className={styles.tooltipRow} key={entry.name}>
           <span className={styles.tooltipLabel}>
             <span className={styles.tooltipDot} style={{ backgroundColor: entry.color }} />
