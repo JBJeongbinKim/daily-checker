@@ -1,0 +1,56 @@
+name: Refresh rent history
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skip non-7am Eastern run
+        id: gate
+        run: |
+          EASTERN_HOUR=$(TZ=America/New_York date +%H)
+          if [ "$EASTERN_HOUR" != "07" ]; then
+            echo "run_refresh=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping because current Eastern hour is $EASTERN_HOUR"
+          else
+            echo "run_refresh=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Refresh rent snapshot
+        if: steps.gate.outputs.run_refresh == 'true'
+        id: refresh
+        continue-on-error: true
+        run: python scripts/refresh-rent.py
+
+      - name: Commit updated rent data
+        if: steps.gate.outputs.run_refresh == 'true'
+        run: |
+          if git diff --quiet -- data/rent-history.json data/rent-status.json data/rent-refresh-log.jsonl; then
+            echo "No rent data changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rent-history.json data/rent-status.json data/rent-refresh-log.jsonl
+          git commit -m "Refresh rent data"
+          git push
+
+      - name: Fail workflow when refresh failed
+        if: steps.gate.outputs.run_refresh == 'true' && steps.refresh.outcome == 'failure'
+        run: exit 1

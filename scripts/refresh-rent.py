@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 DATASET_PATH = ROOT / "data" / "rent-history.json"
 LOG_PATH = ROOT / "data" / "rent-refresh-log.jsonl"
+STATUS_PATH = ROOT / "data" / "rent-status.json"
 AJAX_URL = "https://verisresidential.com/wp-admin/admin-ajax.php"
 SOURCE_URL = "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/"
 TIMEZONE = ZoneInfo("America/New_York")
@@ -432,9 +433,27 @@ def append_log(entry: dict) -> None:
         handle.write(json.dumps(entry) + "\n")
 
 
+def load_status() -> dict:
+    if not STATUS_PATH.exists():
+        return {
+            "state": "idle",
+            "lastAttemptedAt": None,
+            "lastSuccessfulAt": None,
+            "latestSnapshotDate": None,
+            "errorMessage": None,
+        }
+
+    return json.loads(STATUS_PATH.read_text(encoding="utf-8"))
+
+
+def write_status(status: dict) -> None:
+    STATUS_PATH.write_text(f"{json.dumps(status, indent=2)}\n", encoding="utf-8")
+
+
 def main() -> None:
     run_started_at = now_iso()
     snapshot_date = today_iso()
+    prior_status = load_status()
 
     try:
         floorplans = fetch_floorplan_list()
@@ -456,6 +475,15 @@ def main() -> None:
             "trackedUnits": dataset["totals"]["units"],
             "activeUnits": dataset["totals"]["activeUnits"],
         }
+        write_status(
+            {
+                "state": "success",
+                "lastAttemptedAt": run_started_at,
+                "lastSuccessfulAt": run_started_at,
+                "latestSnapshotDate": snapshot_date,
+                "errorMessage": None,
+            }
+        )
         append_log(result)
         print(json.dumps(result, indent=2))
     except Exception as error:  # noqa: BLE001
@@ -465,6 +493,15 @@ def main() -> None:
             "snapshotDate": snapshot_date,
             "error": str(error),
         }
+        write_status(
+            {
+                "state": "failed",
+                "lastAttemptedAt": run_started_at,
+                "lastSuccessfulAt": prior_status.get("lastSuccessfulAt"),
+                "latestSnapshotDate": prior_status.get("latestSnapshotDate"),
+                "errorMessage": str(error),
+            }
+        )
         append_log(result)
         print(json.dumps(result, indent=2))
         raise
