@@ -1,0 +1,233 @@
+.shell {
+  min-height: 100vh;
+  padding: 30px 18px 120px;
+}
+
+.panel {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.toolbarMeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #6d5d4b;
+  font-size: 0.92rem;
+}
+
+.refreshButton {
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #5a341c 0%, #c6783d 100%);
+  color: #fff7ed;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    opacity 160ms ease;
+}
+
+.refreshButton:hover:enabled {
+  transform: translateY(-1px);
+}
+
+.refreshButton:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.sourceLink {
+  color: #8f4f28;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.sourceLink:hover {
+  text-decoration: underline;
+}
+
+.status {
+  min-height: 24px;
+  color: #6d5d4b;
+  font-size: 0.92rem;
+}
+
+.error {
+  color: #a63d33;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid rgba(76, 58, 35, 0.1);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 18px 44px rgba(76, 58, 35, 0.08);
+}
+
+.chartControls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.rangeGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rangeButton {
+  padding: 9px 12px;
+  border: 1px solid rgba(76, 58, 35, 0.1);
+  border-radius: 999px;
+  background: #fff9f1;
+  color: #6b502f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rangeButtonActive {
+  background: linear-gradient(135deg, #5a341c 0%, #c6783d 100%);
+  color: #fff7ed;
+  border-color: transparent;
+}
+
+.chartWrap {
+  width: 100%;
+  min-height: 420px;
+}
+
+.chartCaption {
+  margin-top: 10px;
+  color: #7a6755;
+  font-size: 0.92rem;
+}
+
+.filtersRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  min-width: 150px;
+}
+
+.field span {
+  color: #6a5845;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.field select,
+.field input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(76, 58, 35, 0.12);
+  border-radius: 16px;
+  background: #fffdf9;
+  color: #261a10;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255, 247, 236, 0.86);
+  color: #5a4737;
+  font-weight: 700;
+}
+
+.toggle input {
+  width: 18px;
+  height: 18px;
+}
+
+.resetButton {
+  padding: 12px 14px;
+  border: 1px solid rgba(76, 58, 35, 0.1);
+  border-radius: 16px;
+  background: #fff9f1;
+  color: #6b502f;
+  cursor: pointer;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 14px 12px;
+  border-top: 1px solid rgba(76, 58, 35, 0.08);
+  color: #4a3b30;
+  font-size: 0.94rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table thead th {
+  border-top: 0;
+  color: #6d5d4b;
+  font-size: 0.84rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 248, 239, 0.7);
+}
+
+.sortButton {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.empty {
+  padding: 22px;
+  border: 1px dashed rgba(76, 58, 35, 0.16);
+  border-radius: 20px;
+  color: #786754;
+  background: rgba(255, 250, 244, 0.82);
+}
+
+@media (max-width: 760px) {
+  .shell {
+    padding-inline: 14px;
+  }
+
+  .toolbar,
+  .toolbarMeta {
+    flex-direction: column;
+    align-items: start;
+  }
+}

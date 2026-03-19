@@ -1,5 +1,5 @@
-import { JackpotChart } from "@/components/jackpot-chart";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <JackpotChart />;
+  redirect("/mercor");
 }

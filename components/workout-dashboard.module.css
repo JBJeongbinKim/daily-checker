@@ -1,0 +1,348 @@
+.shell {
+  min-height: 100vh;
+  padding: 34px 18px 120px;
+  background: #ffffff;
+}
+
+.panel {
+  width: min(1240px, 100%);
+  margin: 0 auto;
+}
+
+.weekCard,
+.dayCard,
+.empty {
+  border: 1px solid #d4d4d4;
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+}
+
+.weekHeader,
+.segmentRow,
+.navGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.weekTitle {
+  margin: 0;
+  color: #111111;
+}
+
+.weekCard {
+  padding: 24px;
+}
+
+.weekTitle {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+}
+
+.navGroup {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navButton {
+  padding: 12px 16px;
+  border: 1px solid #d4d4d4;
+  border-radius: 16px;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    opacity 160ms ease;
+}
+
+.navButton:hover:enabled {
+  transform: translateY(-1px);
+}
+
+.navButton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.dayGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.dayCard {
+  display: grid;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.daySummary {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fafafa;
+}
+
+.daySummaryText {
+  color: #111111;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.segmentTable {
+  display: grid;
+}
+
+.segmentRow {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1.5fr) minmax(56px, 72px) minmax(68px, 88px);
+  padding: 12px 16px;
+  border-top: 1px solid #efefef;
+  gap: 12px;
+}
+
+.segmentRow:first-child {
+  border-top: 0;
+}
+
+.segmentLaps {
+  color: #111111;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.segmentCategory {
+  color: #111111;
+  font-size: 0.92rem;
+  font-weight: 600;
+  min-width: 0;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+.category10k {
+  background: #dcfce7;
+}
+
+.categoryMile {
+  background: #fed7aa;
+}
+
+.category5k {
+  background: #fef9c3;
+}
+
+.categoryBest {
+  background: #fecaca;
+}
+
+.categoryTempo {
+  background: #dbeafe;
+}
+
+.segmentPace {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #525252;
+  font-size: 0.86rem;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.segmentPace:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+.segmentMetric {
+  color: #111111;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.empty {
+  padding: 24px;
+  color: #525252;
+}
+
+.footerActions {
+  display: flex;
+  margin-top: 20px;
+}
+
+.popupButton,
+.modalClose,
+.tableCell {
+  font: inherit;
+}
+
+.popupButton {
+  width: 100%;
+  padding: 12px 18px;
+  border: 1px solid #d4d4d4;
+  border-radius: 16px;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.modal {
+  width: min(920px, 100%);
+  max-height: min(80vh, 720px);
+  overflow: auto;
+  border: 1px solid #d4d4d4;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.16);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 18px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modalClose {
+  padding: 10px 14px;
+  border: 1px solid #d4d4d4;
+  border-radius: 14px;
+  background: #ffffff;
+  color: #111111;
+  cursor: pointer;
+}
+
+.modalTable {
+  padding: 16px;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 88px repeat(5, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.tableHeaderRow {
+  margin-top: 0;
+}
+
+.tableLabel,
+.tableCell,
+.tableCellEmpty {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.tableLabel {
+  font-weight: 700;
+  color: #111111;
+}
+
+.tableCell {
+  justify-content: flex-start;
+  color: #111111;
+  cursor: pointer;
+}
+
+.tableCellActive {
+  background: #fef08a;
+}
+
+.tableCellEmpty {
+  background: #fafafa;
+}
+
+@media (max-width: 1180px) {
+  .dayGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .shell {
+    padding-inline: 14px;
+  }
+
+  .weekCard,
+  .dayCard,
+  .empty {
+    border-radius: 22px;
+  }
+
+  .weekHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navGroup {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .dayGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    border-radius: 18px;
+  }
+
+  .modalHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .modalTable {
+    overflow-x: auto;
+  }
+
+  .tableRow {
+    min-width: 680px;
+  }
+
+  .segmentRow {
+    grid-template-columns: 32px minmax(0, 1.45fr) 52px 68px;
+    gap: 6px;
+    padding: 11px 12px;
+  }
+
+  .segmentCategory {
+    font-size: 0.84rem;
+  }
+
+  .segmentLaps,
+  .segmentPace,
+  .segmentMetric {
+    font-size: 0.82rem;
+  }
+}
