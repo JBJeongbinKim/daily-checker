@@ -5,3 +5,5 @@ coverage
 .env*
 dist
 out
+__pycache__/
+*.pyc
