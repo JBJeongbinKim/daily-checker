@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T17:57:49-04:00",
+  "generatedAt": "2026-03-20T18:20:40-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
   "latestSnapshotDate": "2026-03-20",
@@ -328,28 +328,6 @@
       ]
     },
     {
-      "id": "b401-m2-1205",
-      "buildingId": "B401",
-      "layoutId": "MS3",
-      "typeLabel": "B401 MS3",
-      "unitNumber": "M2-1205",
-      "availabilityDate": "2026-05-28",
-      "status": "active",
-      "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3155,
-      "initialPrice": 3155,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
-      "snapshots": [
-        {
-          "date": "2026-03-20",
-          "price": 3155,
-          "isThursday": false
-        }
-      ]
-    },
-    {
       "id": "b401-m2-0606",
       "buildingId": "B401",
       "layoutId": "S2",
@@ -367,6 +345,28 @@
         {
           "date": "2026-03-20",
           "price": 3495,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1205",
+      "buildingId": "B401",
+      "layoutId": "S3",
+      "typeLabel": "B401 MS3",
+      "unitNumber": "M2-1205",
+      "availabilityDate": "2026-05-28",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3155,
+      "initialPrice": 3155,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3155,
           "isThursday": false
         }
       ]
@@ -599,7 +599,7 @@
     {
       "id": "b425-m1-1213",
       "buildingId": "B425",
-      "layoutId": "A10, B425 A10A, B425 A10B",
+      "layoutId": "A10",
       "typeLabel": "B425 A10, B425 A10A, B425 A10B",
       "unitNumber": "M1-1213",
       "availabilityDate": "2026-05-22",
@@ -621,7 +621,7 @@
     {
       "id": "b425-m1-3213",
       "buildingId": "B425",
-      "layoutId": "A10, B425 A10A, B425 A10B",
+      "layoutId": "A10",
       "typeLabel": "B425 A10, B425 A10A, B425 A10B",
       "unitNumber": "M1-3213",
       "availabilityDate": "2026-05-11",
@@ -636,6 +636,33 @@
         {
           "date": "2026-03-20",
           "price": 3620,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-0503",
+      "buildingId": "B425",
+      "layoutId": "A5",
+      "typeLabel": "B425 A5A",
+      "unitNumber": "M1-0503",
+      "availabilityDate": "2026-03-11",
+      "status": "active",
+      "firstSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3380,
+      "initialPrice": 3380,
+      "changeSinceFirst": 0,
+      "snapshotCount": 2,
+      "snapshots": [
+        {
+          "date": "2026-03-19",
+          "price": 3380,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3380,
           "isThursday": false
         }
       ]
@@ -658,33 +685,6 @@
         {
           "date": "2026-03-20",
           "price": 3490,
-          "isThursday": false
-        }
-      ]
-    },
-    {
-      "id": "b425-m1-0503",
-      "buildingId": "B425",
-      "layoutId": "A5A",
-      "typeLabel": "B425 A5A",
-      "unitNumber": "M1-0503",
-      "availabilityDate": "2026-03-11",
-      "status": "active",
-      "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3380,
-      "initialPrice": 3380,
-      "changeSinceFirst": 0,
-      "snapshotCount": 2,
-      "snapshots": [
-        {
-          "date": "2026-03-19",
-          "price": 3380,
-          "isThursday": true
-        },
-        {
-          "date": "2026-03-20",
-          "price": 3380,
           "isThursday": false
         }
       ]
@@ -714,7 +714,7 @@
     {
       "id": "b425-m1-1206",
       "buildingId": "B425",
-      "layoutId": "A9A, B425 A9PH",
+      "layoutId": "A9",
       "typeLabel": "B425 A9A, B425 A9PH",
       "unitNumber": "M1-1206",
       "availabilityDate": "2026-02-23",
@@ -736,7 +736,7 @@
     {
       "id": "b425-m1-1101",
       "buildingId": "B425",
-      "layoutId": "B10, B425 B10A",
+      "layoutId": "B10",
       "typeLabel": "B425 B10, B425 B10A",
       "unitNumber": "M1-1101",
       "availabilityDate": "2026-04-15",
@@ -758,7 +758,7 @@
     {
       "id": "b425-m1-0212",
       "buildingId": "B425",
-      "layoutId": "B5, B425 B5A, B425 B5C",
+      "layoutId": "B5",
       "typeLabel": "B425 B5, B425 B5A, B425 B5C",
       "unitNumber": "M1-0212",
       "availabilityDate": "2026-03-25",
@@ -824,7 +824,7 @@
     {
       "id": "b425-m1-1607",
       "buildingId": "B425",
-      "layoutId": "S4, B425 S4A",
+      "layoutId": "S4",
       "typeLabel": "B425 S4, B425 S4A",
       "unitNumber": "M1-1607",
       "availabilityDate": "2026-04-16",

@@ -32,6 +32,23 @@ function normalizeUnitNumber(unitNumber: string) {
   return unitNumber.trim().replace(/^(MN|MS)-/i, "");
 }
 
+function normalizeLayoutId(layoutId: string) {
+  const candidates = layoutId
+    .split(",")
+    .map((part) => part.trim().replace(/^B\d+\s+/i, ""))
+    .filter(Boolean);
+
+  for (const candidate of candidates) {
+    const normalizedCandidate = candidate.replace(/^M(?=[A-Z]\d+)/i, "");
+    const match = normalizedCandidate.match(/^([A-Z]\d+)/i);
+    if (match) {
+      return match[1].toUpperCase();
+    }
+  }
+
+  return layoutId.trim().toUpperCase();
+}
+
 function isThursday(snapshotDate: string) {
   return new Date(`${snapshotDate}T00:00:00`).getDay() === 4;
 }
@@ -68,6 +85,7 @@ function canonicalizeUnits(units: RentUnit[]) {
       merged.set(normalizedId, {
         ...unit,
         id: normalizedId,
+        layoutId: normalizeLayoutId(unit.layoutId),
         unitNumber: normalizedUnitNumber,
       });
       continue;
@@ -82,6 +100,7 @@ function canonicalizeUnits(units: RentUnit[]) {
       ...existing,
       ...unit,
       id: normalizedId,
+      layoutId: normalizeLayoutId(unit.layoutId),
       unitNumber: normalizedUnitNumber,
       availabilityDate: existing.availabilityDate ?? unit.availabilityDate,
       snapshots: [...snapshotsByDate.values()],
@@ -163,7 +182,7 @@ export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapsho
       unitsById.set(unitId, {
         id: unitId,
         buildingId: scrapedUnit.buildingId,
-        layoutId: scrapedUnit.layoutId,
+        layoutId: normalizeLayoutId(scrapedUnit.layoutId),
         typeLabel: scrapedUnit.typeLabel,
         unitNumber: normalizedUnitNumber,
         availabilityDate: scrapedUnit.availabilityDate,
@@ -195,7 +214,7 @@ export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapsho
     unitsById.set(unitId, {
       ...existingUnit,
       buildingId: scrapedUnit.buildingId,
-      layoutId: scrapedUnit.layoutId,
+      layoutId: normalizeLayoutId(scrapedUnit.layoutId),
       typeLabel: scrapedUnit.typeLabel,
       unitNumber: normalizedUnitNumber,
       availabilityDate: scrapedUnit.availabilityDate,

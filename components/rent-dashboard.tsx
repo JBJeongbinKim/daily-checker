@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useDeferredValue, useState, useTransition } from "react";
+import { useDeferredValue, useMemo, useState, useTransition } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -140,7 +140,7 @@ function sortUnits(units: RentUnit[]) {
       return left.status === "active" ? -1 : 1;
     }
 
-    const layoutDifference = left.layoutId.localeCompare(right.layoutId, undefined, { numeric: true });
+    const layoutDifference = compareLayouts(left.layoutId, right.layoutId);
     if (layoutDifference !== 0) {
       return layoutDifference;
     }
@@ -154,6 +154,86 @@ function sortUnits(units: RentUnit[]) {
   });
 }
 
+function getLayoutSortValue(layoutId: string) {
+  const primary = formatLayoutLabel(layoutId);
+  const match = primary.match(/^([A-Z])(\d+)([A-Z])?$/i);
+
+  if (!match) {
+    return {
+      group: primary,
+      letter: primary,
+      number: -1,
+      suffix: "",
+    };
+  }
+
+  return {
+    group: match[1].toUpperCase(),
+    letter: match[1].toUpperCase(),
+    number: Number(match[2]),
+    suffix: (match[3] ?? "").toUpperCase(),
+  };
+}
+
+function sortLayoutOptions(options: string[]) {
+  return [...options].sort((left, right) => {
+    const leftValue = getLayoutSortValue(left);
+    const rightValue = getLayoutSortValue(right);
+
+    const groupCompare = rightValue.group.localeCompare(leftValue.group);
+    if (groupCompare !== 0) {
+      return groupCompare;
+    }
+
+    const numberCompare = rightValue.number - leftValue.number;
+    if (numberCompare !== 0) {
+      return numberCompare;
+    }
+
+    return rightValue.suffix.localeCompare(leftValue.suffix);
+  });
+}
+
+function compareLayouts(left: string, right: string) {
+  const leftValue = getLayoutSortValue(left);
+  const rightValue = getLayoutSortValue(right);
+
+  const groupCompare = rightValue.group.localeCompare(leftValue.group);
+  if (groupCompare !== 0) {
+    return groupCompare;
+  }
+
+  const numberCompare = rightValue.number - leftValue.number;
+  if (numberCompare !== 0) {
+    return numberCompare;
+  }
+
+  return rightValue.suffix.localeCompare(leftValue.suffix);
+}
+
+function formatLayoutLabel(layoutId: string) {
+  const parts = layoutId
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const simplified = part.replace(/^B\d+\s+/i, "");
+      return simplified.trim();
+    });
+
+  if (!parts.length) {
+    return layoutId;
+  }
+
+  const first = parts[0];
+  const baseMatch = first.match(/^([A-Z]\d+)/i);
+  if (!baseMatch) {
+    return first;
+  }
+
+  return baseMatch[1].toUpperCase();
+}
+
 export function RentDashboard({ dataset }: RentDashboardProps) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
@@ -161,6 +241,7 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [buildingFilter, setBuildingFilter] = useState("all");
   const [layoutFilters, setLayoutFilters] = useState<string[]>([]);
+  const [showLayoutMenu, setShowLayoutMenu] = useState(false);
   const [availableOnly, setAvailableOnly] = useState(false);
   const [thursdayOnly, setThursdayOnly] = useState(false);
   const [rangeKey, setRangeKey] = useState<RangeKey>("2y");
@@ -169,13 +250,19 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
 
   const buildingOptions = Array.from(new Set(dataset.units.map((unit) => unit.buildingId))).sort();
 
-  const layoutOptions = Array.from(
-    new Set(
-      dataset.units
-        .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
-        .map((unit) => unit.layoutId),
-    ),
-  ).sort();
+  const layoutOptions = useMemo(
+    () =>
+      sortLayoutOptions(
+        Array.from(
+          new Set(
+            dataset.units
+              .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
+              .map((unit) => unit.layoutId),
+          ),
+        ),
+      ),
+    [buildingFilter, dataset.units],
+  );
 
   const filteredUnits = dataset.units
     .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
@@ -409,26 +496,49 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
 
             <label className={styles.field}>
               <span>Apartment type</span>
-              <div className={styles.multiSelect}>
-                {layoutOptions.map((layout) => {
-                  const selected = layoutFilters.includes(layout);
-                  return (
+              <div className={styles.dropdown}>
+                <button
+                  className={styles.dropdownButton}
+                  onClick={() => setShowLayoutMenu((current) => !current)}
+                  type="button"
+                >
+                  {layoutFilters.length
+                    ? `${layoutFilters.length} selected`
+                    : "All types"}
+                </button>
+
+                {showLayoutMenu ? (
+                  <div className={styles.dropdownMenu}>
+                    {layoutOptions.map((layout) => {
+                      const selected = layoutFilters.includes(layout);
+
+                      return (
+                        <label className={styles.dropdownOption} key={layout}>
+                          <input
+                            checked={selected}
+                            onChange={() =>
+                              setLayoutFilters((current) =>
+                                current.includes(layout)
+                                  ? current.filter((item) => item !== layout)
+                                  : [...current, layout],
+                              )
+                            }
+                            type="checkbox"
+                          />
+                          <span>{formatLayoutLabel(layout)}</span>
+                        </label>
+                      );
+                    })}
+
                     <button
-                      className={`${styles.multiSelectChip} ${selected ? styles.multiSelectChipActive : ""}`.trim()}
-                      key={layout}
-                      onClick={() =>
-                        setLayoutFilters((current) =>
-                          current.includes(layout)
-                            ? current.filter((item) => item !== layout)
-                            : [...current, layout],
-                        )
-                      }
+                      className={styles.dropdownClear}
+                      onClick={() => setLayoutFilters([])}
                       type="button"
                     >
-                      {layout}
+                      Clear types
                     </button>
-                  );
-                })}
+                  </div>
+                ) : null}
               </div>
             </label>
 
@@ -465,6 +575,7 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
               onClick={() => {
                 setBuildingFilter("all");
                 setLayoutFilters([]);
+                setShowLayoutMenu(false);
                 setAvailableOnly(false);
                 setThursdayOnly(false);
                 setUnitQuery("");

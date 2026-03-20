@@ -239,6 +239,24 @@ def normalize_unit_number(unit_number: str) -> str:
     return value
 
 
+def normalize_layout_id(layout_id: str) -> str:
+    candidates = [
+        part.strip().replace("B401 ", "").replace("B425 ", "").replace("B475N ", "").replace("B475S ", "")
+        for part in layout_id.split(",")
+    ]
+    candidates = [candidate for candidate in candidates if candidate]
+
+    for candidate in candidates:
+        normalized_candidate = candidate[1:] if candidate.upper().startswith("M") and len(candidate) > 2 else candidate
+        import re
+
+        match = re.match(r"^([A-Z]\d+)", normalized_candidate, flags=re.IGNORECASE)
+        if match:
+            return match.group(1).upper()
+
+    return layout_id.strip().upper()
+
+
 def normalize_date(value: str | None) -> str | None:
     if not value or value == "1970-01-01":
         return None
@@ -256,7 +274,7 @@ def normalize_date(value: str | None) -> str | None:
 def split_type_label(type_label: str) -> tuple[str, str]:
     parts = type_label.strip().split()
     building_id = parts[0] if parts else type_label
-    layout_id = " ".join(parts[1:]) if len(parts) > 1 else type_label
+    layout_id = normalize_layout_id(" ".join(parts[1:]) if len(parts) > 1 else type_label)
     return building_id, layout_id
 
 
@@ -360,6 +378,7 @@ def canonicalize_units(units: list[dict]) -> list[dict]:
             merged[normalized_id] = {
                 **unit,
                 "id": normalized_id,
+                "layoutId": normalize_layout_id(str(unit.get("layoutId") or "")),
                 "unitNumber": normalized_unit_number,
             }
             continue
@@ -372,6 +391,7 @@ def canonicalize_units(units: list[dict]) -> list[dict]:
             **existing,
             **unit,
             "id": normalized_id,
+            "layoutId": normalize_layout_id(str(unit.get("layoutId") or "")),
             "unitNumber": normalized_unit_number,
             "availabilityDate": existing.get("availabilityDate") or unit.get("availabilityDate"),
             "snapshots": list(snapshots_by_date.values()),
@@ -446,7 +466,7 @@ def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict
             units_by_id[unit_id] = {
                 "id": unit_id,
                 "buildingId": scraped.building_id,
-                "layoutId": scraped.layout_id,
+                "layoutId": normalize_layout_id(scraped.layout_id),
                 "typeLabel": scraped.type_label,
                 "unitNumber": normalized_unit_number,
                 "availabilityDate": scraped.availability_date or snapshot_date,
@@ -467,7 +487,7 @@ def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict
         existing.update(
             {
                 "buildingId": scraped.building_id,
-                "layoutId": scraped.layout_id,
+                "layoutId": normalize_layout_id(scraped.layout_id),
                 "typeLabel": scraped.type_label,
                 "unitNumber": normalized_unit_number,
                 "availabilityDate": scraped.availability_date or existing.get("availabilityDate"),

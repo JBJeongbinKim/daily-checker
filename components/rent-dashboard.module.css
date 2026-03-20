@@ -126,28 +126,62 @@
   display: grid;
   gap: 8px;
   min-width: 150px;
+  position: relative;
 }
 
-.multiSelect {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  max-width: 420px;
+.dropdown {
+  position: relative;
 }
 
-.multiSelectChip {
-  padding: 9px 12px;
+.dropdownButton {
+  width: 100%;
+  padding: 12px 14px;
   border: 1px solid rgba(76, 58, 35, 0.12);
-  border-radius: 999px;
+  border-radius: 16px;
   background: #fffdf9;
-  color: #5f4f40;
+  color: #261a10;
+  text-align: left;
   cursor: pointer;
 }
 
-.multiSelectChipActive {
-  border-color: transparent;
-  background: linear-gradient(135deg, #5a341c 0%, #c6783d 100%);
-  color: #fff7ed;
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 10;
+  width: min(260px, 80vw);
+  max-height: 280px;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid rgba(76, 58, 35, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 253, 249, 0.98);
+  box-shadow: 0 18px 36px rgba(76, 58, 35, 0.12);
+}
+
+.dropdownOption {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 4px;
+  color: #5f4f40;
+}
+
+.dropdownOption input {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+.dropdownClear {
+  width: 100%;
+  margin-top: 8px;
+  padding: 9px 10px;
+  border: 1px solid rgba(76, 58, 35, 0.1);
+  border-radius: 12px;
+  background: #fff4e7;
+  color: #6b502f;
+  cursor: pointer;
 }
 
 .field span {

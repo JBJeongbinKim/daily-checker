@@ -279,11 +279,28 @@ function normalizeUnitNumber(unitNumber: string) {
   return unitNumber.trim().replace(/^(MN|MS)-/i, "");
 }
 
+function normalizeLayoutId(layoutId: string) {
+  const candidates = layoutId
+    .split(",")
+    .map((part) => part.trim().replace(/^B\d+\s+/i, ""))
+    .filter(Boolean);
+
+  for (const candidate of candidates) {
+    const normalizedCandidate = candidate.replace(/^M(?=[A-Z]\d+)/i, "");
+    const match = normalizedCandidate.match(/^([A-Z]\d+)/i);
+    if (match) {
+      return match[1].toUpperCase();
+    }
+  }
+
+  return layoutId.trim().toUpperCase();
+}
+
 function splitTypeLabel(typeLabel: string) {
   const parts = typeLabel.trim().split(/\s+/);
   return {
     buildingId: parts[0] ?? typeLabel,
-    layoutId: parts.slice(1).join(" ") || typeLabel,
+    layoutId: normalizeLayoutId(parts.slice(1).join(" ") || typeLabel),
   };
 }
 
