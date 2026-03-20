@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { buildMercorJobUrl } from "@/lib/mercor-links";
 import { normalizeMercorRate, normalizeMercorTitle } from "@/lib/mercor-normalize";
 import type { MercorSnapshot, StoredMercorJob } from "@/lib/mercor-types";
@@ -25,6 +25,17 @@ type RefreshResult =
     };
 
 const PAGE_SIZE = 20;
+const SNAPSHOT_POLL_MS = 5 * 60 * 1000;
+
+type SnapshotResult =
+  | {
+      ok: true;
+      snapshot: MercorSnapshot;
+    }
+  | {
+      ok: false;
+      error: string;
+    };
 
 function formatTimestamp(value: string | null) {
   if (!value) {
@@ -129,6 +140,50 @@ export function MercorDashboard({ snapshot }: MercorDashboardProps) {
       setIsRefreshing(false);
     }
   };
+
+  useEffect(() => {
+    let isActive = true;
+
+    const syncSnapshot = async () => {
+      try {
+        const response = await fetch("/api/mercor/refresh", {
+          method: "GET",
+          cache: "no-store"
+        });
+
+        const result = (await response.json()) as SnapshotResult;
+
+        if (!isActive || !response.ok || !result.ok) {
+          return;
+        }
+
+        if (result.snapshot.lastScrapedAt !== currentSnapshot.lastScrapedAt) {
+          setCurrentSnapshot(result.snapshot);
+          setPage(1);
+        }
+      } catch {
+        // Keep background sync silent so manual refresh remains the only surfaced action.
+      }
+    };
+
+    const intervalId = window.setInterval(() => {
+      void syncSnapshot();
+    }, SNAPSHOT_POLL_MS);
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        void syncSnapshot();
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      isActive = false;
+      window.clearInterval(intervalId);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [currentSnapshot.lastScrapedAt]);
 
   return (
     <section className={styles.shell}>
