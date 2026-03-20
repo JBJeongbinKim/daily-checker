@@ -128,6 +128,28 @@
   min-width: 150px;
 }
 
+.multiSelect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 420px;
+}
+
+.multiSelectChip {
+  padding: 9px 12px;
+  border: 1px solid rgba(76, 58, 35, 0.12);
+  border-radius: 999px;
+  background: #fffdf9;
+  color: #5f4f40;
+  cursor: pointer;
+}
+
+.multiSelectChipActive {
+  border-color: transparent;
+  background: linear-gradient(135deg, #5a341c 0%, #c6783d 100%);
+  color: #fff7ed;
+}
+
 .field span {
   color: #6a5845;
   font-size: 0.92rem;
@@ -198,18 +220,6 @@
 
 .table tbody tr:hover {
   background: rgba(255, 248, 239, 0.7);
-}
-
-.sortButton {
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  font-weight: 700;
-  letter-spacing: inherit;
-  text-transform: inherit;
-  cursor: pointer;
 }
 
 .empty {
