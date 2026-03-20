@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useDeferredValue, useState, useTransition } from "react";
+import { useDeferredValue, useMemo, useState, useTransition } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -18,17 +18,6 @@ type RentDashboardProps = {
   dataset: RentDataset;
 };
 
-type SortKey =
-  | "buildingId"
-  | "layoutId"
-  | "unitNumber"
-  | "availabilityDate"
-  | "currentPrice"
-  | "changeSinceFirst"
-  | "lastSeen"
-  | "status";
-
-type SortDirection = "asc" | "desc";
 type RangeKey = "2y" | "1y" | "6m" | "3m";
 
 const moneyFormatter = new Intl.NumberFormat("en-US", {
@@ -119,43 +108,130 @@ function normalizeTooltipValue(value: number | string | ReadonlyArray<number | s
   return null;
 }
 
-function compareNullableStrings(left: string | null, right: string | null, direction: SortDirection) {
-  const leftValue = left ?? "";
-  const rightValue = right ?? "";
-  return direction === "asc" ? leftValue.localeCompare(rightValue) : rightValue.localeCompare(leftValue);
+const buildingOrder = ["B475N", "B475S", "B425", "B401"];
+
+function getBuildingRank(buildingId: string) {
+  const rank = buildingOrder.indexOf(buildingId);
+  return rank === -1 ? buildingOrder.length : rank;
 }
 
-function compareNullableNumbers(left: number | null, right: number | null, direction: SortDirection) {
-  const leftValue = left ?? Number.NEGATIVE_INFINITY;
-  const rightValue = right ?? Number.NEGATIVE_INFINITY;
-  return direction === "asc" ? leftValue - rightValue : rightValue - leftValue;
+function getFloorRank(unitNumber: string) {
+  const match = unitNumber.match(/(\d{2,})/);
+  if (!match) {
+    return -1;
+  }
+
+  const digits = match[1];
+  if (digits.length >= 4) {
+    return Number(digits.slice(0, 2));
+  }
+
+  return Number(digits.slice(0, digits.length - 2)) || 0;
 }
 
-function sortUnits(units: RentUnit[], sortKey: SortKey, sortDirection: SortDirection) {
+function sortUnits(units: RentUnit[]) {
   return [...units].sort((left, right) => {
-    switch (sortKey) {
-      case "buildingId":
-        return compareNullableStrings(left.buildingId, right.buildingId, sortDirection);
-      case "layoutId":
-        return compareNullableStrings(left.layoutId, right.layoutId, sortDirection);
-      case "unitNumber":
-        return sortDirection === "asc"
-          ? left.unitNumber.localeCompare(right.unitNumber, undefined, { numeric: true })
-          : right.unitNumber.localeCompare(left.unitNumber, undefined, { numeric: true });
-      case "availabilityDate":
-        return compareNullableStrings(left.availabilityDate, right.availabilityDate, sortDirection);
-      case "currentPrice":
-        return compareNullableNumbers(left.currentPrice, right.currentPrice, sortDirection);
-      case "changeSinceFirst":
-        return compareNullableNumbers(left.changeSinceFirst, right.changeSinceFirst, sortDirection);
-      case "lastSeen":
-        return compareNullableStrings(left.lastSeen, right.lastSeen, sortDirection);
-      case "status":
-        return compareNullableStrings(left.status, right.status, sortDirection);
-      default:
-        return 0;
+    const buildingDifference = getBuildingRank(left.buildingId) - getBuildingRank(right.buildingId);
+    if (buildingDifference !== 0) {
+      return buildingDifference;
     }
+
+    if (left.status !== right.status) {
+      return left.status === "active" ? -1 : 1;
+    }
+
+    const layoutDifference = compareLayouts(left.layoutId, right.layoutId);
+    if (layoutDifference !== 0) {
+      return layoutDifference;
+    }
+
+    const floorDifference = getFloorRank(right.unitNumber) - getFloorRank(left.unitNumber);
+    if (floorDifference !== 0) {
+      return floorDifference;
+    }
+
+    return right.unitNumber.localeCompare(left.unitNumber, undefined, { numeric: true });
   });
+}
+
+function getLayoutSortValue(layoutId: string) {
+  const primary = formatLayoutLabel(layoutId);
+  const match = primary.match(/^([A-Z])(\d+)([A-Z])?$/i);
+
+  if (!match) {
+    return {
+      group: primary,
+      letter: primary,
+      number: -1,
+      suffix: "",
+    };
+  }
+
+  return {
+    group: match[1].toUpperCase(),
+    letter: match[1].toUpperCase(),
+    number: Number(match[2]),
+    suffix: (match[3] ?? "").toUpperCase(),
+  };
+}
+
+function sortLayoutOptions(options: string[]) {
+  return [...options].sort((left, right) => {
+    const leftValue = getLayoutSortValue(left);
+    const rightValue = getLayoutSortValue(right);
+
+    const groupCompare = rightValue.group.localeCompare(leftValue.group);
+    if (groupCompare !== 0) {
+      return groupCompare;
+    }
+
+    const numberCompare = rightValue.number - leftValue.number;
+    if (numberCompare !== 0) {
+      return numberCompare;
+    }
+
+    return rightValue.suffix.localeCompare(leftValue.suffix);
+  });
+}
+
+function compareLayouts(left: string, right: string) {
+  const leftValue = getLayoutSortValue(left);
+  const rightValue = getLayoutSortValue(right);
+
+  const groupCompare = rightValue.group.localeCompare(leftValue.group);
+  if (groupCompare !== 0) {
+    return groupCompare;
+  }
+
+  const numberCompare = rightValue.number - leftValue.number;
+  if (numberCompare !== 0) {
+    return numberCompare;
+  }
+
+  return rightValue.suffix.localeCompare(leftValue.suffix);
+}
+
+function formatLayoutLabel(layoutId: string) {
+  const parts = layoutId
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const simplified = part.replace(/^B\d+\s+/i, "");
+      return simplified.trim();
+    });
+
+  if (!parts.length) {
+    return layoutId;
+  }
+
+  const first = parts[0];
+  const baseMatch = first.match(/^([A-Z]\d+)/i);
+  if (!baseMatch) {
+    return first;
+  }
+
+  return baseMatch[1].toUpperCase();
 }
 
 export function RentDashboard({ dataset }: RentDashboardProps) {
@@ -164,29 +240,34 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [buildingFilter, setBuildingFilter] = useState("all");
-  const [layoutFilter, setLayoutFilter] = useState("all");
-  const [statusFilter, setStatusFilter] = useState<"all" | "active" | "inactive">("all");
+  const [layoutFilters, setLayoutFilters] = useState<string[]>([]);
+  const [showLayoutMenu, setShowLayoutMenu] = useState(false);
+  const [availableOnly, setAvailableOnly] = useState(false);
   const [thursdayOnly, setThursdayOnly] = useState(false);
   const [rangeKey, setRangeKey] = useState<RangeKey>("2y");
   const [unitQuery, setUnitQuery] = useState("");
-  const [sortKey, setSortKey] = useState<SortKey>("unitNumber");
-  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
   const deferredQuery = useDeferredValue(unitQuery.trim().toLowerCase());
 
   const buildingOptions = Array.from(new Set(dataset.units.map((unit) => unit.buildingId))).sort();
 
-  const layoutOptions = Array.from(
-    new Set(
-      dataset.units
-        .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
-        .map((unit) => unit.layoutId),
-    ),
-  ).sort();
+  const layoutOptions = useMemo(
+    () =>
+      sortLayoutOptions(
+        Array.from(
+          new Set(
+            dataset.units
+              .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
+              .map((unit) => unit.layoutId),
+          ),
+        ),
+      ),
+    [buildingFilter, dataset.units],
+  );
 
   const filteredUnits = dataset.units
     .filter((unit) => buildingFilter === "all" || unit.buildingId === buildingFilter)
-    .filter((unit) => layoutFilter === "all" || unit.layoutId === layoutFilter)
-    .filter((unit) => statusFilter === "all" || unit.status === statusFilter)
+    .filter((unit) => !layoutFilters.length || layoutFilters.includes(unit.layoutId))
+    .filter((unit) => !availableOnly || unit.status === "active")
     .filter((unit) => {
       if (!deferredQuery) {
         return true;
@@ -196,7 +277,7 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
       return haystack.includes(deferredQuery);
     });
 
-  const sortedUnits = sortUnits(filteredUnits, sortKey, sortDirection);
+  const sortedUnits = sortUnits(filteredUnits);
   const chartUnits = sortedUnits.slice(0, 12);
 
   const chartDates = new Set<string>();
@@ -270,16 +351,6 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
     const padding = Math.max(50, Math.round((maxValue - minValue) * 0.12));
     return [Math.max(0, minValue - padding), maxValue + padding];
   })();
-
-  const toggleSort = (nextKey: SortKey) => {
-    if (sortKey === nextKey) {
-      setSortDirection((current) => (current === "asc" ? "desc" : "asc"));
-      return;
-    }
-
-    setSortKey(nextKey);
-    setSortDirection(nextKey === "currentPrice" || nextKey === "changeSinceFirst" || nextKey === "lastSeen" ? "desc" : "asc");
-  };
 
   const handleRefresh = async () => {
     setStatusMessage("Refreshing rent data from Veris...");
@@ -425,26 +496,50 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
 
             <label className={styles.field}>
               <span>Apartment type</span>
-              <select value={layoutFilter} onChange={(event) => setLayoutFilter(event.target.value)}>
-                <option value="all">All types</option>
-                {layoutOptions.map((layout) => (
-                  <option key={layout} value={layout}>
-                    {layout}
-                  </option>
-                ))}
-              </select>
-            </label>
+              <div className={styles.dropdown}>
+                <button
+                  className={styles.dropdownButton}
+                  onClick={() => setShowLayoutMenu((current) => !current)}
+                  type="button"
+                >
+                  {layoutFilters.length
+                    ? `${layoutFilters.length} selected`
+                    : "All types"}
+                </button>
 
-            <label className={styles.field}>
-              <span>Status</span>
-              <select
-                value={statusFilter}
-                onChange={(event) => setStatusFilter(event.target.value as "all" | "active" | "inactive")}
-              >
-                <option value="all">All units</option>
-                <option value="active">Active only</option>
-                <option value="inactive">Unavailable only</option>
-              </select>
+                {showLayoutMenu ? (
+                  <div className={styles.dropdownMenu}>
+                    {layoutOptions.map((layout) => {
+                      const selected = layoutFilters.includes(layout);
+
+                      return (
+                        <label className={styles.dropdownOption} key={layout}>
+                          <input
+                            checked={selected}
+                            onChange={() =>
+                              setLayoutFilters((current) =>
+                                current.includes(layout)
+                                  ? current.filter((item) => item !== layout)
+                                  : [...current, layout],
+                              )
+                            }
+                            type="checkbox"
+                          />
+                          <span>{formatLayoutLabel(layout)}</span>
+                        </label>
+                      );
+                    })}
+
+                    <button
+                      className={styles.dropdownClear}
+                      onClick={() => setLayoutFilters([])}
+                      type="button"
+                    >
+                      Clear types
+                    </button>
+                  </div>
+                ) : null}
+              </div>
             </label>
 
             <label className={styles.field}>
@@ -455,6 +550,15 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
                 value={unitQuery}
                 onChange={(event) => setUnitQuery(event.target.value)}
               />
+            </label>
+
+            <label className={styles.toggle}>
+              <input
+                checked={availableOnly}
+                type="checkbox"
+                onChange={(event) => setAvailableOnly(event.target.checked)}
+              />
+              <span>Available units only</span>
             </label>
 
             <label className={styles.toggle}>
@@ -470,8 +574,9 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
               className={styles.resetButton}
               onClick={() => {
                 setBuildingFilter("all");
-                setLayoutFilter("all");
-                setStatusFilter("all");
+                setLayoutFilters([]);
+                setShowLayoutMenu(false);
+                setAvailableOnly(false);
                 setThursdayOnly(false);
                 setUnitQuery("");
               }}
@@ -486,14 +591,14 @@ export function RentDashboard({ dataset }: RentDashboardProps) {
               <table className={styles.table}>
                 <thead>
                   <tr>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("buildingId")} type="button">Building</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("layoutId")} type="button">Type</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("unitNumber")} type="button">Unit</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("availabilityDate")} type="button">Variable Date</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("currentPrice")} type="button">Current Price</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("changeSinceFirst")} type="button">Change</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("lastSeen")} type="button">Last Seen</button></th>
-                    <th><button className={styles.sortButton} onClick={() => toggleSort("status")} type="button">Status</button></th>
+                    <th>Building</th>
+                    <th>Type</th>
+                    <th>Unit</th>
+                    <th>Available date</th>
+                    <th>Current Price</th>
+                    <th>Change</th>
+                    <th>Last Seen</th>
+                    <th>Status</th>
                   </tr>
                 </thead>
                 <tbody>
