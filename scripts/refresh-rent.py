@@ -232,6 +232,13 @@ def create_unit_id(building_id: str, unit_number: str) -> str:
     return "".join(normalized).strip("-")
 
 
+def normalize_unit_number(unit_number: str) -> str:
+    value = unit_number.strip()
+    if value.upper().startswith("MN-") or value.upper().startswith("MS-"):
+        return value[3:]
+    return value
+
+
 def normalize_date(value: str | None) -> str | None:
     if not value or value == "1970-01-01":
         return None
@@ -271,19 +278,30 @@ def post_form(payload: dict[str, str]) -> dict:
 
 
 def fetch_floorplan_list() -> list[dict[str, str]]:
-    response = post_form(
-        {
-            "action": "omg_apt_search_main_query",
-            "payload": json.dumps(FLOORPLAN_LIST_PAYLOAD, separators=(",", ":")),
-        }
-    )
-    floorplans = []
-    for item in response.get("apts_result", []):
-        floorplan_id = str(item.get("omg_feeds_floorplan_id") or "").strip()
-        floorplan_name = str(item.get("floorplan_name") or "").strip()
-        if floorplan_id and floorplan_name:
-            floorplans.append({"floorplanId": floorplan_id, "floorplanName": floorplan_name})
-    return floorplans
+    floorplans: dict[str, dict[str, str]] = {}
+
+    for page in range(100):
+        payload = {**FLOORPLAN_LIST_PAYLOAD, "current_page": page}
+        response = post_form(
+            {
+                "action": "omg_apt_search_main_query",
+                "payload": json.dumps(payload, separators=(",", ":")),
+            }
+        )
+        page_items = []
+        for item in response.get("apts_result", []):
+            floorplan_id = str(item.get("omg_feeds_floorplan_id") or "").strip()
+            floorplan_name = str(item.get("floorplan_name") or "").strip()
+            if floorplan_id and floorplan_name:
+                page_items.append({"floorplanId": floorplan_id, "floorplanName": floorplan_name})
+
+        if not page_items:
+            break
+
+        for item in page_items:
+            floorplans[item["floorplanId"]] = item
+
+    return list(floorplans.values())
 
 
 def fetch_floorplan_units(floorplan_id: str) -> list[ScrapedUnit]:
@@ -295,7 +313,7 @@ def fetch_floorplan_units(floorplan_id: str) -> list[ScrapedUnit]:
     building_id, layout_id = split_type_label(type_label)
     units: list[ScrapedUnit] = []
     for unit in response.get("query_response", []):
-        unit_number = str(unit.get("the_title") or "").strip()
+        unit_number = normalize_unit_number(str(unit.get("the_title") or "").strip())
         try:
             price = round(float(unit.get("ra_rent") or ""))
         except ValueError:
@@ -330,10 +348,42 @@ def sort_units(units: list[dict]) -> list[dict]:
     )
 
 
+def canonicalize_units(units: list[dict]) -> list[dict]:
+    merged: dict[str, dict] = {}
+
+    for unit in units:
+        normalized_unit_number = normalize_unit_number(str(unit.get("unitNumber") or ""))
+        normalized_id = create_unit_id(str(unit.get("buildingId") or ""), normalized_unit_number)
+        existing = merged.get(normalized_id)
+
+        if existing is None:
+            merged[normalized_id] = {
+                **unit,
+                "id": normalized_id,
+                "unitNumber": normalized_unit_number,
+            }
+            continue
+
+        snapshots_by_date = {snapshot["date"]: snapshot for snapshot in existing.get("snapshots", [])}
+        for snapshot in unit.get("snapshots", []):
+            snapshots_by_date[snapshot["date"]] = snapshot
+
+        merged[normalized_id] = {
+            **existing,
+            **unit,
+            "id": normalized_id,
+            "unitNumber": normalized_unit_number,
+            "availabilityDate": existing.get("availabilityDate") or unit.get("availabilityDate"),
+            "snapshots": list(snapshots_by_date.values()),
+        }
+
+    return list(merged.values())
+
+
 def recalculate_dataset(dataset: dict) -> dict:
     latest_snapshot_date = dataset.get("latestSnapshotDate")
     units = []
-    for unit in dataset.get("units", []):
+    for unit in canonicalize_units(dataset.get("units", [])):
         snapshots = sorted(unit.get("snapshots", []), key=lambda item: item["date"])
         first_snapshot = snapshots[0] if snapshots else None
         last_snapshot = snapshots[-1] if snapshots else None
@@ -369,7 +419,10 @@ def recalculate_dataset(dataset: dict) -> dict:
 
 def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict:
     dataset = load_dataset()
-    units_by_id = {unit["id"]: unit for unit in dataset.get("units", [])}
+    units_by_id = {
+        create_unit_id(str(unit.get("buildingId") or ""), normalize_unit_number(str(unit.get("unitNumber") or ""))): unit
+        for unit in canonicalize_units(dataset.get("units", []))
+    }
     snapshot_dates = set(dataset.get("snapshotDates", []))
     snapshot_dates.add(snapshot_date)
 
@@ -380,7 +433,8 @@ def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict
     dataset["sourceUrl"] = SOURCE_URL
 
     for scraped in scraped_units:
-        unit_id = create_unit_id(scraped.building_id, scraped.unit_number)
+        normalized_unit_number = normalize_unit_number(scraped.unit_number)
+        unit_id = create_unit_id(scraped.building_id, normalized_unit_number)
         existing = units_by_id.get(unit_id)
         new_snapshot = {
             "date": snapshot_date,
@@ -394,7 +448,7 @@ def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict
                 "buildingId": scraped.building_id,
                 "layoutId": scraped.layout_id,
                 "typeLabel": scraped.type_label,
-                "unitNumber": scraped.unit_number,
+                "unitNumber": normalized_unit_number,
                 "availabilityDate": scraped.availability_date or snapshot_date,
                 "status": "active",
                 "firstSeen": snapshot_date,
@@ -415,7 +469,7 @@ def merge_snapshot(scraped_units: list[ScrapedUnit], snapshot_date: str) -> dict
                 "buildingId": scraped.building_id,
                 "layoutId": scraped.layout_id,
                 "typeLabel": scraped.type_label,
-                "unitNumber": scraped.unit_number,
+                "unitNumber": normalized_unit_number,
                 "availabilityDate": scraped.availability_date or existing.get("availabilityDate"),
                 "snapshots": snapshots,
             }

@@ -28,6 +28,10 @@ function createUnitId(buildingId: string, unitNumber: string) {
   return `${buildingId}-${unitNumber}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+function normalizeUnitNumber(unitNumber: string) {
+  return unitNumber.trim().replace(/^(MN|MS)-/i, "");
+}
+
 function isThursday(snapshotDate: string) {
   return new Date(`${snapshotDate}T00:00:00`).getDay() === 4;
 }
@@ -52,9 +56,44 @@ function ensureSnapshot(dataset: RentDataset, snapshotDate: string) {
   }
 }
 
+function canonicalizeUnits(units: RentUnit[]) {
+  const merged = new Map<string, RentUnit>();
+
+  for (const unit of units) {
+    const normalizedUnitNumber = normalizeUnitNumber(unit.unitNumber);
+    const normalizedId = createUnitId(unit.buildingId, normalizedUnitNumber);
+    const existing = merged.get(normalizedId);
+
+    if (!existing) {
+      merged.set(normalizedId, {
+        ...unit,
+        id: normalizedId,
+        unitNumber: normalizedUnitNumber,
+      });
+      continue;
+    }
+
+    const snapshotsByDate = new Map(existing.snapshots.map((snapshot) => [snapshot.date, snapshot]));
+    for (const snapshot of unit.snapshots) {
+      snapshotsByDate.set(snapshot.date, snapshot);
+    }
+
+    merged.set(normalizedId, {
+      ...existing,
+      ...unit,
+      id: normalizedId,
+      unitNumber: normalizedUnitNumber,
+      availabilityDate: existing.availabilityDate ?? unit.availabilityDate,
+      snapshots: [...snapshotsByDate.values()],
+    });
+  }
+
+  return [...merged.values()];
+}
+
 function recalculateDataset(dataset: RentDataset) {
   const units = sortUnits(
-    dataset.units.map((unit) => {
+    canonicalizeUnits(dataset.units).map((unit) => {
       const snapshots = [...unit.snapshots].sort((left, right) => left.date.localeCompare(right.date));
       const firstSnapshot = snapshots[0] ?? null;
       const lastSnapshot = snapshots.at(-1) ?? null;
@@ -102,7 +141,12 @@ export async function writeRentDataset(dataset: RentDataset) {
 
 export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapshotDate = getTodayInNewYork()) {
   const dataset = await getRentDataset();
-  const unitsById = new Map(dataset.units.map((unit) => [unit.id, unit]));
+  const unitsById = new Map(
+    canonicalizeUnits(dataset.units).map((unit) => [
+      createUnitId(unit.buildingId, normalizeUnitNumber(unit.unitNumber)),
+      unit,
+    ]),
+  );
 
   ensureSnapshot(dataset, snapshotDate);
   dataset.latestSnapshotDate = snapshotDate;
@@ -111,7 +155,8 @@ export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapsho
   dataset.sourceUrl = rentSourceUrl;
 
   for (const scrapedUnit of scrapedUnits) {
-    const unitId = createUnitId(scrapedUnit.buildingId, scrapedUnit.unitNumber);
+    const normalizedUnitNumber = normalizeUnitNumber(scrapedUnit.unitNumber);
+    const unitId = createUnitId(scrapedUnit.buildingId, normalizedUnitNumber);
     const existingUnit = unitsById.get(unitId);
 
     if (!existingUnit) {
@@ -120,7 +165,7 @@ export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapsho
         buildingId: scrapedUnit.buildingId,
         layoutId: scrapedUnit.layoutId,
         typeLabel: scrapedUnit.typeLabel,
-        unitNumber: scrapedUnit.unitNumber,
+        unitNumber: normalizedUnitNumber,
         availabilityDate: scrapedUnit.availabilityDate,
         status: "active",
         firstSeen: snapshotDate,
@@ -152,6 +197,7 @@ export async function mergeRentSnapshot(scrapedUnits: ScrapedRentUnit[], snapsho
       buildingId: scrapedUnit.buildingId,
       layoutId: scrapedUnit.layoutId,
       typeLabel: scrapedUnit.typeLabel,
+      unitNumber: normalizedUnitNumber,
       availabilityDate: scrapedUnit.availabilityDate,
       snapshots,
     });

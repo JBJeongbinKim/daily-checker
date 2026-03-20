@@ -275,6 +275,10 @@ function normalizeDate(value: string | undefined) {
   return `${match[3]}-${match[1]}-${match[2]}`;
 }
 
+function normalizeUnitNumber(unitNumber: string) {
+  return unitNumber.trim().replace(/^(MN|MS)-/i, "");
+}
+
 function splitTypeLabel(typeLabel: string) {
   const parts = typeLabel.trim().split(/\s+/);
   return {
@@ -299,18 +303,31 @@ async function postForm<T>(params: URLSearchParams): Promise<T> {
 }
 
 async function fetchFloorplanList() {
-  const params = new URLSearchParams();
-  params.set("action", "omg_apt_search_main_query");
-  params.set("payload", JSON.stringify(FLOORPLAN_LIST_PAYLOAD));
+  const floorplans = new Map<string, { floorplanId: string; floorplanName: string }>();
 
-  const response = await postForm<AjaxFloorplanListResponse>(params);
+  for (let page = 0; page < 100; page += 1) {
+    const params = new URLSearchParams();
+    params.set("action", "omg_apt_search_main_query");
+    params.set("payload", JSON.stringify({ ...FLOORPLAN_LIST_PAYLOAD, current_page: page }));
 
-  return (response.apts_result ?? [])
-    .map((item) => ({
-      floorplanId: item.omg_feeds_floorplan_id?.trim() ?? "",
-      floorplanName: item.floorplan_name?.trim() ?? "",
-    }))
-    .filter((item) => item.floorplanId && item.floorplanName);
+    const response = await postForm<AjaxFloorplanListResponse>(params);
+    const pageItems = (response.apts_result ?? [])
+      .map((item) => ({
+        floorplanId: item.omg_feeds_floorplan_id?.trim() ?? "",
+        floorplanName: item.floorplan_name?.trim() ?? "",
+      }))
+      .filter((item) => item.floorplanId && item.floorplanName);
+
+    if (!pageItems.length) {
+      break;
+    }
+
+    for (const item of pageItems) {
+      floorplans.set(item.floorplanId, item);
+    }
+  }
+
+  return [...floorplans.values()];
 }
 
 async function fetchFloorplanUnits(floorplanId: string): Promise<ScrapedRentUnit[]> {
@@ -329,7 +346,7 @@ async function fetchFloorplanUnits(floorplanId: string): Promise<ScrapedRentUnit
 
   return (response.query_response ?? [])
     .map((unit) => {
-      const unitNumber = unit.the_title?.trim() ?? "";
+      const unitNumber = normalizeUnitNumber(unit.the_title?.trim() ?? "");
       const price = Number(unit.ra_rent ?? "");
 
       if (!unitNumber || !Number.isFinite(price)) {

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-19T17:10:13-04:00",
+  "generatedAt": "2026-03-20T17:57:49-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-  "latestSnapshotDate": "2026-03-19",
+  "latestSnapshotDate": "2026-03-20",
   "snapshotDates": [
     "2024-02-24",
     "2024-10-08",
@@ -48,15 +48,214 @@
     "2026-02-26",
     "2026-03-05",
     "2026-03-12",
-    "2026-03-19"
+    "2026-03-19",
+    "2026-03-20"
   ],
   "totals": {
-    "units": 50,
-    "activeUnits": 8,
+    "units": 103,
+    "activeUnits": 61,
     "inactiveUnits": 42,
-    "snapshots": 263
+    "snapshots": 323
   },
   "units": [
+    {
+      "id": "b401-m2-0508",
+      "buildingId": "B401",
+      "layoutId": "A2",
+      "typeLabel": "B401 A2",
+      "unitNumber": "M2-0508",
+      "availabilityDate": "2026-03-24",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3625,
+      "initialPrice": 3625,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3625,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-0908",
+      "buildingId": "B401",
+      "layoutId": "A2",
+      "typeLabel": "B401 A2",
+      "unitNumber": "M2-0908",
+      "availabilityDate": "2026-02-18",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3625,
+      "initialPrice": 3625,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3625,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1008",
+      "buildingId": "B401",
+      "layoutId": "A2",
+      "typeLabel": "B401 A2",
+      "unitNumber": "M2-1008",
+      "availabilityDate": "2026-04-10",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3625,
+      "initialPrice": 3625,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3625,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-3503",
+      "buildingId": "B401",
+      "layoutId": "A3",
+      "typeLabel": "B401 A3",
+      "unitNumber": "M2-3503",
+      "availabilityDate": "2026-04-07",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3935,
+      "initialPrice": 3935,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3935,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-0911",
+      "buildingId": "B401",
+      "layoutId": "A4",
+      "typeLabel": "B401 A4",
+      "unitNumber": "M2-0911",
+      "availabilityDate": "2026-04-17",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3800,
+      "initialPrice": 3800,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3800,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1211",
+      "buildingId": "B401",
+      "layoutId": "A4",
+      "typeLabel": "B401 A4",
+      "unitNumber": "M2-1211",
+      "availabilityDate": "2026-02-18",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3825,
+      "initialPrice": 3825,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3825,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-3007",
+      "buildingId": "B401",
+      "layoutId": "A6",
+      "typeLabel": "B401 A6",
+      "unitNumber": "M2-3007",
+      "availabilityDate": "2026-05-05",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 4115,
+      "initialPrice": 4115,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 4115,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-3107",
+      "buildingId": "B401",
+      "layoutId": "A6",
+      "typeLabel": "B401 A6",
+      "unitNumber": "M2-3107",
+      "availabilityDate": "2026-02-11",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 4170,
+      "initialPrice": 4170,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 4170,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-0501",
+      "buildingId": "B401",
+      "layoutId": "A7",
+      "typeLabel": "B401 A7",
+      "unitNumber": "M2-0501",
+      "availabilityDate": "2026-03-31",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3860,
+      "initialPrice": 3860,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3860,
+          "isThursday": false
+        }
+      ]
+    },
     {
       "id": "b401-m2-1802",
       "buildingId": "B401",
@@ -66,16 +265,219 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5545,
       "initialPrice": 5545,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 5545,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5545,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-0701",
+      "buildingId": "B401",
+      "layoutId": "B6",
+      "typeLabel": "B401 B6",
+      "unitNumber": "M2-0701",
+      "availabilityDate": "2026-06-08",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 5630,
+      "initialPrice": 5630,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 5630,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-2401",
+      "buildingId": "B401",
+      "layoutId": "B6",
+      "typeLabel": "B401 B6",
+      "unitNumber": "M2-2401",
+      "availabilityDate": "2026-07-09",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 5755,
+      "initialPrice": 5755,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 5755,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1205",
+      "buildingId": "B401",
+      "layoutId": "MS3",
+      "typeLabel": "B401 MS3",
+      "unitNumber": "M2-1205",
+      "availabilityDate": "2026-05-28",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3155,
+      "initialPrice": 3155,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3155,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-0606",
+      "buildingId": "B401",
+      "layoutId": "S2",
+      "typeLabel": "B401 S2",
+      "unitNumber": "M2-0606",
+      "availabilityDate": "2026-05-23",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3495,
+      "initialPrice": 3495,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3495,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-2609",
+      "buildingId": "B401",
+      "layoutId": "S3",
+      "typeLabel": "B401 S3",
+      "unitNumber": "M2-2609",
+      "availabilityDate": "2026-04-10",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3590,
+      "initialPrice": 3590,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3590,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-2709",
+      "buildingId": "B401",
+      "layoutId": "S3",
+      "typeLabel": "B401 S3",
+      "unitNumber": "M2-2709",
+      "availabilityDate": "2026-04-10",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3590,
+      "initialPrice": 3590,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3590,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-3209",
+      "buildingId": "B401",
+      "layoutId": "S3",
+      "typeLabel": "B401 S3",
+      "unitNumber": "M2-3209",
+      "availabilityDate": "2025-09-16",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3300,
+      "initialPrice": 3300,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3300,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-0810",
+      "buildingId": "B425",
+      "layoutId": "A01",
+      "typeLabel": "B425 A01",
+      "unitNumber": "M1-0810",
+      "availabilityDate": "2026-04-21",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3435,
+      "initialPrice": 3435,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3435,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1610",
+      "buildingId": "B425",
+      "layoutId": "A01",
+      "typeLabel": "B425 A01",
+      "unitNumber": "M1-1610",
+      "availabilityDate": "2026-06-10",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3245,
+      "initialPrice": 3245,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3245,
+          "isThursday": false
         }
       ]
     },
@@ -88,16 +490,175 @@
       "availabilityDate": "2026-04-09",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 3675,
       "initialPrice": 3675,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 3675,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3675,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-2311",
+      "buildingId": "B425",
+      "layoutId": "A03",
+      "typeLabel": "B425 A03",
+      "unitNumber": "M1-2311",
+      "availabilityDate": "2026-04-13",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3575,
+      "initialPrice": 3575,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3575,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-2911",
+      "buildingId": "B425",
+      "layoutId": "A03",
+      "typeLabel": "B425 A03",
+      "unitNumber": "M1-2911",
+      "availabilityDate": "2026-02-24",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3595,
+      "initialPrice": 3595,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3595,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-3411",
+      "buildingId": "B425",
+      "layoutId": "A03",
+      "typeLabel": "B425 A03",
+      "unitNumber": "M1-3411",
+      "availabilityDate": "2026-03-23",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3695,
+      "initialPrice": 3695,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3695,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-3711",
+      "buildingId": "B425",
+      "layoutId": "A03",
+      "typeLabel": "B425 A03",
+      "unitNumber": "M1-3711",
+      "availabilityDate": "2026-04-02",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3710,
+      "initialPrice": 3710,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3710,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1213",
+      "buildingId": "B425",
+      "layoutId": "A10, B425 A10A, B425 A10B",
+      "typeLabel": "B425 A10, B425 A10A, B425 A10B",
+      "unitNumber": "M1-1213",
+      "availabilityDate": "2026-05-22",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3630,
+      "initialPrice": 3630,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3630,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-3213",
+      "buildingId": "B425",
+      "layoutId": "A10, B425 A10A, B425 A10B",
+      "typeLabel": "B425 A10, B425 A10A, B425 A10B",
+      "unitNumber": "M1-3213",
+      "availabilityDate": "2026-05-11",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3620,
+      "initialPrice": 3620,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3620,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1703",
+      "buildingId": "B425",
+      "layoutId": "A5",
+      "typeLabel": "B425 A5",
+      "unitNumber": "M1-1703",
+      "availabilityDate": "2026-06-04",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3490,
+      "initialPrice": 3490,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3490,
+          "isThursday": false
         }
       ]
     },
@@ -110,16 +671,417 @@
       "availabilityDate": "2026-03-11",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 3380,
       "initialPrice": 3380,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 3380,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3380,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-3807",
+      "buildingId": "B425",
+      "layoutId": "A7",
+      "typeLabel": "B425 A7",
+      "unitNumber": "M1-3807",
+      "availabilityDate": "2026-03-17",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3695,
+      "initialPrice": 3695,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3695,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1206",
+      "buildingId": "B425",
+      "layoutId": "A9A, B425 A9PH",
+      "typeLabel": "B425 A9A, B425 A9PH",
+      "unitNumber": "M1-1206",
+      "availabilityDate": "2026-02-23",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3725,
+      "initialPrice": 3725,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3725,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1101",
+      "buildingId": "B425",
+      "layoutId": "B10, B425 B10A",
+      "typeLabel": "B425 B10, B425 B10A",
+      "unitNumber": "M1-1101",
+      "availabilityDate": "2026-04-15",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 5280,
+      "initialPrice": 5280,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 5280,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-0212",
+      "buildingId": "B425",
+      "layoutId": "B5, B425 B5A, B425 B5C",
+      "typeLabel": "B425 B5, B425 B5A, B425 B5C",
+      "unitNumber": "M1-0212",
+      "availabilityDate": "2026-03-25",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 4860,
+      "initialPrice": 4860,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 4860,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-2205",
+      "buildingId": "B425",
+      "layoutId": "B8",
+      "typeLabel": "B425 B8",
+      "unitNumber": "M1-2205",
+      "availabilityDate": "2026-03-19",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 5210,
+      "initialPrice": 5210,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 5210,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-0309",
+      "buildingId": "B425",
+      "layoutId": "S2",
+      "typeLabel": "B425 S2",
+      "unitNumber": "M1-0309",
+      "availabilityDate": "2026-04-06",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3210,
+      "initialPrice": 3210,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3210,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1607",
+      "buildingId": "B425",
+      "layoutId": "S4, B425 S4A",
+      "typeLabel": "B425 S4, B425 S4A",
+      "unitNumber": "M1-1607",
+      "availabilityDate": "2026-04-16",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3195,
+      "initialPrice": 3195,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3195,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-1403n",
+      "buildingId": "B475N",
+      "layoutId": "A1",
+      "typeLabel": "B475N A1",
+      "unitNumber": "1403N",
+      "availabilityDate": "2026-02-17",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3570,
+      "initialPrice": 3570,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3570,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2403n",
+      "buildingId": "B475N",
+      "layoutId": "A1",
+      "typeLabel": "B475N A1",
+      "unitNumber": "2403N",
+      "availabilityDate": "2026-05-20",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3675,
+      "initialPrice": 3675,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3675,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-1706n",
+      "buildingId": "B475N",
+      "layoutId": "A2",
+      "typeLabel": "B475N A2",
+      "unitNumber": "1706N",
+      "availabilityDate": "2026-05-14",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3450,
+      "initialPrice": 3450,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3450,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2706n",
+      "buildingId": "B475N",
+      "layoutId": "A2",
+      "typeLabel": "B475N A2",
+      "unitNumber": "2706N",
+      "availabilityDate": "2026-05-15",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3625,
+      "initialPrice": 3625,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3625,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-4906n",
+      "buildingId": "B475N",
+      "layoutId": "A2",
+      "typeLabel": "B475N A2",
+      "unitNumber": "4906N",
+      "availabilityDate": "2026-02-19",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3845,
+      "initialPrice": 3845,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3845,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2108n",
+      "buildingId": "B475N",
+      "layoutId": "A3",
+      "typeLabel": "B475N A3",
+      "unitNumber": "2108N",
+      "availabilityDate": "2026-05-27",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3950,
+      "initialPrice": 3950,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3950,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2808n",
+      "buildingId": "B475N",
+      "layoutId": "A3",
+      "typeLabel": "B475N A3",
+      "unitNumber": "2808N",
+      "availabilityDate": "2026-05-07",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 4080,
+      "initialPrice": 4080,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 4080,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-4608n",
+      "buildingId": "B475N",
+      "layoutId": "A3",
+      "typeLabel": "B475N A3",
+      "unitNumber": "4608N",
+      "availabilityDate": "2026-04-28",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 4375,
+      "initialPrice": 4375,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 4375,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-1607n",
+      "buildingId": "B475N",
+      "layoutId": "A4",
+      "typeLabel": "B475N A4",
+      "unitNumber": "1607N",
+      "availabilityDate": "2026-03-26",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3930,
+      "initialPrice": 3930,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3930,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2307n",
+      "buildingId": "B475N",
+      "layoutId": "A4",
+      "typeLabel": "B475N A4",
+      "unitNumber": "2307N",
+      "availabilityDate": "2026-03-20",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3930,
+      "initialPrice": 3930,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3930,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2807n",
+      "buildingId": "B475N",
+      "layoutId": "A4",
+      "typeLabel": "B475N A4",
+      "unitNumber": "2807N",
+      "availabilityDate": "2026-05-22",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3850,
+      "initialPrice": 3850,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3850,
+          "isThursday": false
         }
       ]
     },
@@ -406,11 +1368,11 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-02-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5225,
       "initialPrice": 5220,
       "changeSinceFirst": 5,
-      "snapshotCount": 5,
+      "snapshotCount": 6,
       "snapshots": [
         {
           "date": "2026-02-19",
@@ -436,6 +1398,11 @@
           "date": "2026-03-19",
           "price": 5225,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5225,
+          "isThursday": false
         }
       ]
     },
@@ -567,28 +1534,6 @@
         {
           "date": "2026-02-05",
           "price": 4895,
-          "isThursday": true
-        }
-      ]
-    },
-    {
-      "id": "b475n-mn-4503n",
-      "buildingId": "B475N",
-      "layoutId": "B1",
-      "typeLabel": "B475N B1",
-      "unitNumber": "MN-4503N",
-      "availabilityDate": "2026-04-27",
-      "status": "active",
-      "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
-      "currentPrice": 5225,
-      "initialPrice": 5225,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
-      "snapshots": [
-        {
-          "date": "2026-03-19",
-          "price": 5225,
           "isThursday": true
         }
       ]
@@ -1843,14 +2788,14 @@
       "layoutId": "B5",
       "typeLabel": "B475N B5",
       "unitNumber": "3506N",
-      "availabilityDate": "2026-01-15",
+      "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-01-15",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5460,
       "initialPrice": 5130,
       "changeSinceFirst": 330,
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "snapshots": [
         {
           "date": "2026-01-15",
@@ -1901,6 +2846,11 @@
           "date": "2026-03-19",
           "price": 5460,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5460,
+          "isThursday": false
         }
       ]
     },
@@ -2027,14 +2977,14 @@
       "layoutId": "B5",
       "typeLabel": "B475N B5",
       "unitNumber": "4106N",
-      "availabilityDate": "2024-12-26",
+      "availabilityDate": "2026-06-06",
       "status": "active",
       "firstSeen": "2024-12-18",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5535,
       "initialPrice": 4500,
       "changeSinceFirst": 1035,
-      "snapshotCount": 12,
+      "snapshotCount": 13,
       "snapshots": [
         {
           "date": "2024-12-18",
@@ -2095,6 +3045,11 @@
           "date": "2026-03-19",
           "price": 5535,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5535,
+          "isThursday": false
         }
       ]
     },
@@ -2201,24 +3156,271 @@
       ]
     },
     {
-      "id": "b475s-ms-3908s",
+      "id": "b475n-1404n",
+      "buildingId": "B475N",
+      "layoutId": "S1",
+      "typeLabel": "B475N S1",
+      "unitNumber": "1404N",
+      "availabilityDate": "2026-02-17",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3410,
+      "initialPrice": 3410,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3410,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-1904n",
+      "buildingId": "B475N",
+      "layoutId": "S1",
+      "typeLabel": "B475N S1",
+      "unitNumber": "1904N",
+      "availabilityDate": "2026-03-07",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3260,
+      "initialPrice": 3260,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3260,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-2003s",
+      "buildingId": "B475S",
+      "layoutId": "A1",
+      "typeLabel": "B475S A1",
+      "unitNumber": "2003S",
+      "availabilityDate": "2026-02-26",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3460,
+      "initialPrice": 3460,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3460,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-2203s",
+      "buildingId": "B475S",
+      "layoutId": "A1",
+      "typeLabel": "B475S A1",
+      "unitNumber": "2203S",
+      "availabilityDate": "2026-04-27",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3460,
+      "initialPrice": 3460,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3460,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3503s",
+      "buildingId": "B475S",
+      "layoutId": "A1",
+      "typeLabel": "B475S A1",
+      "unitNumber": "3503S",
+      "availabilityDate": "2026-05-03",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3560,
+      "initialPrice": 3560,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3560,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-2402s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "2402S",
+      "availabilityDate": "2026-02-26",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3550,
+      "initialPrice": 3550,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3550,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3206s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "3206S",
+      "availabilityDate": "2026-05-09",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3445,
+      "initialPrice": 3445,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3445,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3902s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "3902S",
+      "availabilityDate": "2025-12-15",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3700,
+      "initialPrice": 3700,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3700,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-4202s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "4202S",
+      "availabilityDate": "2026-03-03",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3800,
+      "initialPrice": 3800,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3800,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-4902s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "4902S",
+      "availabilityDate": "2026-03-21",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3770,
+      "initialPrice": 3770,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3770,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3908s",
       "buildingId": "B475S",
       "layoutId": "B2",
       "typeLabel": "B475S B2",
-      "unitNumber": "MS-3908S",
+      "unitNumber": "3908S",
       "availabilityDate": "2026-05-19",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5650,
       "initialPrice": 5650,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 5650,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5650,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-4004s",
+      "buildingId": "B475S",
+      "layoutId": "S1",
+      "typeLabel": "B475S S1",
+      "unitNumber": "4004S",
+      "availabilityDate": "2025-12-09",
+      "status": "active",
+      "firstSeen": "2026-03-20",
+      "lastSeen": "2026-03-20",
+      "currentPrice": 3390,
+      "initialPrice": 3390,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-20",
+          "price": 3390,
+          "isThursday": false
         }
       ]
     }
