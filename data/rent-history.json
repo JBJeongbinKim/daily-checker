@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-19T17:10:13-04:00",
+  "generatedAt": "2026-03-20T07:29:54-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-  "latestSnapshotDate": "2026-03-19",
+  "latestSnapshotDate": "2026-03-20",
   "snapshotDates": [
     "2024-02-24",
     "2024-10-08",
@@ -48,13 +48,14 @@
     "2026-02-26",
     "2026-03-05",
     "2026-03-12",
-    "2026-03-19"
+    "2026-03-19",
+    "2026-03-20"
   ],
   "totals": {
     "units": 50,
-    "activeUnits": 8,
-    "inactiveUnits": 42,
-    "snapshots": 263
+    "activeUnits": 5,
+    "inactiveUnits": 45,
+    "snapshots": 268
   },
   "units": [
     {
@@ -66,16 +67,21 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5545,
       "initialPrice": 5545,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 5545,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5545,
+          "isThursday": false
         }
       ]
     },
@@ -88,16 +94,21 @@
       "availabilityDate": "2026-04-09",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 3675,
       "initialPrice": 3675,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 3675,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3675,
+          "isThursday": false
         }
       ]
     },
@@ -110,16 +121,21 @@
       "availabilityDate": "2026-03-11",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 3380,
       "initialPrice": 3380,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 3380,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 3380,
+          "isThursday": false
         }
       ]
     },
@@ -404,7 +420,7 @@
       "typeLabel": "B475N B1",
       "unitNumber": "4503N",
       "availabilityDate": "2026-04-27",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-02-19",
       "lastSeen": "2026-03-19",
       "currentPrice": 5225,
@@ -580,16 +596,21 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5225,
       "initialPrice": 5225,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 5225,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5225,
+          "isThursday": false
         }
       ]
     },
@@ -1844,7 +1865,7 @@
       "typeLabel": "B475N B5",
       "unitNumber": "3506N",
       "availabilityDate": "2026-01-15",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-01-15",
       "lastSeen": "2026-03-19",
       "currentPrice": 5460,
@@ -2028,7 +2049,7 @@
       "typeLabel": "B475N B5",
       "unitNumber": "4106N",
       "availabilityDate": "2024-12-26",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2024-12-18",
       "lastSeen": "2026-03-19",
       "currentPrice": 5535,
@@ -2209,16 +2230,21 @@
       "availabilityDate": "2026-05-19",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-19",
+      "lastSeen": "2026-03-20",
       "currentPrice": 5650,
       "initialPrice": 5650,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-19",
           "price": 5650,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-20",
+          "price": 5650,
+          "isThursday": false
         }
       ]
     }
