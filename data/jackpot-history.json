@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-26T11:57:45.146Z",
+  "updatedAt": "2026-03-27T11:03:46.186Z",
   "entries": [
     {
       "date": "2026-03-06",
@@ -163,6 +163,14 @@
     },
     {
       "date": "2026-03-26",
+      "megamillions": 70,
+      "megamillionsCash": 31.5,
+      "powerball": 166,
+      "powerballCash": 75.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-27",
       "megamillions": 70,
       "megamillionsCash": 31.5,
       "powerball": 166,
