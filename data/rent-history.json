@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-27T07:40:35-04:00",
+  "generatedAt": "2026-03-28T07:26:49-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-  "latestSnapshotDate": "2026-03-27",
+  "latestSnapshotDate": "2026-03-28",
   "snapshotDates": [
     "2024-02-24",
     "2024-10-08",
@@ -56,13 +56,14 @@
     "2026-03-24",
     "2026-03-25",
     "2026-03-26",
-    "2026-03-27"
+    "2026-03-27",
+    "2026-03-28"
   ],
   "totals": {
-    "units": 114,
-    "activeUnits": 68,
+    "units": 115,
+    "activeUnits": 69,
     "inactiveUnits": 46,
-    "snapshots": 759
+    "snapshots": 828
   },
   "units": [
     {
@@ -74,11 +75,11 @@
       "availabilityDate": "2026-03-24",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3580,
       "initialPrice": 3625,
       "changeSinceFirst": -45,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -117,6 +118,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3580,
           "isThursday": false
         }
@@ -131,11 +137,11 @@
       "availabilityDate": "2026-02-18",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3580,
       "initialPrice": 3625,
       "changeSinceFirst": -45,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -174,6 +180,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3580,
           "isThursday": false
         }
@@ -188,11 +199,11 @@
       "availabilityDate": "2026-04-10",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3580,
       "initialPrice": 3625,
       "changeSinceFirst": -45,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -231,6 +242,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3580,
           "isThursday": false
         }
@@ -245,11 +261,11 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3865,
       "initialPrice": 3935,
       "changeSinceFirst": -70,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -288,6 +304,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3865,
           "isThursday": false
         }
@@ -302,11 +323,11 @@
       "availabilityDate": "2026-04-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3730,
       "initialPrice": 3800,
       "changeSinceFirst": -70,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -345,6 +366,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3730,
           "isThursday": false
         }
@@ -359,11 +385,11 @@
       "availabilityDate": "2026-02-18",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3755,
       "initialPrice": 3825,
       "changeSinceFirst": -70,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -402,6 +428,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3755,
           "isThursday": false
         }
@@ -416,11 +447,11 @@
       "availabilityDate": "2026-05-05",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 4040,
       "initialPrice": 4115,
       "changeSinceFirst": -75,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -459,6 +490,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 4040,
           "isThursday": false
         }
@@ -473,11 +509,11 @@
       "availabilityDate": "2026-02-11",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 4095,
       "initialPrice": 4170,
       "changeSinceFirst": -75,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -516,6 +552,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 4095,
           "isThursday": false
         }
@@ -530,11 +571,11 @@
       "availabilityDate": "2026-03-31",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3650,
       "initialPrice": 3860,
       "changeSinceFirst": -210,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -575,6 +616,11 @@
           "date": "2026-03-27",
           "price": 3650,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3650,
+          "isThursday": false
         }
       ]
     },
@@ -587,11 +633,11 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5605,
       "initialPrice": 5545,
       "changeSinceFirst": 60,
-      "snapshotCount": 9,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -637,6 +683,11 @@
           "date": "2026-03-27",
           "price": 5605,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5605,
+          "isThursday": false
         }
       ]
     },
@@ -649,11 +700,11 @@
       "availabilityDate": "2026-06-08",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5700,
       "initialPrice": 5630,
       "changeSinceFirst": 70,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -692,6 +743,33 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5700,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1001",
+      "buildingId": "B401",
+      "layoutId": "B6",
+      "typeLabel": "B401 B6",
+      "unitNumber": "M2-1001",
+      "availabilityDate": "2026-03-31",
+      "status": "active",
+      "firstSeen": "2026-03-28",
+      "lastSeen": "2026-03-28",
+      "currentPrice": 5700,
+      "initialPrice": 5700,
+      "changeSinceFirst": 0,
+      "snapshotCount": 1,
+      "snapshots": [
+        {
+          "date": "2026-03-28",
           "price": 5700,
           "isThursday": false
         }
@@ -706,11 +784,11 @@
       "availabilityDate": "2026-07-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5825,
       "initialPrice": 5755,
       "changeSinceFirst": 70,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -749,6 +827,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5825,
           "isThursday": false
         }
@@ -763,11 +846,11 @@
       "availabilityDate": "2026-05-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3495,
       "initialPrice": 3495,
       "changeSinceFirst": 0,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -806,6 +889,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3495,
           "isThursday": false
         }
@@ -820,11 +908,11 @@
       "availabilityDate": "2026-07-07",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3250,
       "initialPrice": 3250,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -833,6 +921,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3250,
           "isThursday": false
         }
@@ -847,11 +940,11 @@
       "availabilityDate": "2026-05-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3150,
       "initialPrice": 3155,
       "changeSinceFirst": -5,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -890,6 +983,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3150,
           "isThursday": false
         }
@@ -904,11 +1002,11 @@
       "availabilityDate": "2026-04-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3590,
       "initialPrice": 3590,
       "changeSinceFirst": 0,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -947,6 +1045,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3590,
           "isThursday": false
         }
@@ -961,11 +1064,11 @@
       "availabilityDate": "2026-04-10",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3590,
       "initialPrice": 3590,
       "changeSinceFirst": 0,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1004,6 +1107,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3590,
           "isThursday": false
         }
@@ -1040,11 +1148,11 @@
       "availabilityDate": "2026-04-21",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3470,
       "initialPrice": 3435,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1083,6 +1191,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3470,
           "isThursday": false
         }
@@ -1097,11 +1210,11 @@
       "availabilityDate": "2026-06-10",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3280,
       "initialPrice": 3245,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1142,6 +1255,11 @@
           "date": "2026-03-27",
           "price": 3280,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3280,
+          "isThursday": false
         }
       ]
     },
@@ -1154,11 +1272,11 @@
       "availabilityDate": "2026-04-09",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3715,
       "initialPrice": 3675,
       "changeSinceFirst": 40,
-      "snapshotCount": 9,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -1204,6 +1322,11 @@
           "date": "2026-03-27",
           "price": 3715,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3715,
+          "isThursday": false
         }
       ]
     },
@@ -1216,11 +1339,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3610,
       "initialPrice": 3575,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1259,6 +1382,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3610,
           "isThursday": false
         }
@@ -1273,11 +1401,11 @@
       "availabilityDate": "2026-02-24",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3630,
       "initialPrice": 3595,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1316,6 +1444,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3630,
           "isThursday": false
         }
@@ -1330,11 +1463,11 @@
       "availabilityDate": "2026-03-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3730,
       "initialPrice": 3695,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1373,6 +1506,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3730,
           "isThursday": false
         }
@@ -1387,11 +1525,11 @@
       "availabilityDate": "2026-04-02",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3745,
       "initialPrice": 3710,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1430,6 +1568,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3745,
           "isThursday": false
         }
@@ -1444,11 +1587,11 @@
       "availabilityDate": "2026-05-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3635,
       "initialPrice": 3630,
       "changeSinceFirst": 5,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1489,6 +1632,11 @@
           "date": "2026-03-27",
           "price": 3635,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3635,
+          "isThursday": false
         }
       ]
     },
@@ -1501,11 +1649,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3690,
       "initialPrice": 3690,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -1514,6 +1662,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3690,
           "isThursday": false
         }
@@ -1555,11 +1708,11 @@
       "availabilityDate": "2026-03-11",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3415,
       "initialPrice": 3380,
       "changeSinceFirst": 35,
-      "snapshotCount": 9,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -1605,6 +1758,11 @@
           "date": "2026-03-27",
           "price": 3415,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3415,
+          "isThursday": false
         }
       ]
     },
@@ -1617,11 +1775,11 @@
       "availabilityDate": "2026-06-04",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3525,
       "initialPrice": 3490,
       "changeSinceFirst": 35,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1660,6 +1818,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3525,
           "isThursday": false
         }
@@ -1674,11 +1837,11 @@
       "availabilityDate": "2025-12-31",
       "status": "active",
       "firstSeen": "2026-03-24",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3640,
       "initialPrice": 3775,
       "changeSinceFirst": -135,
-      "snapshotCount": 4,
+      "snapshotCount": 5,
       "snapshots": [
         {
           "date": "2026-03-24",
@@ -1697,6 +1860,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3640,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3640,
           "isThursday": false
         }
@@ -1711,11 +1879,11 @@
       "availabilityDate": "2026-03-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3680,
       "initialPrice": 3695,
       "changeSinceFirst": -15,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1754,6 +1922,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3680,
           "isThursday": false
         }
@@ -1768,11 +1941,11 @@
       "availabilityDate": "2026-02-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3765,
       "initialPrice": 3725,
       "changeSinceFirst": 40,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1811,6 +1984,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3765,
           "isThursday": false
         }
@@ -1825,11 +2003,11 @@
       "availabilityDate": "2026-04-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5330,
       "initialPrice": 5280,
       "changeSinceFirst": 50,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1868,6 +2046,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5330,
           "isThursday": false
         }
@@ -1882,11 +2065,11 @@
       "availabilityDate": "2026-03-25",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 4700,
       "initialPrice": 4860,
       "changeSinceFirst": -160,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1925,6 +2108,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 4700,
           "isThursday": false
         }
@@ -1939,11 +2127,11 @@
       "availabilityDate": "2026-03-19",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5260,
       "initialPrice": 5210,
       "changeSinceFirst": 50,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1982,6 +2170,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5260,
           "isThursday": false
         }
@@ -1996,11 +2189,11 @@
       "availabilityDate": "2026-04-06",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3210,
       "initialPrice": 3210,
       "changeSinceFirst": 0,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2039,6 +2232,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3210,
           "isThursday": false
         }
@@ -2053,11 +2251,11 @@
       "availabilityDate": "2026-07-08",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3280,
       "initialPrice": 3280,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2066,6 +2264,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3280,
           "isThursday": false
         }
@@ -2080,11 +2283,11 @@
       "availabilityDate": "2026-04-16",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3205,
       "initialPrice": 3195,
       "changeSinceFirst": 10,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2123,6 +2326,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3205,
           "isThursday": false
         }
@@ -2137,11 +2345,11 @@
       "availabilityDate": "2026-02-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3375,
       "initialPrice": 3570,
       "changeSinceFirst": -195,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2180,6 +2388,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3375,
           "isThursday": false
         }
@@ -2194,11 +2407,11 @@
       "availabilityDate": "2026-07-03",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3375,
       "initialPrice": 3375,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2207,6 +2420,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3375,
           "isThursday": false
         }
@@ -2221,11 +2439,11 @@
       "availabilityDate": "2026-05-20",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3480,
       "initialPrice": 3675,
       "changeSinceFirst": -195,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2264,6 +2482,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3480,
           "isThursday": false
         }
@@ -2278,11 +2501,11 @@
       "availabilityDate": "2026-06-15",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3600,
       "initialPrice": 3600,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2291,6 +2514,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3600,
           "isThursday": false
         }
@@ -2305,11 +2533,11 @@
       "availabilityDate": "2026-05-14",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3355,
       "initialPrice": 3450,
       "changeSinceFirst": -95,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2348,6 +2576,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3355,
           "isThursday": false
         }
@@ -2362,11 +2595,11 @@
       "availabilityDate": "2026-06-14",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3530,
       "initialPrice": 3530,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2375,6 +2608,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3530,
           "isThursday": false
         }
@@ -2389,11 +2627,11 @@
       "availabilityDate": "2026-05-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3530,
       "initialPrice": 3625,
       "changeSinceFirst": -95,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2432,6 +2670,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3530,
           "isThursday": false
         }
@@ -2488,11 +2731,11 @@
       "availabilityDate": "2026-05-27",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3780,
       "initialPrice": 3950,
       "changeSinceFirst": -170,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2531,6 +2774,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3780,
           "isThursday": false
         }
@@ -2545,11 +2793,11 @@
       "availabilityDate": "2026-04-19",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3910,
       "initialPrice": 3910,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2558,6 +2806,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3910,
           "isThursday": false
         }
@@ -2572,11 +2825,11 @@
       "availabilityDate": "2026-05-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3910,
       "initialPrice": 4080,
       "changeSinceFirst": -170,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2615,6 +2868,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3910,
           "isThursday": false
         }
@@ -2629,11 +2887,11 @@
       "availabilityDate": "2026-05-26",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3860,
       "initialPrice": 3860,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -2642,6 +2900,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3860,
           "isThursday": false
         }
@@ -2656,11 +2919,11 @@
       "availabilityDate": "2026-04-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 4205,
       "initialPrice": 4375,
       "changeSinceFirst": -170,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2701,6 +2964,11 @@
           "date": "2026-03-27",
           "price": 4205,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4205,
+          "isThursday": false
         }
       ]
     },
@@ -2713,11 +2981,11 @@
       "availabilityDate": "2026-03-26",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3800,
       "initialPrice": 3930,
       "changeSinceFirst": -130,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2756,6 +3024,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3800,
           "isThursday": false
         }
@@ -2807,11 +3080,11 @@
       "availabilityDate": "2026-05-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3720,
       "initialPrice": 3850,
       "changeSinceFirst": -130,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2850,6 +3123,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3720,
           "isThursday": false
         }
@@ -3138,11 +3416,11 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-02-19",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5785,
       "initialPrice": 5220,
       "changeSinceFirst": 565,
-      "snapshotCount": 13,
+      "snapshotCount": 14,
       "snapshots": [
         {
           "date": "2026-02-19",
@@ -3206,6 +3484,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5785,
           "isThursday": false
         }
@@ -3352,11 +3635,11 @@
       "availabilityDate": "2026-05-15",
       "status": "active",
       "firstSeen": "2024-11-13",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5330,
       "initialPrice": 5135,
       "changeSinceFirst": 195,
-      "snapshotCount": 7,
+      "snapshotCount": 8,
       "snapshots": [
         {
           "date": "2024-11-13",
@@ -3390,6 +3673,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5330,
           "isThursday": false
         }
@@ -3461,11 +3749,11 @@
       "availabilityDate": "2026-05-30",
       "status": "active",
       "firstSeen": "2024-11-13",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5405,
       "initialPrice": 5210,
       "changeSinceFirst": 195,
-      "snapshotCount": 7,
+      "snapshotCount": 8,
       "snapshots": [
         {
           "date": "2024-11-13",
@@ -3499,6 +3787,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5405,
           "isThursday": false
         }
@@ -4313,11 +4606,11 @@
       "availabilityDate": "2026-06-27",
       "status": "active",
       "firstSeen": "2025-04-01",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5715,
       "initialPrice": 5906,
       "changeSinceFirst": -191,
-      "snapshotCount": 4,
+      "snapshotCount": 5,
       "snapshots": [
         {
           "date": "2025-04-01",
@@ -4336,6 +4629,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5715,
           "isThursday": false
         }
@@ -4663,11 +4961,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-01-15",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5510,
       "initialPrice": 5130,
       "changeSinceFirst": 380,
-      "snapshotCount": 18,
+      "snapshotCount": 19,
       "snapshots": [
         {
           "date": "2026-01-15",
@@ -4756,6 +5054,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5510,
           "isThursday": false
         }
@@ -4887,11 +5190,11 @@
       "availabilityDate": "2026-06-06",
       "status": "active",
       "firstSeen": "2024-12-18",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5585,
       "initialPrice": 4500,
       "changeSinceFirst": 1085,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2024-12-18",
@@ -4990,6 +5293,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 5585,
           "isThursday": false
         }
@@ -5106,11 +5414,11 @@
       "availabilityDate": "2026-02-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3370,
       "initialPrice": 3410,
       "changeSinceFirst": -40,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5151,6 +5459,11 @@
           "date": "2026-03-27",
           "price": 3370,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3370,
+          "isThursday": false
         }
       ]
     },
@@ -5163,11 +5476,11 @@
       "availabilityDate": "2026-03-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3220,
       "initialPrice": 3260,
       "changeSinceFirst": -40,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5206,6 +5519,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3220,
           "isThursday": false
         }
@@ -5272,11 +5590,11 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3410,
       "initialPrice": 3460,
       "changeSinceFirst": -50,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5315,6 +5633,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3410,
           "isThursday": false
         }
@@ -5329,11 +5652,11 @@
       "availabilityDate": "2026-05-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3510,
       "initialPrice": 3560,
       "changeSinceFirst": -50,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5374,6 +5697,11 @@
           "date": "2026-03-27",
           "price": 3510,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3510,
+          "isThursday": false
         }
       ]
     },
@@ -5386,11 +5714,11 @@
       "availabilityDate": "2026-03-04",
       "status": "active",
       "firstSeen": "2026-03-25",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3540,
       "initialPrice": 3525,
       "changeSinceFirst": 15,
-      "snapshotCount": 3,
+      "snapshotCount": 4,
       "snapshots": [
         {
           "date": "2026-03-25",
@@ -5406,6 +5734,11 @@
           "date": "2026-03-27",
           "price": 3540,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3540,
+          "isThursday": false
         }
       ]
     },
@@ -5418,11 +5751,11 @@
       "availabilityDate": "2026-02-26",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3565,
       "initialPrice": 3550,
       "changeSinceFirst": 15,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5461,6 +5794,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3565,
           "isThursday": false
         }
@@ -5517,11 +5855,11 @@
       "availabilityDate": "2025-12-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3650,
       "initialPrice": 3700,
       "changeSinceFirst": -50,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5560,6 +5898,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3650,
           "isThursday": false
         }
@@ -5574,11 +5917,11 @@
       "availabilityDate": "2026-03-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3815,
       "initialPrice": 3800,
       "changeSinceFirst": 15,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5617,6 +5960,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3815,
           "isThursday": false
         }
@@ -5631,11 +5979,11 @@
       "availabilityDate": "2026-03-21",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3785,
       "initialPrice": 3770,
       "changeSinceFirst": 15,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5676,6 +6024,11 @@
           "date": "2026-03-27",
           "price": 3785,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3785,
+          "isThursday": false
         }
       ]
     },
@@ -5688,11 +6041,11 @@
       "availabilityDate": "2026-05-19",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 5650,
       "initialPrice": 5650,
       "changeSinceFirst": 0,
-      "snapshotCount": 9,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -5738,6 +6091,11 @@
           "date": "2026-03-27",
           "price": 5650,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5650,
+          "isThursday": false
         }
       ]
     },
@@ -5750,11 +6108,11 @@
       "availabilityDate": "2025-12-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-27",
+      "lastSeen": "2026-03-28",
       "currentPrice": 3350,
       "initialPrice": 3390,
       "changeSinceFirst": -40,
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5793,6 +6151,11 @@
         },
         {
           "date": "2026-03-27",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
           "price": 3350,
           "isThursday": false
         }
