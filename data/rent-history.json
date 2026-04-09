@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-08T07:53:58-04:00",
+  "generatedAt": "2026-04-09T07:54:15-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-  "latestSnapshotDate": "2026-04-08",
+  "latestSnapshotDate": "2026-04-09",
   "snapshotDates": [
     "2024-02-24",
     "2024-10-08",
@@ -68,13 +68,14 @@
     "2026-04-05",
     "2026-04-06",
     "2026-04-07",
-    "2026-04-08"
+    "2026-04-08",
+    "2026-04-09"
   ],
   "totals": {
     "units": 124,
-    "activeUnits": 62,
-    "inactiveUnits": 62,
-    "snapshots": 1523
+    "activeUnits": 43,
+    "inactiveUnits": 81,
+    "snapshots": 1566
   },
   "units": [
     {
@@ -183,11 +184,11 @@
       "availabilityDate": "2026-02-18",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3535,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3570,
       "initialPrice": 3625,
-      "changeSinceFirst": -90,
-      "snapshotCount": 20,
+      "changeSinceFirst": -55,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -288,6 +289,11 @@
           "date": "2026-04-08",
           "price": 3535,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3570,
+          "isThursday": true
         }
       ]
     },
@@ -300,11 +306,11 @@
       "availabilityDate": "2026-04-10",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3535,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3570,
       "initialPrice": 3625,
-      "changeSinceFirst": -90,
-      "snapshotCount": 20,
+      "changeSinceFirst": -55,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -405,6 +411,11 @@
           "date": "2026-04-08",
           "price": 3535,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3570,
+          "isThursday": true
         }
       ]
     },
@@ -417,11 +428,11 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3805,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3845,
       "initialPrice": 3935,
-      "changeSinceFirst": -130,
-      "snapshotCount": 20,
+      "changeSinceFirst": -90,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -522,6 +533,11 @@
           "date": "2026-04-08",
           "price": 3805,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3845,
+          "isThursday": true
         }
       ]
     },
@@ -534,11 +550,11 @@
       "availabilityDate": "2026-04-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3675,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3760,
       "initialPrice": 3800,
-      "changeSinceFirst": -125,
-      "snapshotCount": 20,
+      "changeSinceFirst": -40,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -639,6 +655,11 @@
           "date": "2026-04-08",
           "price": 3675,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3760,
+          "isThursday": true
         }
       ]
     },
@@ -736,7 +757,7 @@
       "typeLabel": "B401 A4",
       "unitNumber": "M2-2011",
       "availabilityDate": "2026-05-29",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-02",
       "lastSeen": "2026-04-08",
       "currentPrice": 3700,
@@ -790,11 +811,11 @@
       "availabilityDate": "2026-05-05",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3980,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 4030,
       "initialPrice": 4115,
-      "changeSinceFirst": -135,
-      "snapshotCount": 20,
+      "changeSinceFirst": -85,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -895,6 +916,11 @@
           "date": "2026-04-08",
           "price": 3980,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4030,
+          "isThursday": true
         }
       ]
     },
@@ -907,11 +933,11 @@
       "availabilityDate": "2026-02-11",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 4035,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 4085,
       "initialPrice": 4170,
-      "changeSinceFirst": -135,
-      "snapshotCount": 20,
+      "changeSinceFirst": -85,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1012,6 +1038,11 @@
           "date": "2026-04-08",
           "price": 4035,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4085,
+          "isThursday": true
         }
       ]
     },
@@ -1198,11 +1229,11 @@
       "availabilityDate": "2026-06-08",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5705,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5730,
       "initialPrice": 5630,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 100,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1303,6 +1334,11 @@
           "date": "2026-04-08",
           "price": 5705,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5730,
+          "isThursday": true
         }
       ]
     },
@@ -1315,11 +1351,11 @@
       "availabilityDate": "2026-03-24",
       "status": "active",
       "firstSeen": "2026-03-28",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5705,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5730,
       "initialPrice": 5700,
-      "changeSinceFirst": 5,
-      "snapshotCount": 7,
+      "changeSinceFirst": 30,
+      "snapshotCount": 8,
       "snapshots": [
         {
           "date": "2026-03-28",
@@ -1355,6 +1391,11 @@
           "date": "2026-04-08",
           "price": 5705,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5730,
+          "isThursday": true
         }
       ]
     },
@@ -1367,11 +1408,11 @@
       "availabilityDate": "2026-07-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5830,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5855,
       "initialPrice": 5755,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 100,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1472,6 +1513,11 @@
           "date": "2026-04-08",
           "price": 5830,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5855,
+          "isThursday": true
         }
       ]
     },
@@ -1482,7 +1528,7 @@
       "typeLabel": "B401 B7",
       "unitNumber": "M2-2408",
       "availabilityDate": "2026-07-10",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-02",
       "lastSeen": "2026-04-08",
       "currentPrice": 5810,
@@ -1536,11 +1582,11 @@
       "availabilityDate": "2026-05-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3505,
       "initialPrice": 3495,
       "changeSinceFirst": 10,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1641,6 +1687,11 @@
           "date": "2026-04-08",
           "price": 3505,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3505,
+          "isThursday": true
         }
       ]
     },
@@ -1651,7 +1702,7 @@
       "typeLabel": "B401 MS2",
       "unitNumber": "M2-1607",
       "availabilityDate": "2026-07-07",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 3250,
@@ -1740,11 +1791,11 @@
       "availabilityDate": "2026-05-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3150,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3165,
       "initialPrice": 3155,
-      "changeSinceFirst": -5,
-      "snapshotCount": 20,
+      "changeSinceFirst": 10,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1845,6 +1896,11 @@
           "date": "2026-04-08",
           "price": 3150,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3165,
+          "isThursday": true
         }
       ]
     },
@@ -1857,11 +1913,11 @@
       "availabilityDate": "2026-04-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3590,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3525,
       "initialPrice": 3590,
-      "changeSinceFirst": 0,
-      "snapshotCount": 20,
+      "changeSinceFirst": -65,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -1962,6 +2018,11 @@
           "date": "2026-04-08",
           "price": 3590,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3525,
+          "isThursday": true
         }
       ]
     },
@@ -1974,11 +2035,11 @@
       "availabilityDate": "2026-04-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3590,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3525,
       "initialPrice": 3590,
-      "changeSinceFirst": 0,
-      "snapshotCount": 20,
+      "changeSinceFirst": -65,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2079,6 +2140,11 @@
           "date": "2026-04-08",
           "price": 3590,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3525,
+          "isThursday": true
         }
       ]
     },
@@ -2113,11 +2179,11 @@
       "availabilityDate": "2026-04-21",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3525,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3540,
       "initialPrice": 3435,
-      "changeSinceFirst": 90,
-      "snapshotCount": 20,
+      "changeSinceFirst": 105,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2218,6 +2284,11 @@
           "date": "2026-04-08",
           "price": 3525,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3540,
+          "isThursday": true
         }
       ]
     },
@@ -2451,11 +2522,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3650,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3680,
       "initialPrice": 3575,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 105,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2556,6 +2627,11 @@
           "date": "2026-04-08",
           "price": 3650,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3680,
+          "isThursday": true
         }
       ]
     },
@@ -2568,11 +2644,11 @@
       "availabilityDate": "2026-02-24",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3670,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3700,
       "initialPrice": 3595,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 105,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2673,6 +2749,11 @@
           "date": "2026-04-08",
           "price": 3670,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3700,
+          "isThursday": true
         }
       ]
     },
@@ -2685,11 +2766,11 @@
       "availabilityDate": "2026-03-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3770,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3800,
       "initialPrice": 3695,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 105,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2790,6 +2871,11 @@
           "date": "2026-04-08",
           "price": 3770,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3800,
+          "isThursday": true
         }
       ]
     },
@@ -2802,11 +2888,11 @@
       "availabilityDate": "2026-04-02",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3785,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3815,
       "initialPrice": 3710,
-      "changeSinceFirst": 75,
-      "snapshotCount": 20,
+      "changeSinceFirst": 105,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -2907,6 +2993,11 @@
           "date": "2026-04-08",
           "price": 3785,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3815,
+          "isThursday": true
         }
       ]
     },
@@ -2917,7 +3008,7 @@
       "typeLabel": "B425 A10, B425 A10A, B425 A10B",
       "unitNumber": "M1-1213",
       "availabilityDate": "2026-05-22",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
       "lastSeen": "2026-04-08",
       "currentPrice": 3680,
@@ -3036,11 +3127,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3745,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3775,
       "initialPrice": 3690,
-      "changeSinceFirst": 55,
-      "snapshotCount": 14,
+      "changeSinceFirst": 85,
+      "snapshotCount": 15,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -3111,6 +3202,11 @@
           "date": "2026-04-08",
           "price": 3745,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3775,
+          "isThursday": true
         }
       ]
     },
@@ -3217,11 +3313,11 @@
       "availabilityDate": "2026-06-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3545,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3640,
       "initialPrice": 3490,
-      "changeSinceFirst": 55,
-      "snapshotCount": 20,
+      "changeSinceFirst": 150,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -3322,6 +3418,11 @@
           "date": "2026-04-08",
           "price": 3545,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3640,
+          "isThursday": true
         }
       ]
     },
@@ -3391,11 +3492,11 @@
       "availabilityDate": "2026-03-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3725,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3755,
       "initialPrice": 3695,
-      "changeSinceFirst": 30,
-      "snapshotCount": 20,
+      "changeSinceFirst": 60,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -3496,6 +3597,11 @@
           "date": "2026-04-08",
           "price": 3725,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3755,
+          "isThursday": true
         }
       ]
     },
@@ -3508,11 +3614,11 @@
       "availabilityDate": "2026-02-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3725,
       "initialPrice": 3725,
       "changeSinceFirst": 0,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -3613,6 +3719,11 @@
           "date": "2026-04-08",
           "price": 3725,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3725,
+          "isThursday": true
         }
       ]
     },
@@ -3879,7 +3990,7 @@
       "typeLabel": "B425 S1",
       "unitNumber": "M1-1211",
       "availabilityDate": "2026-07-02",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-02",
       "lastSeen": "2026-04-08",
       "currentPrice": 3175,
@@ -3933,11 +4044,11 @@
       "availabilityDate": "2026-04-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3210,
       "initialPrice": 3210,
       "changeSinceFirst": 0,
-      "snapshotCount": 14,
+      "snapshotCount": 15,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -4008,6 +4119,11 @@
           "date": "2026-04-08",
           "price": 3210,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3210,
+          "isThursday": true
         }
       ]
     },
@@ -4018,7 +4134,7 @@
       "typeLabel": "B425 S2",
       "unitNumber": "M1-1109",
       "availabilityDate": "2026-07-08",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 3280,
@@ -4107,11 +4223,11 @@
       "availabilityDate": "2026-04-16",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3205,
       "initialPrice": 3195,
       "changeSinceFirst": 10,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -4212,6 +4328,11 @@
           "date": "2026-04-08",
           "price": 3205,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3205,
+          "isThursday": true
         }
       ]
     },
@@ -4284,7 +4405,7 @@
       "typeLabel": "B475N A1",
       "unitNumber": "1603N",
       "availabilityDate": "2026-07-03",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 3515,
@@ -4373,11 +4494,11 @@
       "availabilityDate": "2026-05-20",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3620,
       "initialPrice": 3675,
       "changeSinceFirst": -55,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -4478,6 +4599,11 @@
           "date": "2026-04-08",
           "price": 3620,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3620,
+          "isThursday": true
         }
       ]
     },
@@ -4488,7 +4614,7 @@
       "typeLabel": "B475N A1",
       "unitNumber": "3003N",
       "availabilityDate": "2026-06-15",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 3740,
@@ -4575,7 +4701,7 @@
       "typeLabel": "B475N A1",
       "unitNumber": "3303N",
       "availabilityDate": "2026-06-21",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2025-02-17",
       "lastSeen": "2026-04-08",
       "currentPrice": 3740,
@@ -4627,7 +4753,7 @@
       "typeLabel": "B475N A2",
       "unitNumber": "1706N",
       "availabilityDate": "2026-05-14",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
       "lastSeen": "2026-04-08",
       "currentPrice": 3410,
@@ -4783,11 +4909,11 @@
       "availabilityDate": "2026-05-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3585,
       "initialPrice": 3625,
       "changeSinceFirst": -40,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -4888,6 +5014,11 @@
           "date": "2026-04-08",
           "price": 3585,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3585,
+          "isThursday": true
         }
       ]
     },
@@ -4942,11 +5073,11 @@
       "availabilityDate": "2026-05-27",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3830,
       "initialPrice": 3950,
       "changeSinceFirst": -120,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5047,6 +5178,11 @@
           "date": "2026-04-08",
           "price": 3830,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3830,
+          "isThursday": true
         }
       ]
     },
@@ -5059,11 +5195,11 @@
       "availabilityDate": "2026-04-19",
       "status": "active",
       "firstSeen": "2026-03-26",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3960,
       "initialPrice": 3910,
       "changeSinceFirst": 50,
-      "snapshotCount": 14,
+      "snapshotCount": 15,
       "snapshots": [
         {
           "date": "2026-03-26",
@@ -5134,6 +5270,11 @@
           "date": "2026-04-08",
           "price": 3960,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3960,
+          "isThursday": true
         }
       ]
     },
@@ -5146,11 +5287,11 @@
       "availabilityDate": "2026-05-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3960,
       "initialPrice": 4080,
       "changeSinceFirst": -120,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5251,6 +5392,11 @@
           "date": "2026-04-08",
           "price": 3960,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3960,
+          "isThursday": true
         }
       ]
     },
@@ -5261,7 +5407,7 @@
       "typeLabel": "B475N A3",
       "unitNumber": "3108N",
       "availabilityDate": "2026-05-26",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 3910,
@@ -5350,11 +5496,11 @@
       "availabilityDate": "2026-04-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 4255,
       "initialPrice": 4375,
       "changeSinceFirst": -120,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5455,6 +5601,11 @@
           "date": "2026-04-08",
           "price": 4255,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4255,
+          "isThursday": true
         }
       ]
     },
@@ -5467,11 +5618,11 @@
       "availabilityDate": "2026-03-26",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3875,
       "initialPrice": 3930,
       "changeSinceFirst": -55,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5572,6 +5723,11 @@
           "date": "2026-04-08",
           "price": 3875,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3875,
+          "isThursday": true
         }
       ]
     },
@@ -5621,11 +5777,11 @@
       "availabilityDate": "2026-05-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3795,
       "initialPrice": 3850,
       "changeSinceFirst": -55,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -5726,6 +5882,11 @@
           "date": "2026-04-08",
           "price": 3795,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3795,
+          "isThursday": true
         }
       ]
     },
@@ -5990,11 +6151,11 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-02-19",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5785,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5260,
       "initialPrice": 5220,
-      "changeSinceFirst": 565,
-      "snapshotCount": 25,
+      "changeSinceFirst": 40,
+      "snapshotCount": 26,
       "snapshots": [
         {
           "date": "2026-02-19",
@@ -6120,6 +6281,11 @@
           "date": "2026-04-08",
           "price": 5785,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5260,
+          "isThursday": true
         }
       ]
     },
@@ -6262,7 +6428,7 @@
       "typeLabel": "B475N B2",
       "unitNumber": "4704N",
       "availabilityDate": "2026-05-15",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2024-11-13",
       "lastSeen": "2026-04-08",
       "currentPrice": 5330,
@@ -6431,7 +6597,7 @@
       "typeLabel": "B475N B2",
       "unitNumber": "4904N",
       "availabilityDate": "2026-05-30",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2024-11-13",
       "lastSeen": "2026-04-08",
       "currentPrice": 5405,
@@ -7343,7 +7509,7 @@
       "typeLabel": "B475N B4",
       "unitNumber": "2802N",
       "availabilityDate": "2026-06-27",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2025-04-01",
       "lastSeen": "2026-04-08",
       "currentPrice": 5760,
@@ -7580,7 +7746,7 @@
       "typeLabel": "B475N B4",
       "unitNumber": "3702N",
       "availabilityDate": "2026-06-22",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-26",
       "lastSeen": "2026-04-08",
       "currentPrice": 5835,
@@ -7785,11 +7951,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-01-15",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5545,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5495,
       "initialPrice": 5130,
-      "changeSinceFirst": 415,
-      "snapshotCount": 30,
+      "changeSinceFirst": 365,
+      "snapshotCount": 31,
       "snapshots": [
         {
           "date": "2026-01-15",
@@ -7940,6 +8106,11 @@
           "date": "2026-04-08",
           "price": 5545,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5495,
+          "isThursday": true
         }
       ]
     },
@@ -8069,11 +8240,11 @@
       "availabilityDate": "2026-06-06",
       "status": "active",
       "firstSeen": "2024-12-18",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 5620,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5570,
       "initialPrice": 4500,
-      "changeSinceFirst": 1120,
-      "snapshotCount": 32,
+      "changeSinceFirst": 1070,
+      "snapshotCount": 33,
       "snapshots": [
         {
           "date": "2024-12-18",
@@ -8234,6 +8405,11 @@
           "date": "2026-04-08",
           "price": 5620,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5570,
+          "isThursday": true
         }
       ]
     },
@@ -8348,11 +8524,11 @@
       "availabilityDate": "2026-02-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3310,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3200,
       "initialPrice": 3410,
-      "changeSinceFirst": -100,
-      "snapshotCount": 20,
+      "changeSinceFirst": -210,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -8453,6 +8629,11 @@
           "date": "2026-04-08",
           "price": 3310,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3200,
+          "isThursday": true
         }
       ]
     },
@@ -8465,11 +8646,11 @@
       "availabilityDate": "2026-03-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3160,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3250,
       "initialPrice": 3260,
-      "changeSinceFirst": -100,
-      "snapshotCount": 20,
+      "changeSinceFirst": -10,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -8570,6 +8751,11 @@
           "date": "2026-04-08",
           "price": 3160,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3250,
+          "isThursday": true
         }
       ]
     },
@@ -8696,11 +8882,11 @@
       "availabilityDate": "2026-05-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3580,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3590,
       "initialPrice": 3560,
-      "changeSinceFirst": 20,
-      "snapshotCount": 20,
+      "changeSinceFirst": 30,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -8801,6 +8987,11 @@
           "date": "2026-04-08",
           "price": 3580,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3590,
+          "isThursday": true
         }
       ]
     },
@@ -8811,7 +9002,7 @@
       "typeLabel": "B475S A2",
       "unitNumber": "1702S",
       "availabilityDate": "2026-07-02",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-03",
       "lastSeen": "2026-04-08",
       "currentPrice": 3440,
@@ -8860,11 +9051,11 @@
       "availabilityDate": "2026-03-04",
       "status": "active",
       "firstSeen": "2026-03-25",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3545,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3550,
       "initialPrice": 3525,
-      "changeSinceFirst": 20,
-      "snapshotCount": 15,
+      "changeSinceFirst": 25,
+      "snapshotCount": 16,
       "snapshots": [
         {
           "date": "2026-03-25",
@@ -8940,6 +9131,11 @@
           "date": "2026-04-08",
           "price": 3545,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3550,
+          "isThursday": true
         }
       ]
     },
@@ -9019,11 +9215,11 @@
       "availabilityDate": "2026-05-20",
       "status": "active",
       "firstSeen": "2026-03-31",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3570,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3575,
       "initialPrice": 3565,
-      "changeSinceFirst": 5,
-      "snapshotCount": 9,
+      "changeSinceFirst": 10,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-31",
@@ -9069,6 +9265,11 @@
           "date": "2026-04-08",
           "price": 3570,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3575,
+          "isThursday": true
         }
       ]
     },
@@ -9141,7 +9342,7 @@
       "typeLabel": "B475S A2",
       "unitNumber": "3302S",
       "availabilityDate": "2026-06-02",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-01",
       "lastSeen": "2026-04-08",
       "currentPrice": 3570,
@@ -9277,11 +9478,11 @@
       "availabilityDate": "2026-03-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
-      "currentPrice": 3820,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 3825,
       "initialPrice": 3800,
-      "changeSinceFirst": 20,
-      "snapshotCount": 20,
+      "changeSinceFirst": 25,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -9382,6 +9583,11 @@
           "date": "2026-04-08",
           "price": 3820,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3825,
+          "isThursday": true
         }
       ]
     },
@@ -9464,7 +9670,7 @@
       "typeLabel": "B475S A4",
       "unitNumber": "3708S",
       "availabilityDate": "2026-06-11",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-02",
       "lastSeen": "2026-04-08",
       "currentPrice": 4180,
@@ -9518,11 +9724,11 @@
       "availabilityDate": "2026-05-19",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 5650,
       "initialPrice": 5650,
       "changeSinceFirst": 0,
-      "snapshotCount": 21,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -9628,6 +9834,11 @@
           "date": "2026-04-08",
           "price": 5650,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5650,
+          "isThursday": true
         }
       ]
     },
@@ -9638,7 +9849,7 @@
       "typeLabel": "B475S B3",
       "unitNumber": "3501S",
       "availabilityDate": "2026-06-08",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-04-02",
       "lastSeen": "2026-04-08",
       "currentPrice": 5355,
@@ -9692,11 +9903,11 @@
       "availabilityDate": "2025-12-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-09",
       "currentPrice": 3350,
       "initialPrice": 3390,
       "changeSinceFirst": -40,
-      "snapshotCount": 20,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
@@ -9797,6 +10008,11 @@
           "date": "2026-04-08",
           "price": 3350,
           "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3350,
+          "isThursday": true
         }
       ]
     }
