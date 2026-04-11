@@ -24,3 +24,4 @@
 {"ok": true, "ranAt": "2026-04-08T07:53:38-04:00", "snapshotDate": "2026-04-08", "scrapedUnitCount": 62, "trackedUnits": 124, "activeUnits": 62}
 {"ok": true, "ranAt": "2026-04-09T07:54:00-04:00", "snapshotDate": "2026-04-09", "scrapedUnitCount": 43, "trackedUnits": 124, "activeUnits": 43}
 {"ok": true, "ranAt": "2026-04-10T07:46:37-04:00", "snapshotDate": "2026-04-10", "scrapedUnitCount": 42, "trackedUnits": 124, "activeUnits": 42}
+{"ok": false, "ranAt": "2026-04-11T07:28:19-04:00", "snapshotDate": "2026-04-11", "error": "HTTP Error 403: Forbidden"}

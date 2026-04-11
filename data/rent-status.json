@@ -1,7 +1,7 @@
 {
-  "state": "success",
-  "lastAttemptedAt": "2026-04-10T07:46:37-04:00",
+  "state": "failed",
+  "lastAttemptedAt": "2026-04-11T07:28:19-04:00",
   "lastSuccessfulAt": "2026-04-10T07:46:37-04:00",
   "latestSnapshotDate": "2026-04-10",
-  "errorMessage": null
+  "errorMessage": "HTTP Error 403: Forbidden"
 }
