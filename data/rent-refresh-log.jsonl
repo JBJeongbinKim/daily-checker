@@ -26,3 +26,4 @@
 {"ok": true, "ranAt": "2026-04-10T07:46:37-04:00", "snapshotDate": "2026-04-10", "scrapedUnitCount": 42, "trackedUnits": 124, "activeUnits": 42}
 {"ok": false, "ranAt": "2026-04-11T07:28:19-04:00", "snapshotDate": "2026-04-11", "error": "HTTP Error 403: Forbidden"}
 {"ok": false, "ranAt": "2026-04-12T07:32:43-04:00", "snapshotDate": "2026-04-12", "error": "HTTP Error 403: Forbidden"}
+{"ok": false, "ranAt": "2026-04-14T07:55:59-04:00", "snapshotDate": "2026-04-14", "error": "HTTP Error 403: Forbidden"}
