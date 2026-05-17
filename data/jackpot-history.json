@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T11:44:14.896Z",
+  "updatedAt": "2026-05-17T12:04:30.958Z",
   "entries": [
     {
       "date": "2026-03-06",
@@ -119,6 +119,470 @@
       "megamillionsCash": 22.6,
       "powerball": 120,
       "powerballCash": 54.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-21",
+      "megamillions": 60,
+      "megamillionsCash": 27,
+      "powerball": 120,
+      "powerballCash": 54.4,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-22",
+      "megamillions": 60,
+      "megamillionsCash": 27,
+      "powerball": 133,
+      "powerballCash": 60.3,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-23",
+      "megamillions": 60,
+      "megamillionsCash": 27,
+      "powerball": 133,
+      "powerballCash": 60.3,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-24",
+      "megamillions": 60,
+      "megamillionsCash": 27,
+      "powerball": 147,
+      "powerballCash": 66.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-25",
+      "megamillions": 70,
+      "megamillionsCash": 31.5,
+      "powerball": 147,
+      "powerballCash": 66.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-26",
+      "megamillions": 70,
+      "megamillionsCash": 31.5,
+      "powerball": 166,
+      "powerballCash": 75.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-27",
+      "megamillions": 70,
+      "megamillionsCash": 31.5,
+      "powerball": 166,
+      "powerballCash": 75.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-28",
+      "megamillions": 80,
+      "megamillionsCash": 35.6,
+      "powerball": 166,
+      "powerballCash": 74.5,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-29",
+      "megamillions": 80,
+      "megamillionsCash": 35.6,
+      "powerball": 180,
+      "powerballCash": 80.8,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-30",
+      "megamillions": 80,
+      "megamillionsCash": 35.6,
+      "powerball": 180,
+      "powerballCash": 80.8,
+      "source": "official"
+    },
+    {
+      "date": "2026-03-31",
+      "megamillions": 80,
+      "megamillionsCash": 35.6,
+      "powerball": 194,
+      "powerballCash": 87.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-01",
+      "megamillions": 90,
+      "megamillionsCash": 40.1,
+      "powerball": 194,
+      "powerballCash": 87.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-02",
+      "megamillions": 90,
+      "megamillionsCash": 40.1,
+      "powerball": 217,
+      "powerballCash": 97.4,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-03",
+      "megamillions": 90,
+      "megamillionsCash": 40.1,
+      "powerball": 217,
+      "powerballCash": 97.4,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-04",
+      "megamillions": 100,
+      "megamillionsCash": 44.7,
+      "powerball": 217,
+      "powerballCash": 98.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-05",
+      "megamillions": 100,
+      "megamillionsCash": 44.7,
+      "powerball": 231,
+      "powerballCash": 105,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-06",
+      "megamillions": 100,
+      "megamillionsCash": 44.7,
+      "powerball": 231,
+      "powerballCash": 105,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-07",
+      "megamillions": 100,
+      "megamillionsCash": 44.7,
+      "powerball": 20,
+      "powerballCash": 9.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-08",
+      "megamillions": 110,
+      "megamillionsCash": 49.2,
+      "powerball": 20,
+      "powerballCash": 9.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-09",
+      "megamillions": 110,
+      "megamillionsCash": 49.2,
+      "powerball": 35,
+      "powerballCash": 15.9,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-10",
+      "megamillions": 110,
+      "megamillionsCash": 49.2,
+      "powerball": 35,
+      "powerballCash": 15.9,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-11",
+      "megamillions": 120,
+      "megamillionsCash": 53.5,
+      "powerball": 35,
+      "powerballCash": 15.9,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-12",
+      "megamillions": 120,
+      "megamillionsCash": 53.5,
+      "powerball": 45,
+      "powerballCash": 20.5,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-13",
+      "megamillions": 120,
+      "megamillionsCash": 53.5,
+      "powerball": 45,
+      "powerballCash": 20.5,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-14",
+      "megamillions": 120,
+      "megamillionsCash": 53.5,
+      "powerball": 58,
+      "powerballCash": 26.4,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-15",
+      "megamillions": 130,
+      "megamillionsCash": 58,
+      "powerball": 58,
+      "powerballCash": 26.4,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-16",
+      "megamillions": 130,
+      "megamillionsCash": 58,
+      "powerball": 75,
+      "powerballCash": 34.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-17",
+      "megamillions": 130,
+      "megamillionsCash": 58,
+      "powerball": 75,
+      "powerballCash": 34.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-18",
+      "megamillions": 140,
+      "megamillionsCash": 62.8,
+      "powerball": 75,
+      "powerballCash": 34.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-19",
+      "megamillions": 140,
+      "megamillionsCash": 62.8,
+      "powerball": 87,
+      "powerballCash": 39.7,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-20",
+      "megamillions": 140,
+      "megamillionsCash": 62.8,
+      "powerball": 87,
+      "powerballCash": 39.7,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-21",
+      "megamillions": 140,
+      "megamillionsCash": 62.8,
+      "powerball": 100,
+      "powerballCash": 45.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-22",
+      "megamillions": 150,
+      "megamillionsCash": 67.3,
+      "powerball": 100,
+      "powerballCash": 45.6,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-23",
+      "megamillions": 150,
+      "megamillionsCash": 67.3,
+      "powerball": 118,
+      "powerballCash": 53.9,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-24",
+      "megamillions": 150,
+      "megamillionsCash": 67.3,
+      "powerball": 118,
+      "powerballCash": 53.9,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-25",
+      "megamillions": 163,
+      "megamillionsCash": 72.9,
+      "powerball": 118,
+      "powerballCash": 53.7,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-26",
+      "megamillions": 163,
+      "megamillionsCash": 72.9,
+      "powerball": 130,
+      "powerballCash": 59.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-27",
+      "megamillions": 163,
+      "megamillionsCash": 72.9,
+      "powerball": 130,
+      "powerballCash": 59.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-28",
+      "megamillions": 163,
+      "megamillionsCash": 72.9,
+      "powerball": 143,
+      "powerballCash": 65,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-29",
+      "megamillions": 178,
+      "megamillionsCash": 79.6,
+      "powerball": 143,
+      "powerballCash": 65,
+      "source": "official"
+    },
+    {
+      "date": "2026-04-30",
+      "megamillions": 178,
+      "megamillionsCash": 79.6,
+      "powerball": 20,
+      "powerballCash": 9.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-01",
+      "megamillions": 178,
+      "megamillionsCash": 79.6,
+      "powerball": 20,
+      "powerballCash": 9.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-02",
+      "megamillions": 195,
+      "megamillionsCash": 86.3,
+      "powerball": 20,
+      "powerballCash": 9,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-03",
+      "megamillions": 195,
+      "megamillionsCash": 86.3,
+      "powerball": 20,
+      "powerballCash": 9,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-04",
+      "megamillions": 195,
+      "megamillionsCash": 86.3,
+      "powerball": 20,
+      "powerballCash": 9,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-05",
+      "megamillions": 195,
+      "megamillionsCash": 86.3,
+      "powerball": 30,
+      "powerballCash": 13.5,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-06",
+      "megamillions": 215,
+      "megamillionsCash": 95.2,
+      "powerball": 30,
+      "powerballCash": 13.5,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-07",
+      "megamillions": 215,
+      "megamillionsCash": 95.2,
+      "powerball": 47,
+      "powerballCash": 21.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-08",
+      "megamillions": 215,
+      "megamillionsCash": 95.2,
+      "powerball": 47,
+      "powerballCash": 21.1,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-09",
+      "megamillions": 232,
+      "megamillionsCash": 103.8,
+      "powerball": 47,
+      "powerballCash": 21.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-10",
+      "megamillions": 232,
+      "megamillionsCash": 103.8,
+      "powerball": 57,
+      "powerballCash": 25.7,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-11",
+      "megamillions": 232,
+      "megamillionsCash": 103.8,
+      "powerball": 57,
+      "powerballCash": 25.7,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-12",
+      "megamillions": 232,
+      "megamillionsCash": 103.8,
+      "powerball": 69,
+      "powerballCash": 31.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-13",
+      "megamillions": 251,
+      "megamillionsCash": 112.3,
+      "powerball": 69,
+      "powerballCash": 31.2,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-14",
+      "megamillions": 251,
+      "megamillionsCash": 112.3,
+      "powerball": 86,
+      "powerballCash": 38.8,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-15",
+      "megamillions": 251,
+      "megamillionsCash": 112.3,
+      "powerball": 86,
+      "powerballCash": 38.8,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-16",
+      "megamillions": 277,
+      "megamillionsCash": 120.4,
+      "powerball": 86,
+      "powerballCash": 37.8,
+      "source": "official"
+    },
+    {
+      "date": "2026-05-17",
+      "megamillions": 277,
+      "megamillionsCash": 120.4,
+      "powerball": 100,
+      "powerballCash": 43.9,
       "source": "official"
     }
   ]

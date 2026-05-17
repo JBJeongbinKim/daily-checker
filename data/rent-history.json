@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-20T18:20:40-04:00",
+  "generatedAt": "2026-04-10T07:46:56-04:00",
   "sourceFile": "data/Rent.xlsx",
   "sourceUrl": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-  "latestSnapshotDate": "2026-03-20",
+  "latestSnapshotDate": "2026-04-10",
   "snapshotDates": [
     "2024-02-24",
     "2024-10-08",
@@ -49,13 +49,34 @@
     "2026-03-05",
     "2026-03-12",
     "2026-03-19",
-    "2026-03-20"
+    "2026-03-20",
+    "2026-03-21",
+    "2026-03-22",
+    "2026-03-23",
+    "2026-03-24",
+    "2026-03-25",
+    "2026-03-26",
+    "2026-03-27",
+    "2026-03-28",
+    "2026-03-29",
+    "2026-03-30",
+    "2026-03-31",
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-04",
+    "2026-04-05",
+    "2026-04-06",
+    "2026-04-07",
+    "2026-04-08",
+    "2026-04-09",
+    "2026-04-10"
   ],
   "totals": {
-    "units": 103,
-    "activeUnits": 61,
-    "inactiveUnits": 42,
-    "snapshots": 323
+    "units": 124,
+    "activeUnits": 42,
+    "inactiveUnits": 82,
+    "snapshots": 1608
   },
   "units": [
     {
@@ -65,17 +86,92 @@
       "typeLabel": "B401 A2",
       "unitNumber": "M2-0508",
       "availabilityDate": "2026-03-24",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3625,
+      "lastSeen": "2026-04-04",
+      "currentPrice": 3535,
       "initialPrice": 3625,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -90,
+      "snapshotCount": 16,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3580,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3535,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3535,
           "isThursday": false
         }
       ]
@@ -89,15 +185,120 @@
       "availabilityDate": "2026-02-18",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3625,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3570,
       "initialPrice": 3625,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -55,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3580,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3535,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3570,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3570,
           "isThursday": false
         }
       ]
@@ -111,15 +312,120 @@
       "availabilityDate": "2026-04-10",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3625,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3570,
       "initialPrice": 3625,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -55,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3580,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3535,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3570,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3570,
           "isThursday": false
         }
       ]
@@ -133,15 +439,120 @@
       "availabilityDate": "2026-04-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3935,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3845,
       "initialPrice": 3935,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -90,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3935,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3865,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3865,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3805,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3805,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3845,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3845,
           "isThursday": false
         }
       ]
@@ -155,15 +566,120 @@
       "availabilityDate": "2026-04-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3800,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3760,
       "initialPrice": 3800,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -40,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3730,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3675,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3760,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3760,
           "isThursday": false
         }
       ]
@@ -175,17 +691,134 @@
       "typeLabel": "B401 A4",
       "unitNumber": "M2-1211",
       "availabilityDate": "2026-02-18",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3825,
+      "lastSeen": "2026-04-02",
+      "currentPrice": 3700,
       "initialPrice": 3825,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -125,
+      "snapshotCount": 14,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3755,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3700,
+          "isThursday": true
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-2011",
+      "buildingId": "B401",
+      "layoutId": "A4",
+      "typeLabel": "B401 A4",
+      "unitNumber": "M2-2011",
+      "availabilityDate": "2026-05-29",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3700,
+      "initialPrice": 3700,
+      "changeSinceFirst": 0,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 3700,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3700,
           "isThursday": false
         }
       ]
@@ -199,15 +832,120 @@
       "availabilityDate": "2026-05-05",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 4115,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 4030,
       "initialPrice": 4115,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -85,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4115,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 4040,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 4040,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3980,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3980,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4030,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 4030,
           "isThursday": false
         }
       ]
@@ -221,15 +959,120 @@
       "availabilityDate": "2026-02-11",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 4170,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 4085,
       "initialPrice": 4170,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -85,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4170,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 4095,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 4095,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 4035,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 4035,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4085,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 4085,
           "isThursday": false
         }
       ]
@@ -241,17 +1084,57 @@
       "typeLabel": "B401 A7",
       "unitNumber": "M2-0501",
       "availabilityDate": "2026-03-31",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3860,
+      "lastSeen": "2026-03-28",
+      "currentPrice": 3650,
       "initialPrice": 3860,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -210,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3650,
           "isThursday": false
         }
       ]
@@ -263,13 +1146,13 @@
       "typeLabel": "B401 B5",
       "unitNumber": "M2-1802",
       "availabilityDate": "2026-04-07",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5545,
+      "lastSeen": "2026-04-06",
+      "currentPrice": 5615,
       "initialPrice": 5545,
-      "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "changeSinceFirst": 70,
+      "snapshotCount": 19,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -279,6 +1162,91 @@
         {
           "date": "2026-03-20",
           "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5605,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5605,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5615,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5615,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5615,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5615,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5615,
           "isThursday": false
         }
       ]
@@ -290,17 +1258,179 @@
       "typeLabel": "B401 B6",
       "unitNumber": "M2-0701",
       "availabilityDate": "2026-06-08",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5630,
+      "lastSeen": "2026-04-09",
+      "currentPrice": 5730,
       "initialPrice": 5630,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 100,
+      "snapshotCount": 21,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5700,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5705,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5730,
+          "isThursday": true
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1001",
+      "buildingId": "B401",
+      "layoutId": "B6",
+      "typeLabel": "B401 B6",
+      "unitNumber": "M2-1001",
+      "availabilityDate": "2026-03-24",
+      "status": "active",
+      "firstSeen": "2026-03-28",
+      "lastSeen": "2026-04-10",
+      "currentPrice": 5730,
+      "initialPrice": 5700,
+      "changeSinceFirst": 30,
+      "snapshotCount": 9,
+      "snapshots": [
+        {
+          "date": "2026-03-28",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5705,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5730,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5730,
           "isThursday": false
         }
       ]
@@ -314,15 +1444,172 @@
       "availabilityDate": "2026-07-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5755,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 5855,
       "initialPrice": 5755,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 100,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5755,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5825,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5825,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5830,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5855,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5855,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-2408",
+      "buildingId": "B401",
+      "layoutId": "B7",
+      "typeLabel": "B401 B7",
+      "unitNumber": "M2-2408",
+      "availabilityDate": "2026-07-10",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5810,
+      "initialPrice": 5810,
+      "changeSinceFirst": 0,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 5810,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5810,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5810,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5810,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5810,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5810,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5810,
           "isThursday": false
         }
       ]
@@ -336,15 +1623,207 @@
       "availabilityDate": "2026-05-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3495,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3505,
       "initialPrice": 3495,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 10,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3495,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3495,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3505,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3505,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3505,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3505,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b401-m2-1607",
+      "buildingId": "B401",
+      "layoutId": "S2",
+      "typeLabel": "B401 MS2",
+      "unitNumber": "M2-1607",
+      "availabilityDate": "2026-07-07",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3250,
+      "initialPrice": 3250,
+      "changeSinceFirst": 0,
+      "snapshotCount": 14,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3250,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3250,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3250,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3250,
           "isThursday": false
         }
       ]
@@ -358,15 +1837,120 @@
       "availabilityDate": "2026-05-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3155,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3165,
       "initialPrice": 3155,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 10,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3155,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3150,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3150,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3150,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3165,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3165,
           "isThursday": false
         }
       ]
@@ -377,18 +1961,123 @@
       "layoutId": "S3",
       "typeLabel": "B401 S3",
       "unitNumber": "M2-2609",
-      "availabilityDate": "2026-04-10",
+      "availabilityDate": "2026-04-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3590,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3525,
       "initialPrice": 3590,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -65,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3590,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3590,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3525,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3525,
           "isThursday": false
         }
       ]
@@ -399,18 +2088,123 @@
       "layoutId": "S3",
       "typeLabel": "B401 S3",
       "unitNumber": "M2-2709",
-      "availabilityDate": "2026-04-10",
+      "availabilityDate": "2026-04-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3590,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3525,
       "initialPrice": 3590,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -65,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3590,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3590,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3590,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3525,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3525,
           "isThursday": false
         }
       ]
@@ -422,7 +2216,7 @@
       "typeLabel": "B401 S3",
       "unitNumber": "M2-3209",
       "availabilityDate": "2025-09-16",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
       "lastSeen": "2026-03-20",
       "currentPrice": 3300,
@@ -446,15 +2240,120 @@
       "availabilityDate": "2026-04-21",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3435,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3540,
       "initialPrice": 3435,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 105,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3435,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3470,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3470,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3525,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3540,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3540,
           "isThursday": false
         }
       ]
@@ -466,17 +2365,149 @@
       "typeLabel": "B425 A01",
       "unitNumber": "M1-1610",
       "availabilityDate": "2026-06-10",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3245,
+      "lastSeen": "2026-04-07",
+      "currentPrice": 3335,
       "initialPrice": 3245,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 90,
+      "snapshotCount": 19,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3245,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3280,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3335,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3335,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3335,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3335,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3335,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3335,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1804",
+      "buildingId": "B425",
+      "layoutId": "A02",
+      "typeLabel": "B425 A02",
+      "unitNumber": "M1-1804",
+      "availabilityDate": "2026-06-11",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-06",
+      "currentPrice": 3425,
+      "initialPrice": 3425,
+      "changeSinceFirst": 0,
+      "snapshotCount": 5,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 3425,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3425,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3425,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3425,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3425,
           "isThursday": false
         }
       ]
@@ -488,13 +2519,13 @@
       "typeLabel": "B425 A02",
       "unitNumber": "M1-3504",
       "availabilityDate": "2026-04-09",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3675,
+      "lastSeen": "2026-03-28",
+      "currentPrice": 3715,
       "initialPrice": 3675,
-      "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "changeSinceFirst": 40,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -504,6 +2535,46 @@
         {
           "date": "2026-03-20",
           "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3715,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3715,
           "isThursday": false
         }
       ]
@@ -517,15 +2588,120 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3575,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3680,
       "initialPrice": 3575,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 105,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3575,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3610,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3610,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3680,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3680,
           "isThursday": false
         }
       ]
@@ -539,15 +2715,120 @@
       "availabilityDate": "2026-02-24",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3595,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3700,
       "initialPrice": 3595,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 105,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3595,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3630,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3670,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3670,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3700,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3700,
           "isThursday": false
         }
       ]
@@ -561,15 +2842,120 @@
       "availabilityDate": "2026-03-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3695,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3800,
       "initialPrice": 3695,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 105,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3730,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3730,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3770,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3800,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3800,
           "isThursday": false
         }
       ]
@@ -583,15 +2969,120 @@
       "availabilityDate": "2026-04-02",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3710,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3815,
       "initialPrice": 3710,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 105,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3710,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3745,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3785,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3815,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3815,
           "isThursday": false
         }
       ]
@@ -603,17 +3094,209 @@
       "typeLabel": "B425 A10, B425 A10A, B425 A10B",
       "unitNumber": "M1-1213",
       "availabilityDate": "2026-05-22",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3630,
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3680,
       "initialPrice": 3630,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 50,
+      "snapshotCount": 20,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3630,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3635,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3635,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3680,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3680,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1913",
+      "buildingId": "B425",
+      "layoutId": "A10",
+      "typeLabel": "B425 A10, B425 A10A, B425 A10B",
+      "unitNumber": "M1-1913",
+      "availabilityDate": "2026-04-13",
+      "status": "active",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3775,
+      "initialPrice": 3690,
+      "changeSinceFirst": 85,
+      "snapshotCount": 16,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3690,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3690,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3745,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3745,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3775,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3775,
           "isThursday": false
         }
       ]
@@ -625,16 +3308,21 @@
       "typeLabel": "B425 A10, B425 A10A, B425 A10B",
       "unitNumber": "M1-3213",
       "availabilityDate": "2026-05-11",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-21",
       "currentPrice": 3620,
       "initialPrice": 3620,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "snapshots": [
         {
           "date": "2026-03-20",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
           "price": 3620,
           "isThursday": false
         }
@@ -647,13 +3335,13 @@
       "typeLabel": "B425 A5A",
       "unitNumber": "M1-0503",
       "availabilityDate": "2026-03-11",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3380,
+      "lastSeen": "2026-03-28",
+      "currentPrice": 3415,
       "initialPrice": 3380,
-      "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "changeSinceFirst": 35,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -664,6 +3352,46 @@
           "date": "2026-03-20",
           "price": 3380,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3380,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3380,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3380,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3380,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3380,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3415,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3415,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3415,
+          "isThursday": false
         }
       ]
     },
@@ -673,18 +3401,180 @@
       "layoutId": "A5",
       "typeLabel": "B425 A5",
       "unitNumber": "M1-1703",
-      "availabilityDate": "2026-06-04",
+      "availabilityDate": "2026-06-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3490,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3640,
       "initialPrice": 3490,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 150,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3490,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3525,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3545,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3640,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3640,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-3007",
+      "buildingId": "B425",
+      "layoutId": "A7",
+      "typeLabel": "B425 A7",
+      "unitNumber": "M1-3007",
+      "availabilityDate": "2025-12-31",
+      "status": "inactive",
+      "firstSeen": "2026-03-24",
+      "lastSeen": "2026-03-31",
+      "currentPrice": 3640,
+      "initialPrice": 3775,
+      "changeSinceFirst": -135,
+      "snapshotCount": 8,
+      "snapshots": [
+        {
+          "date": "2026-03-24",
+          "price": 3775,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3775,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3640,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3640,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3640,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3640,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3640,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3640,
           "isThursday": false
         }
       ]
@@ -698,15 +3588,120 @@
       "availabilityDate": "2026-03-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3695,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3755,
       "initialPrice": 3695,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 60,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3695,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3680,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3680,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3725,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3755,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3755,
           "isThursday": false
         }
       ]
@@ -720,14 +3715,119 @@
       "availabilityDate": "2026-02-23",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-04-10",
       "currentPrice": 3725,
       "initialPrice": 3725,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3765,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3765,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3725,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3725,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3725,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
           "price": 3725,
           "isThursday": false
         }
@@ -740,17 +3840,67 @@
       "typeLabel": "B425 B10, B425 B10A",
       "unitNumber": "M1-1101",
       "availabilityDate": "2026-04-15",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5280,
+      "lastSeen": "2026-03-30",
+      "currentPrice": 5330,
       "initialPrice": 5280,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 50,
+      "snapshotCount": 11,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5330,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5330,
           "isThursday": false
         }
       ]
@@ -762,17 +3912,97 @@
       "typeLabel": "B425 B5, B425 B5A, B425 B5C",
       "unitNumber": "M1-0212",
       "availabilityDate": "2026-03-25",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 4860,
+      "lastSeen": "2026-04-05",
+      "currentPrice": 4600,
       "initialPrice": 4860,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -260,
+      "snapshotCount": 17,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 4700,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 4700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 4600,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 4600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 4600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 4600,
           "isThursday": false
         }
       ]
@@ -784,17 +4014,129 @@
       "typeLabel": "B425 B8",
       "unitNumber": "M1-2205",
       "availabilityDate": "2026-03-19",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5210,
+      "lastSeen": "2026-04-01",
+      "currentPrice": 5260,
       "initialPrice": 5210,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 50,
+      "snapshotCount": 13,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5260,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5260,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1211",
+      "buildingId": "B425",
+      "layoutId": "S1",
+      "typeLabel": "B425 S1",
+      "unitNumber": "M1-1211",
+      "availabilityDate": "2026-07-02",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3175,
+      "initialPrice": 3175,
+      "changeSinceFirst": 0,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 3175,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3175,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3175,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3175,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3175,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3175,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3175,
           "isThursday": false
         }
       ]
@@ -805,18 +4147,180 @@
       "layoutId": "S2",
       "typeLabel": "B425 S2",
       "unitNumber": "M1-0309",
-      "availabilityDate": "2026-04-06",
+      "availabilityDate": "2026-04-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-04-10",
       "currentPrice": 3210,
       "initialPrice": 3210,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 16,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3210,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3210,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3210,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3210,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b425-m1-1109",
+      "buildingId": "B425",
+      "layoutId": "S2",
+      "typeLabel": "B425 S2",
+      "unitNumber": "M1-1109",
+      "availabilityDate": "2026-07-08",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3280,
+      "initialPrice": 3280,
+      "changeSinceFirst": 0,
+      "snapshotCount": 14,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3280,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3280,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3280,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3280,
           "isThursday": false
         }
       ]
@@ -830,15 +4334,120 @@
       "availabilityDate": "2026-04-16",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3195,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3205,
       "initialPrice": 3195,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 10,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3195,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3205,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3205,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3205,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3205,
           "isThursday": false
         }
       ]
@@ -850,17 +4459,144 @@
       "typeLabel": "B475N A1",
       "unitNumber": "1403N",
       "availabilityDate": "2026-02-17",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3570,
+      "lastSeen": "2026-03-28",
+      "currentPrice": 3375,
       "initialPrice": 3570,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -195,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3375,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3375,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-1603n",
+      "buildingId": "B475N",
+      "layoutId": "A1",
+      "typeLabel": "B475N A1",
+      "unitNumber": "1603N",
+      "availabilityDate": "2026-07-03",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3515,
+      "initialPrice": 3375,
+      "changeSinceFirst": 140,
+      "snapshotCount": 14,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3375,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3375,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3515,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3515,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3515,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3515,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3515,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3515,
           "isThursday": false
         }
       ]
@@ -874,15 +4610,259 @@
       "availabilityDate": "2026-05-20",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3675,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3620,
       "initialPrice": 3675,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -55,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3675,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3480,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3480,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3480,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3620,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3620,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-3003n",
+      "buildingId": "B475N",
+      "layoutId": "A1",
+      "typeLabel": "B475N A1",
+      "unitNumber": "3003N",
+      "availabilityDate": "2026-06-15",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3740,
+      "initialPrice": 3600,
+      "changeSinceFirst": 140,
+      "snapshotCount": 14,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3600,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3600,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3600,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3740,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-3303n",
+      "buildingId": "B475N",
+      "layoutId": "A1",
+      "typeLabel": "B475N A1",
+      "unitNumber": "3303N",
+      "availabilityDate": "2026-06-21",
+      "status": "inactive",
+      "firstSeen": "2025-02-17",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3740,
+      "initialPrice": 3389,
+      "changeSinceFirst": 351,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2025-02-17",
+          "price": 3389,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3740,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3740,
           "isThursday": false
         }
       ]
@@ -894,17 +4874,149 @@
       "typeLabel": "B475N A2",
       "unitNumber": "1706N",
       "availabilityDate": "2026-05-14",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3450,
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3410,
       "initialPrice": 3450,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -40,
+      "snapshotCount": 20,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3450,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3355,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3355,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3410,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2506n",
+      "buildingId": "B475N",
+      "layoutId": "A2",
+      "typeLabel": "B475N A2",
+      "unitNumber": "2506N",
+      "availabilityDate": "2026-06-14",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-03-29",
+      "currentPrice": 3530,
+      "initialPrice": 3530,
+      "changeSinceFirst": 0,
+      "snapshotCount": 4,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3530,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3530,
           "isThursday": false
         }
       ]
@@ -918,15 +5030,120 @@
       "availabilityDate": "2026-05-15",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3625,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3585,
       "initialPrice": 3625,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -40,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3625,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3530,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3530,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3530,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3585,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3585,
           "isThursday": false
         }
       ]
@@ -938,16 +5155,36 @@
       "typeLabel": "B475N A2",
       "unitNumber": "4906N",
       "availabilityDate": "2026-02-19",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-24",
       "currentPrice": 3845,
       "initialPrice": 3845,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 5,
       "snapshots": [
         {
           "date": "2026-03-20",
+          "price": 3845,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3845,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3845,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3845,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
           "price": 3845,
           "isThursday": false
         }
@@ -962,15 +5199,217 @@
       "availabilityDate": "2026-05-27",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3950,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3830,
       "initialPrice": 3950,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -120,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3950,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3780,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3780,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3780,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3830,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3830,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3830,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-2508n",
+      "buildingId": "B475N",
+      "layoutId": "A3",
+      "typeLabel": "B475N A3",
+      "unitNumber": "2508N",
+      "availabilityDate": "2026-04-19",
+      "status": "active",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3960,
+      "initialPrice": 3910,
+      "changeSinceFirst": 50,
+      "snapshotCount": 16,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3910,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3910,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3960,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3960,
           "isThursday": false
         }
       ]
@@ -984,15 +5423,207 @@
       "availabilityDate": "2026-05-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 4080,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3960,
       "initialPrice": 4080,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -120,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4080,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3910,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3910,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3960,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3960,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3960,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475n-3108n",
+      "buildingId": "B475N",
+      "layoutId": "A3",
+      "typeLabel": "B475N A3",
+      "unitNumber": "3108N",
+      "availabilityDate": "2026-05-26",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3910,
+      "initialPrice": 3860,
+      "changeSinceFirst": 50,
+      "snapshotCount": 14,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 3860,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3860,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3860,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3910,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3910,
           "isThursday": false
         }
       ]
@@ -1006,15 +5637,120 @@
       "availabilityDate": "2026-04-28",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 4375,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 4255,
       "initialPrice": 4375,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -120,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 4375,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 4205,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 4205,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 4205,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 4255,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4255,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 4255,
           "isThursday": false
         }
       ]
@@ -1028,15 +5764,120 @@
       "availabilityDate": "2026-03-26",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3930,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3875,
       "initialPrice": 3930,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -55,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3800,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3800,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3875,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3875,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3875,
           "isThursday": false
         }
       ]
@@ -1048,16 +5889,31 @@
       "typeLabel": "B475N A4",
       "unitNumber": "2307N",
       "availabilityDate": "2026-03-20",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-23",
       "currentPrice": 3930,
       "initialPrice": 3930,
       "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "snapshotCount": 4,
       "snapshots": [
         {
           "date": "2026-03-20",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3930,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
           "price": 3930,
           "isThursday": false
         }
@@ -1072,15 +5928,120 @@
       "availabilityDate": "2026-05-22",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3850,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3795,
       "initialPrice": 3850,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -55,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3850,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3720,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3720,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3720,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3795,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3795,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3795,
           "isThursday": false
         }
       ]
@@ -1125,28 +6086,6 @@
         {
           "date": "2025-02-17",
           "price": 3494,
-          "isThursday": false
-        }
-      ]
-    },
-    {
-      "id": "b475n-3303n",
-      "buildingId": "B475N",
-      "layoutId": "B1",
-      "typeLabel": "B475N B1",
-      "unitNumber": "3303N",
-      "availabilityDate": "2025-05-11",
-      "status": "inactive",
-      "firstSeen": "2025-02-17",
-      "lastSeen": "2025-02-17",
-      "currentPrice": 3389,
-      "initialPrice": 3389,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
-      "snapshots": [
-        {
-          "date": "2025-02-17",
-          "price": 3389,
           "isThursday": false
         }
       ]
@@ -1368,11 +6307,11 @@
       "availabilityDate": "2026-04-27",
       "status": "active",
       "firstSeen": "2026-02-19",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5225,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 5260,
       "initialPrice": 5220,
-      "changeSinceFirst": 5,
-      "snapshotCount": 6,
+      "changeSinceFirst": 40,
+      "snapshotCount": 27,
       "snapshots": [
         {
           "date": "2026-02-19",
@@ -1402,6 +6341,111 @@
         {
           "date": "2026-03-20",
           "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5225,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5785,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5785,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5260,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5260,
           "isThursday": false
         }
       ]
@@ -1544,14 +6588,14 @@
       "layoutId": "B2",
       "typeLabel": "B475N B2",
       "unitNumber": "4704N",
-      "availabilityDate": "2024-11-13",
+      "availabilityDate": "2026-05-15",
       "status": "inactive",
       "firstSeen": "2024-11-13",
-      "lastSeen": "2025-01-06",
-      "currentPrice": 4512,
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5330,
       "initialPrice": 5135,
-      "changeSinceFirst": -623,
-      "snapshotCount": 5,
+      "changeSinceFirst": 195,
+      "snapshotCount": 19,
       "snapshots": [
         {
           "date": "2024-11-13",
@@ -1576,6 +6620,76 @@
         {
           "date": "2025-01-06",
           "price": 4512,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5330,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5330,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5330,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5330,
           "isThursday": false
         }
       ]
@@ -1643,14 +6757,14 @@
       "layoutId": "B2",
       "typeLabel": "B475N B2",
       "unitNumber": "4904N",
-      "availabilityDate": "2024-11-13",
+      "availabilityDate": "2026-05-30",
       "status": "inactive",
       "firstSeen": "2024-11-13",
-      "lastSeen": "2025-01-06",
-      "currentPrice": 4585,
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5405,
       "initialPrice": 5210,
-      "changeSinceFirst": -625,
-      "snapshotCount": 5,
+      "changeSinceFirst": 195,
+      "snapshotCount": 19,
       "snapshots": [
         {
           "date": "2024-11-13",
@@ -1675,6 +6789,76 @@
         {
           "date": "2025-01-06",
           "price": 4585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5405,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5405,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5405,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5405,
           "isThursday": false
         }
       ]
@@ -2485,14 +7669,14 @@
       "layoutId": "B4",
       "typeLabel": "B475N B4",
       "unitNumber": "2802N",
-      "availabilityDate": "2025-05-21",
+      "availabilityDate": "2026-06-27",
       "status": "inactive",
       "firstSeen": "2025-04-01",
-      "lastSeen": "2025-04-10",
-      "currentPrice": 5856,
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5760,
       "initialPrice": 5906,
-      "changeSinceFirst": -50,
-      "snapshotCount": 2,
+      "changeSinceFirst": -146,
+      "snapshotCount": 16,
       "snapshots": [
         {
           "date": "2025-04-01",
@@ -2503,6 +7687,76 @@
           "date": "2025-04-10",
           "price": 5856,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5715,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5715,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5715,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5760,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5760,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5760,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5760,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5760,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5760,
+          "isThursday": false
         }
       ]
     },
@@ -2647,6 +7901,58 @@
       ]
     },
     {
+      "id": "b475n-3702n",
+      "buildingId": "B475N",
+      "layoutId": "B4",
+      "typeLabel": "B475N B4",
+      "unitNumber": "3702N",
+      "availabilityDate": "2026-06-22",
+      "status": "inactive",
+      "firstSeen": "2026-03-26",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5835,
+      "initialPrice": 5790,
+      "changeSinceFirst": 45,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-03-26",
+          "price": 5790,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5835,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5835,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5835,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5835,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5835,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5835,
+          "isThursday": false
+        }
+      ]
+    },
+    {
       "id": "b475n-4102n",
       "buildingId": "B475N",
       "layoutId": "B4",
@@ -2726,14 +8032,14 @@
       "layoutId": "B4",
       "typeLabel": "B475N B4",
       "unitNumber": "4402N",
-      "availabilityDate": "2026-03-15",
+      "availabilityDate": "2026-03-20",
       "status": "inactive",
       "firstSeen": "2026-01-15",
-      "lastSeen": "2026-03-12",
+      "lastSeen": "2026-03-23",
       "currentPrice": 5880,
       "initialPrice": 5615,
       "changeSinceFirst": 265,
-      "snapshotCount": 9,
+      "snapshotCount": 12,
       "snapshots": [
         {
           "date": "2026-01-15",
@@ -2779,6 +8085,21 @@
           "date": "2026-03-12",
           "price": 5880,
           "isThursday": true
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5880,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5880,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5880,
+          "isThursday": false
         }
       ]
     },
@@ -2791,11 +8112,11 @@
       "availabilityDate": "2026-04-13",
       "status": "active",
       "firstSeen": "2026-01-15",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5460,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 5495,
       "initialPrice": 5130,
-      "changeSinceFirst": 330,
-      "snapshotCount": 11,
+      "changeSinceFirst": 365,
+      "snapshotCount": 32,
       "snapshots": [
         {
           "date": "2026-01-15",
@@ -2850,6 +8171,111 @@
         {
           "date": "2026-03-20",
           "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5510,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5510,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5495,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5495,
           "isThursday": false
         }
       ]
@@ -2980,11 +8406,11 @@
       "availabilityDate": "2026-06-06",
       "status": "active",
       "firstSeen": "2024-12-18",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 5535,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 5570,
       "initialPrice": 4500,
-      "changeSinceFirst": 1035,
-      "snapshotCount": 13,
+      "changeSinceFirst": 1070,
+      "snapshotCount": 34,
       "snapshots": [
         {
           "date": "2024-12-18",
@@ -3049,6 +8475,111 @@
         {
           "date": "2026-03-20",
           "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5535,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5585,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5585,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5585,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5620,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5570,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5570,
           "isThursday": false
         }
       ]
@@ -3164,15 +8695,120 @@
       "availabilityDate": "2026-02-17",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3410,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3200,
       "initialPrice": 3410,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -210,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3370,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3370,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3370,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3310,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3200,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3200,
           "isThursday": false
         }
       ]
@@ -3186,15 +8822,120 @@
       "availabilityDate": "2026-03-07",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3260,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3250,
       "initialPrice": 3260,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -10,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3260,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3220,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3220,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3220,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3160,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3250,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3250,
           "isThursday": false
         }
       ]
@@ -3206,18 +8947,48 @@
       "typeLabel": "B475S A1",
       "unitNumber": "2003S",
       "availabilityDate": "2026-02-26",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3460,
+      "lastSeen": "2026-03-26",
+      "currentPrice": 3410,
       "initialPrice": 3460,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -50,
+      "snapshotCount": 7,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3460,
           "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3410,
+          "isThursday": true
         }
       ]
     },
@@ -3228,17 +8999,57 @@
       "typeLabel": "B475S A1",
       "unitNumber": "2203S",
       "availabilityDate": "2026-04-27",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3460,
+      "lastSeen": "2026-03-28",
+      "currentPrice": 3410,
       "initialPrice": 3460,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -50,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3410,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3410,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3410,
           "isThursday": false
         }
       ]
@@ -3252,15 +9063,269 @@
       "availabilityDate": "2026-05-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3560,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3590,
       "initialPrice": 3560,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 30,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3560,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3510,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3510,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3580,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3580,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3590,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3590,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-1702s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "1702S",
+      "availabilityDate": "2026-07-02",
+      "status": "inactive",
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3440,
+      "initialPrice": 3440,
+      "changeSinceFirst": 0,
+      "snapshotCount": 6,
+      "snapshots": [
+        {
+          "date": "2026-04-03",
+          "price": 3440,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3440,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3440,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3440,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3440,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3440,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-1906s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "1906S",
+      "availabilityDate": "2026-03-04",
+      "status": "active",
+      "firstSeen": "2026-03-25",
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3550,
+      "initialPrice": 3525,
+      "changeSinceFirst": 25,
+      "snapshotCount": 17,
+      "snapshots": [
+        {
+          "date": "2026-03-25",
+          "price": 3525,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3540,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3540,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3545,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3545,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3550,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3550,
           "isThursday": false
         }
       ]
@@ -3272,17 +9337,134 @@
       "typeLabel": "B475S A2",
       "unitNumber": "2402S",
       "availabilityDate": "2026-02-26",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3550,
+      "lastSeen": "2026-03-29",
+      "currentPrice": 3565,
       "initialPrice": 3550,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 15,
+      "snapshotCount": 10,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3550,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3565,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3565,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3006s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "3006S",
+      "availabilityDate": "2026-05-20",
+      "status": "active",
+      "firstSeen": "2026-03-31",
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3575,
+      "initialPrice": 3565,
+      "changeSinceFirst": 10,
+      "snapshotCount": 11,
+      "snapshots": [
+        {
+          "date": "2026-03-31",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3570,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3575,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3575,
           "isThursday": false
         }
       ]
@@ -3294,17 +9476,114 @@
       "typeLabel": "B475S A2",
       "unitNumber": "3206S",
       "availabilityDate": "2026-05-09",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3445,
+      "lastSeen": "2026-04-02",
+      "currentPrice": 3465,
       "initialPrice": 3445,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 20,
+      "snapshotCount": 9,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3445,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3445,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3445,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3445,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3445,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3460,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3465,
+          "isThursday": true
+        }
+      ]
+    },
+    {
+      "id": "b475s-3302s",
+      "buildingId": "B475S",
+      "layoutId": "A2",
+      "typeLabel": "B475S A2",
+      "unitNumber": "3302S",
+      "availabilityDate": "2026-06-02",
+      "status": "inactive",
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 3570,
+      "initialPrice": 3565,
+      "changeSinceFirst": 5,
+      "snapshotCount": 8,
+      "snapshots": [
+        {
+          "date": "2026-04-01",
+          "price": 3565,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3570,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3570,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3570,
           "isThursday": false
         }
       ]
@@ -3316,17 +9595,72 @@
       "typeLabel": "B475S A2",
       "unitNumber": "3902S",
       "availabilityDate": "2025-12-15",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3700,
+      "lastSeen": "2026-03-31",
+      "currentPrice": 3650,
       "initialPrice": 3700,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -50,
+      "snapshotCount": 12,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3700,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3650,
           "isThursday": false
         }
       ]
@@ -3340,15 +9674,120 @@
       "availabilityDate": "2026-03-03",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3800,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3825,
       "initialPrice": 3800,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 25,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3800,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3815,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3815,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3820,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3820,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3825,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3825,
           "isThursday": false
         }
       ]
@@ -3360,17 +9799,119 @@
       "typeLabel": "B475S A2",
       "unitNumber": "4902S",
       "availabilityDate": "2026-03-21",
-      "status": "active",
+      "status": "inactive",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3770,
+      "lastSeen": "2026-03-30",
+      "currentPrice": 3785,
       "initialPrice": 3770,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": 15,
+      "snapshotCount": 11,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3770,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3785,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3785,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3785,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3708s",
+      "buildingId": "B475S",
+      "layoutId": "A4",
+      "typeLabel": "B475S A4",
+      "unitNumber": "3708S",
+      "availabilityDate": "2026-06-11",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 4180,
+      "initialPrice": 4180,
+      "changeSinceFirst": 0,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 4180,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 4180,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 4180,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 4180,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 4180,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 4180,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 4180,
           "isThursday": false
         }
       ]
@@ -3384,11 +9925,11 @@
       "availabilityDate": "2026-05-19",
       "status": "active",
       "firstSeen": "2026-03-19",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-04-10",
       "currentPrice": 5650,
       "initialPrice": 5650,
       "changeSinceFirst": 0,
-      "snapshotCount": 2,
+      "snapshotCount": 23,
       "snapshots": [
         {
           "date": "2026-03-19",
@@ -3398,6 +9939,163 @@
         {
           "date": "2026-03-20",
           "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 5650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 5650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5650,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 5650,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 5650,
+          "isThursday": false
+        }
+      ]
+    },
+    {
+      "id": "b475s-3501s",
+      "buildingId": "B475S",
+      "layoutId": "B3",
+      "typeLabel": "B475S B3",
+      "unitNumber": "3501S",
+      "availabilityDate": "2026-06-08",
+      "status": "inactive",
+      "firstSeen": "2026-04-02",
+      "lastSeen": "2026-04-08",
+      "currentPrice": 5355,
+      "initialPrice": 5355,
+      "changeSinceFirst": 0,
+      "snapshotCount": 7,
+      "snapshots": [
+        {
+          "date": "2026-04-02",
+          "price": 5355,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 5355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 5355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 5355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 5355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 5355,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 5355,
           "isThursday": false
         }
       ]
@@ -3411,15 +10109,120 @@
       "availabilityDate": "2025-12-09",
       "status": "active",
       "firstSeen": "2026-03-20",
-      "lastSeen": "2026-03-20",
-      "currentPrice": 3390,
+      "lastSeen": "2026-04-10",
+      "currentPrice": 3350,
       "initialPrice": 3390,
-      "changeSinceFirst": 0,
-      "snapshotCount": 1,
+      "changeSinceFirst": -40,
+      "snapshotCount": 22,
       "snapshots": [
         {
           "date": "2026-03-20",
           "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-21",
+          "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-22",
+          "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-23",
+          "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-24",
+          "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-25",
+          "price": 3390,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-26",
+          "price": 3350,
+          "isThursday": true
+        },
+        {
+          "date": "2026-03-27",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-28",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-29",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-30",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-03-31",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-01",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-02",
+          "price": 3350,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-03",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-04",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-05",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-06",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-07",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-08",
+          "price": 3350,
+          "isThursday": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 3350,
+          "isThursday": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 3350,
           "isThursday": false
         }
       ]
