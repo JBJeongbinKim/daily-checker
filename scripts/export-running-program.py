@@ -11,9 +11,9 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE_PATH = ROOT / "data" / "Running.xlsx"
+SOURCE_PATH = ROOT / "data" / "Running_v2.xlsx"
 OUTPUT_PATH = ROOT / "data" / "running-program.json"
-SHEET_NAME = "Nike training program_21k"
+SHEET_NAME = "Nike training program_42k"
 
 
 @dataclass(frozen=True)
@@ -25,10 +25,10 @@ class DayBlock:
 
 DAY_BLOCKS = [
     DayBlock(order=1, display_column=29, focus="Recovery"),
-    DayBlock(order=2, display_column=34, focus="Speed"),
-    DayBlock(order=3, display_column=39, focus="Recovery"),
-    DayBlock(order=4, display_column=44, focus="Speed"),
-    DayBlock(order=5, display_column=49, focus="Long"),
+    DayBlock(order=2, display_column=35, focus="Recovery"),
+    DayBlock(order=3, display_column=41, focus="Speed"),
+    DayBlock(order=4, display_column=47, focus="Recovery"),
+    DayBlock(order=5, display_column=53, focus="Long"),
 ]
 
 
