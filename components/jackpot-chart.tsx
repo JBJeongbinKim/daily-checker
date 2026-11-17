@@ -44,6 +44,10 @@ const millionsFormatter = new Intl.NumberFormat("en-US", {
   minimumFractionDigits: 0
 });
 
+const billionsFormatter = new Intl.NumberFormat("en-US", {
+  maximumFractionDigits: 3
+});
+
 const shortDateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
@@ -67,6 +71,14 @@ function parseDate(date: string) {
 
 function formatMillions(value: number) {
   return `$${millionsFormatter.format(value)}M`;
+}
+
+function formatAxisCurrency(value: number) {
+  if (Math.abs(value) >= 1000) {
+    return `$${billionsFormatter.format(value / 1000)}B`;
+  }
+
+  return formatMillions(value);
 }
 
 function formatTooltipDate(date: string) {
@@ -264,7 +276,7 @@ export function JackpotChart() {
 
         <div className={styles.chartHeading}>
           <h2>{displayModes.find((mode) => mode.id === displayMode)?.label} trend</h2>
-          <p>USD millions ($M)</p>
+          <p>USD ($M / $B)</p>
         </div>
         <div className={styles.legend} aria-label="Chart legend">
           <span><i className={styles.megaLine} />Mega Millions</span>
@@ -288,7 +300,7 @@ export function JackpotChart() {
                 axisLine={false}
                 domain={axisConfig.domain}
                 tick={{ fill: "#475569", fontSize: 12 }}
-                tickFormatter={formatMillions}
+                tickFormatter={formatAxisCurrency}
                 tickLine={false}
                 ticks={axisConfig.ticks}
                 tickMargin={8}
