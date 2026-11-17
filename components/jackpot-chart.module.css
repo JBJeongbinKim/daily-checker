@@ -1,7 +1,7 @@
 .shell {
-  width: min(100vw - 16px, 720px);
+  width: min(100% - 24px, 960px);
   margin: 0 auto;
-  padding: 8px 0 18px;
+  padding: 20px 0 28px;
 }
 
 .panel {
@@ -41,8 +41,7 @@
   transform: translateY(-1px);
 }
 
-.summaryLabel,
-.tooltipDate {
+.summaryLabel {
   color: var(--muted);
 }
 
@@ -136,7 +135,83 @@
 }
 
 .chartWrap {
-  height: 320px;
+  height: 350px;
+  width: 100%;
+  min-width: 0;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+}
+
+.header p,
+.chartHint {
+  margin: 0;
+  color: #475569;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.chartHeading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.chartHeading h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.chartHeading p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.8rem;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin: 14px 0 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.megaLine,
+.powerballLine {
+  width: 26px;
+  border-top: 3px solid var(--megamillions);
+}
+
+.powerballLine {
+  border-top: 3px dashed var(--powerball);
+}
+
+.chartHint {
+  margin-top: 8px;
+}
+
+.segmentButton:focus-visible,
+.segmentActive:focus-visible,
+.statePicker select:focus-visible,
+.summaryCard:focus-visible {
+  outline: 3px solid var(--megamillions);
+  outline-offset: 3px;
 }
 
 .tooltip {
@@ -144,11 +219,14 @@
   background: rgba(33, 27, 24, 0.94);
   color: #fff7ea;
   padding: 12px;
-  min-width: 170px;
+  width: 248px;
+  max-width: calc(100vw - 48px);
+  font-size: 0.85rem;
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
 }
 
 .tooltipDate {
+  color: #e2e8f0;
   margin: 0 0 8px;
   font-size: 0.8rem;
 }
@@ -182,6 +260,6 @@
   }
 
   .chartWrap {
-    height: 360px;
+    height: 440px;
   }
 }

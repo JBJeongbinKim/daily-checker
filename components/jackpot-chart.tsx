@@ -39,12 +39,6 @@ type AxisConfig = {
   ticks: number[];
 };
 
-const currency = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD",
-  maximumFractionDigits: 0
-});
-
 const millionsFormatter = new Intl.NumberFormat("en-US", {
   maximumFractionDigits: 1,
   minimumFractionDigits: 0
@@ -118,12 +112,15 @@ function buildAxisConfig(values: number[]): AxisConfig {
   const padding = rawMin === rawMax ? Math.max(25, rawMax * 0.2) : Math.max(25, (rawMax - rawMin) * 0.12);
   const minValue = Math.max(0, rawMin - padding);
   const maxValue = rawMax + padding;
-  const stepCount = 4;
-
-  const ticks = Array.from({ length: stepCount + 1 }, (_, index) => {
-    const raw = minValue + ((maxValue - minValue) * index) / stepCount;
-    return Math.round(raw / 25) * 25;
-  }).filter((tick, index, list) => list.indexOf(tick) === index);
+  const roughStep = (maxValue - minValue) / 4;
+  const magnitude = 10 ** Math.floor(Math.log10(roughStep));
+  const step = ([1, 2, 2.5, 5, 10].find((factor) => factor * magnitude >= roughStep) ?? 10) * magnitude;
+  const lower = Math.floor(minValue / step) * step;
+  const upper = Math.ceil(maxValue / step) * step;
+  const ticks = Array.from(
+    { length: Math.round((upper - lower) / step) + 1 },
+    (_, index) => lower + index * step
+  );
 
   return {
     domain: [Math.min(...ticks), Math.max(...ticks)],
@@ -158,7 +155,7 @@ function TooltipContent({ active, payload }: TooltipContentProps) {
             <span className={styles.tooltipDot} style={{ backgroundColor: entry.color }} />
             <span>{entry.name}</span>
           </span>
-          <strong>{currency.format(entry.value * 1000000)}</strong>
+          <strong>{formatMillions(entry.value)}</strong>
         </div>
       ))}
     </div>
@@ -187,8 +184,12 @@ export function JackpotChart() {
   }, [chartData]);
 
   return (
-    <section className={styles.shell}>
+    <main className={styles.shell}>
       <div className={styles.panel}>
+        <header className={styles.header}>
+          <h1>Jackpot tracker</h1>
+          <p>Latest snapshot: {formatTooltipDate(latest.date)}</p>
+        </header>
         <div className={styles.summaryRow}>
           <a
             className={styles.summaryCard}
@@ -222,6 +223,7 @@ export function JackpotChart() {
               <button
                 key={mode.id}
                 className={displayMode === mode.id ? styles.segmentActive : styles.segmentButton}
+                aria-pressed={displayMode === mode.id}
                 onClick={() => setDisplayMode(mode.id)}
                 type="button"
               >
@@ -232,7 +234,7 @@ export function JackpotChart() {
 
           <div className={styles.taxRow}>
             <label className={styles.statePicker}>
-              <select value={selectedState} onChange={(event) => setSelectedState(event.target.value)}>
+              <select aria-label="State for estimated after-tax value" value={selectedState} onChange={(event) => setSelectedState(event.target.value)}>
                 {stateTaxRates.map((state) => (
                   <option key={state.name} value={state.name}>
                     {state.name}
@@ -250,6 +252,7 @@ export function JackpotChart() {
               <button
                 key={range.days}
                 className={selectedRange === range.days ? styles.segmentActive : styles.segmentButton}
+                aria-pressed={selectedRange === range.days}
                 onClick={() => setSelectedRange(range.days)}
                 type="button"
               >
@@ -259,50 +262,65 @@ export function JackpotChart() {
           </div>
         </div>
 
+        <div className={styles.chartHeading}>
+          <h2>{displayModes.find((mode) => mode.id === displayMode)?.label} trend</h2>
+          <p>USD millions ($M)</p>
+        </div>
+        <div className={styles.legend} aria-label="Chart legend">
+          <span><i className={styles.megaLine} />Mega Millions</span>
+          <span><i className={styles.powerballLine} />Powerball</span>
+        </div>
         <div className={styles.chartWrap}>
-          <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={chartData} margin={{ top: 12, right: 8, left: 2, bottom: 0 }}>
-              <CartesianGrid stroke="rgba(51, 35, 20, 0.10)" strokeDasharray="3 3" />
+          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
+            <LineChart accessibilityLayer data={chartData} margin={{ top: 16, right: 16, left: 0, bottom: 8 }}>
+              <CartesianGrid vertical={false} stroke="#d9dfe7" strokeDasharray="4 4" />
               <XAxis
                 dataKey="shortDate"
                 axisLine={false}
-                tick={{ fill: "#5f544e", fontSize: 11 }}
+                tick={{ fill: "#475569", fontSize: 12 }}
+                minTickGap={32}
+                interval="preserveStartEnd"
+                padding={{ left: 8, right: 8 }}
                 tickLine={false}
                 tickMargin={8}
               />
               <YAxis
                 axisLine={false}
                 domain={axisConfig.domain}
-                tick={{ fill: "#5f544e", fontSize: 11 }}
+                tick={{ fill: "#475569", fontSize: 12 }}
                 tickFormatter={formatMillions}
                 tickLine={false}
                 ticks={axisConfig.ticks}
                 tickMargin={8}
-                width={60}
+                width={66}
               />
-              <Tooltip content={<TooltipContent />} />
+              <Tooltip content={<TooltipContent />} cursor={{ stroke: "#94a3b8", strokeDasharray: "4 4" }} />
               <Line
-                type="monotone"
+                type="linear"
                 dataKey="megamillionsDisplay"
                 name="Mega Millions"
                 stroke="var(--megamillions)"
-                strokeWidth={2.5}
-                dot={{ r: 4, strokeWidth: 0 }}
-                activeDot={{ r: 6 }}
+                strokeWidth={3}
+                dot={selectedRange === 7 ? { r: 4, fill: "var(--megamillions)", stroke: "#fff", strokeWidth: 2 } : false}
+                activeDot={{ r: 6, stroke: "#fff", strokeWidth: 2 }}
+                isAnimationActive={false}
               />
               <Line
-                type="monotone"
+                type="linear"
                 dataKey="powerballDisplay"
                 name="Powerball"
                 stroke="var(--powerball)"
-                strokeWidth={2.5}
-                dot={{ r: 4, strokeWidth: 0 }}
-                activeDot={{ r: 6 }}
+                strokeWidth={3}
+                strokeDasharray="8 4"
+                dot={selectedRange === 7 ? { r: 4, fill: "var(--powerball)", stroke: "#fff", strokeWidth: 2 } : false}
+                activeDot={{ r: 6, stroke: "#fff", strokeWidth: 2 }}
+                isAnimationActive={false}
               />
             </LineChart>
           </ResponsiveContainer>
         </div>
+        <p className={styles.chartHint}>Tap or hover on the chart to compare values by date.</p>
       </div>
-    </section>
+    </main>
   );
 }

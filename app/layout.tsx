@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { BottomNav } from "@/components/bottom-nav";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Daily Checker",
-  description: "Track workouts, apartment rents, daily jackpot trends, and Mercor job listings."
+  title: "Jackpot | Daily Checker",
+  description: "Track daily Mega Millions and Powerball jackpots, cash values, and estimated after-tax amounts."
 };
 
 type RootLayoutProps = Readonly<{
@@ -16,7 +15,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body>
         {children}
-        <BottomNav />
       </body>
     </html>
   );
