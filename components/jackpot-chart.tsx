@@ -311,7 +311,6 @@ export function JackpotChart() {
                 name="Powerball"
                 stroke="var(--powerball)"
                 strokeWidth={3}
-                strokeDasharray="8 4"
                 dot={selectedRange === 7 ? { r: 4, fill: "var(--powerball)", stroke: "#fff", strokeWidth: 2 } : false}
                 activeDot={{ r: 6, stroke: "#fff", strokeWidth: 2 }}
                 isAnimationActive={false}

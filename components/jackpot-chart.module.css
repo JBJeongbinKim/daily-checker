@@ -199,7 +199,7 @@
 }
 
 .powerballLine {
-  border-top: 3px dashed var(--powerball);
+  border-top: 3px solid var(--powerball);
 }
 
 .chartHint {
