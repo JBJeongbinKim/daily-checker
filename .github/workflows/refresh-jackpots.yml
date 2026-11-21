@@ -3,8 +3,8 @@ name: Refresh jackpot history
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 10 * * *"
-    - cron: "10 11 * * *"
+    - cron: "0 8 * * *"
+      timezone: "America/New_York"
 
 permissions:
   contents: write
